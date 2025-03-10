@@ -1,7 +1,7 @@
 <template>
     <div class="login-form">
         <h3>로그인</h3>
-        <form @submit.prevent="handleLogin">
+        <form @submit.prevent="login">
             <div class="form-group">
                 <label for="username">아이디:</label>
                 <input type="text" id="username" v-model="username" required />
@@ -14,6 +14,7 @@
                 <button type="submit" class="btnL">로그인</button>
             </div>
         </form>
+        <div v-if="errorMessage" class="error">{{ errorMessage }}</div>
         <div class="">
             <!-- <router-link to="/login">회원가입</router-link> -->
             <a href="#">회원가입</a>
@@ -22,20 +23,37 @@
   </template>
 
 <script>
+import axios from "axios";
+
 export default {
   name: 'Login',
   data() {
     return {
       username: "",
       password: "",
+      errorMessage: "",
     };
   },
   methods: {
-    handleLogin() {
-      // 로그인 처리 로직
-      console.log("Username:", this.username);
-      console.log("Password:", this.password);
-    },
+    async login() {
+      try {
+        // 로그인 API 요청
+        const response = await axios.post("http://localhost:8080/api/auth/login", {
+          username: this.username,
+          password: this.password,
+        });
+
+        // JWT 토큰 받아서 로컬 스토리지에 저장
+        const token = response.data.token;
+        localStorage.setItem("authToken", token);
+
+        // 로그인 성공 후 원하는 페이지로 이동 (예: 대시보드)
+        this.$router.push("/main");
+      } catch (error) {
+        // 오류 처리
+        this.errorMessage = response.data.token;
+      }
+    }
   },
 }
 </script>
