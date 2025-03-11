@@ -2,19 +2,21 @@
     <div class="login-form">
         <h3>로그인</h3>
         <form @submit.prevent="login">
-            <div class="form-group">
-                <label for="username">아이디:</label>
-                <input type="text" id="username" v-model="username" required />
-            </div>
-            <div class="form-group">
-                <label for="password">비밀번호:</label>
-                <input type="password" id="password" v-model="password" required />
-            </div>
+          <div class="form-group">
+            <label for="username">아이디:</label>
+            <input type="text" id="username" v-model="username" required />
+          </div>
+          <div class="form-group">
+            <label for="password">비밀번호:</label>
+            <input type="password" id="password" v-model="password" required />
+          </div>
+          <div class="form-group">
+            <div v-if="errorMessage" class="error">{{ errorMessage }}</div>
+          </div>
             <div class="form-group">
                 <button type="submit" class="btnL">로그인</button>
             </div>
         </form>
-        <div v-if="errorMessage" class="error">{{ errorMessage }}</div>
         <div class="">
             <!-- <router-link to="/login">회원가입</router-link> -->
             <a href="#">회원가입</a>
@@ -38,7 +40,7 @@ export default {
     async login() {
       try {
         // 로그인 API 요청
-        const response = await axios.post("http://localhost:8080/api/auth/login", {
+        const response = await axios.post("http://localhost:8081/api/auth/login", {
           username: this.username,
           password: this.password,
         });
@@ -51,7 +53,8 @@ export default {
         this.$router.push("/main");
       } catch (error) {
         // 오류 처리
-        this.errorMessage = response.data.token;
+        console.log(error);
+        this.errorMessage = error.response.data.token;
       }
     }
   },
