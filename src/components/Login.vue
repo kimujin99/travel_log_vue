@@ -18,8 +18,7 @@
             </div>
         </form>
         <div class="">
-            <!-- <router-link to="/login">회원가입</router-link> -->
-            <a href="#">회원가입</a>
+            <router-link to="/regist">회원가입</router-link>
         </div>
     </div>
   </template>
@@ -53,8 +52,8 @@ export default {
         this.$router.push("/main");
       } catch (error) {
         // 오류 처리
-        console.log(error);
-        this.errorMessage = error.response.data.token;
+        console.log("ERROR_STATUS : " + error.status);
+        this.errorMessage = error.response.data.message;
       }
     }
   },
