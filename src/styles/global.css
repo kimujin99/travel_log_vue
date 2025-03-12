@@ -127,7 +127,17 @@
 
   .error {
     color: red;
-    font-size: 14px;
+    font-size: 12px;
+  }
+
+  .invalid {
+    color: red;
+    font-size: 12px;
+  }
+
+  .valid {
+    color: rgb(34, 177, 34);
+    font-size: 12px;
   }
 
   .regist-form {

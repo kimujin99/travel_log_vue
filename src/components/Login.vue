@@ -3,8 +3,8 @@
         <h3>로그인</h3>
         <form @submit.prevent="login">
           <div class="form-group">
-            <label for="username">아이디:</label>
-            <input type="text" id="username" v-model="username" required />
+            <label for="userId">아이디:</label>
+            <input type="text" id="userId" v-model="userId" required />
           </div>
           <div class="form-group">
             <label for="password">비밀번호:</label>
@@ -30,7 +30,7 @@ export default {
   name: 'Login',
   data() {
     return {
-      username: "",
+      userId: "",
       password: "",
       errorMessage: "",
     };
@@ -40,7 +40,7 @@ export default {
       try {
         // 로그인 API 요청
         const response = await axios.post("http://localhost:8081/api/auth/login", {
-          username: this.username,
+          userId: this.userId,
           password: this.password,
         });
 
