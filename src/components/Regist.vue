@@ -1,61 +1,77 @@
 <template>
-    <div class="regist-form">
-        <h3>회원가입</h3>
-        <form @submit.prevent="regist">
-            <div class="form-group">
-                <label for="userId">* 아이디:</label>
-                <input type="text" id="userId" class="inputM" v-model="userId" required maxlength="20" @input="idCheck"/>
-                <input type="button" class="btnS btn-blue" value="중복확인" @click="idDuplicationCheck"/>
-            </div>
-            <div class="form-group">
-                <div v-if="message_id" :class="{'valid': isIdValid, 'invalid': !isIdValid}"><p>{{ message_id }}</p></div>
-            </div>
-            <div class="form-group">
-                <label for="password">* 비밀번호:</label>
-                <input type="password" id="password" class="inputM" v-model="password" required maxlength="16" @input="passwordCheck" />
-                <input type="password" id="password_re" class="inputM" v-model="password_re" placeholder="비밀번호를 재입력하세요." required maxlength="16" @input="passwordCheck" />
-            </div>
-            <div class="form-group">
-                <div v-if="message_pw" :class="{'valid': isPwValid, 'invalid': !isPwValid}"><p>{{ message_pw }}</p></div>
-            </div>
-            <div class="form-group">
-                <label for="user_role">* 이름:</label>
-                <input type="text" id="user_role" class="inputM" v-model="userName" required maxlength="15"/>
-            </div>
-            <div class="form-group">
-                <label>* 사용자 권한:</label>
-                <div class="radio-group">
-                    <label class="radio-option">
-                    <input type="radio" name="user_role" v-model="userRole" value="ROLE_USER" checked/>
-                    <span class="custom-radio"></span>
-                    일반 사용자
-                    </label>
+  <Panel header="회원가입">
+    <form @submit.prevent="regist">
+      <div class="flex flex-col gap-2">
+          <label for="username">Username</label>
+          <InputText id="username" v-model="value" />
+      </div>
+      <div class="flex flex-col gap-2">
+          <label for="username">Username</label>
+          <InputText id="username" v-model="value" />
+      </div>
+    </form>
 
-                    <label class="radio-option">
-                    <input type="radio" name="user_role" v-model="userRole" value="ROLE_ADMIN" />
-                    <span class="custom-radio"></span>
-                    관리자
-                    </label>
-                </div>
-            </div>
-            <div class="form-group">
-                <div v-if="errorMessage" class="error">{{ errorMessage }}</div>
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btnL">회원가입</button>
-            </div>
-        </form>
-        <div class="">
-            <router-link to="/login">로그인</router-link>
-        </div>
-    </div>
-  </template>
+          <!-- <div class="form-group">
+              <label for="userId">* 아이디:</label>
+              <input type="text" id="userId" class="inputM" v-model="userId" required maxlength="20" @input="idCheck"/>
+              <input type="button" class="btnS btn-blue" value="중복확인" @click="idDuplicationCheck"/>
+          </div>
+          <div class="form-group">
+              <div v-if="message_id" :class="{'valid': isIdValid, 'invalid': !isIdValid}"><p>{{ message_id }}</p></div>
+          </div>
+          <div class="form-group">
+              <label for="password">* 비밀번호:</label>
+              <input type="password" id="password" class="inputM" v-model="password" required maxlength="16" @input="passwordCheck" />
+              <input type="password" id="password_re" class="inputM" v-model="password_re" placeholder="비밀번호를 재입력하세요." required maxlength="16" @input="passwordCheck" />
+          </div>
+          <div class="form-group">
+              <div v-if="message_pw" :class="{'valid': isPwValid, 'invalid': !isPwValid}"><p>{{ message_pw }}</p></div>
+          </div>
+          <div class="form-group">
+              <label for="user_role">* 이름:</label>
+              <input type="text" id="user_role" class="inputM" v-model="userName" required maxlength="15"/>
+          </div>
+          <div class="form-group">
+              <label>* 사용자 권한:</label>
+              <div class="radio-group">
+                  <label class="radio-option">
+                  <input type="radio" name="user_role" v-model="userRole" value="ROLE_USER" checked/>
+                  <span class="custom-radio"></span>
+                  일반 사용자
+                  </label>
+
+                  <label class="radio-option">
+                  <input type="radio" name="user_role" v-model="userRole" value="ROLE_ADMIN" />
+                  <span class="custom-radio"></span>
+                  관리자
+                  </label>
+              </div>
+          </div>
+          <div class="form-group">
+              <div v-if="errorMessage" class="error">{{ errorMessage }}</div>
+          </div>
+          <div class="form-group">
+              <button type="submit" class="btnL">회원가입</button>
+          </div> -->
+      <div class="">
+          <router-link to="/login">로그인</router-link>
+      </div>
+  </Panel>
+</template>
 
 <script>
 import axios from "axios";
+import InputText from 'primevue/inputtext';
+import Panel from 'primevue/panel';
+import Message from 'primevue/message';
 
 export default {
   name: 'Regist',
+  components: {
+    InputText,
+    Panel,
+    Message,
+  },
   data() {
     return {
         userId: "",
