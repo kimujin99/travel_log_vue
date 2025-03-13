@@ -1,4 +1,19 @@
+
+@import "tailwindcss";
+@import "tailwindcss-primeui";
+
+
+@layer tailwind-base, primevue, tailwind-utilities;
+
+@layer tailwind-utilities {
+	@tailwind utilities;
+}
+
+
 /* 모든 요소의 기본 스타일 초기화 */
+
+
+
 *,
 *::before,
 *::after {

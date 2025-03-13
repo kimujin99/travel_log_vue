@@ -1,5 +1,9 @@
 <template>
   <Panel header="회원가입">
+
+    <Button label="123"></Button>
+   
+    <div class="bg-pink-100">test element</div>
     <form @submit.prevent="regist">
       <div class="flex flex-col gap-2">
           <label for="username">Username</label>
@@ -64,7 +68,7 @@ import axios from "axios";
 import InputText from 'primevue/inputtext';
 import Panel from 'primevue/panel';
 import Message from 'primevue/message';
-
+import { Button } from "primevue";
 export default {
   name: 'Regist',
   components: {
