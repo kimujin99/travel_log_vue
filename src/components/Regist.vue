@@ -127,7 +127,6 @@ export default {
       }
     },
     async regist() {
-      console.log(this.userRole);
       try {
         // 로그인 API 요청
         const response = await axios.post("http://localhost:8081/api/auth/regist", {

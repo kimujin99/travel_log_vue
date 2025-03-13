@@ -7,9 +7,16 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'SUIT-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
   body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'SUIT-Regular', sans-serif;
+    background-color: #ffffff;
     color: #333;
   }
   
@@ -25,9 +32,10 @@
   header {
     position: fixed;
     top: 0;
-    height: 80px;
+    height: 65px;
     width: 100%;
-    background-color: #3498db;
+    background-color: #ffffff;
+    border-bottom: 1.5px solid #ddd;
     padding: 20px;
   }
   
@@ -82,14 +90,35 @@
     background-color: #213fa0;
   }
 
+  .header-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-  .container {
+  .app-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100vw;
+  }
+
+  .column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   .main-container {
@@ -198,4 +227,23 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .mr8 {
+    margin-right: 8px;
+  }
+
+  .mr16 {
+    margin-right: 16px;
+  }
+
+  .p-anchor {
+    text-decoration: underline;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .p-anchor:hover {
+    color: #333;
+    text-decoration: underline;
   }

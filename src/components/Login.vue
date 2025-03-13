@@ -46,10 +46,17 @@ export default {
 
         // JWT 토큰 받아서 로컬 스토리지에 저장
         const token = response.data.token;
+        const username = response.data.userName;
+        const userId = response.data.userId;
         localStorage.setItem("authToken", token);
+        localStorage.setItem("username", username);
+        localStorage.setItem("userId", userId);
+
+        // 헤더 업데이트 트리거
+        window.dispatchEvent(new Event("storage"));
 
         // 로그인 성공 후 원하는 페이지로 이동 (예: 대시보드)
-        this.$router.push("/main");
+        this.$router.push("/");
       } catch (error) {
         // 오류 처리
         console.log("ERROR_STATUS : " + error.status);
