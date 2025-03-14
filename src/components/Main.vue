@@ -1,8 +1,12 @@
 <template>
-  <div>
-    <h1>Main Page</h1>
-    <p>Welcome to the main page!</p>
-    <router-link to="/login">Go to Login Page</router-link>
+  <div class="w-full h-full flex flex-col items-center gap-4">
+    <h1 class="text-xl">여행지를 검색해보세요.</h1>
+    <InputGroup style="width: 25rem;">
+        <InputText placeholder="Keyword"/>
+        <InputGroupAddon>
+            <Button icon="pi pi-search" severity="secondary" variant="text"/>
+        </InputGroupAddon>
+    </InputGroup>
   </div>
 </template>
 
