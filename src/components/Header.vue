@@ -1,28 +1,28 @@
 <template>
   <header>
     <div class="header-container">
-      <div class="row-container">
-        <span class="material-symbols-outlined mr8" style="font-size: 36px;">
+      <div class="flex items-center justify-center gap-2">
+        <span class="material-symbols-outlined" style="font-size: 36px;">
           flight_takeoff
         </span>
         <h2>
           Travle Log
         </h2>
       </div>
-      <div class="row-container">
-        <p v-if="!isLoggedIn" class="mr8">
-          <router-link to="/login" class="p-anchor">로그인</router-link>
+      <div class="flex items-center justify-center gap-2">
+        <p v-if="!isLoggedIn">
+          <router-link to="/login">로그인</router-link>
         </p>
         <p v-if="!isLoggedIn">
-          <router-link to="/regist" class="p-anchor">회원가입</router-link>
+          <router-link to="/regist">회원가입</router-link>
         </p>
-        <p v-if="isLoggedIn" class="mr16">
-          <span> {{ username }}님, 안녕하세요!</span>
+        <p v-if="isLoggedIn">
+          <span> {{ username }} 님, 안녕하세요!</span>
         </p>
-        <p v-if="isLoggedIn" class="mr8">
-          <router-link to="/mypage" class="p-anchor">마이페이지</router-link>
+        <p v-if="isLoggedIn">
+          <router-link to="/mypage">마이페이지</router-link>
         </p>
-        <p v-if="isLoggedIn" class="p-anchor" @click="logout">
+        <p v-if="isLoggedIn" @click="logout">
           로그아웃
         </p>
       </div>

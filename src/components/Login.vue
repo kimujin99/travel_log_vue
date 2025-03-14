@@ -1,30 +1,22 @@
 <template>
-    <div class="login-form">
-        <h3>로그인</h3>
-        <form @submit.prevent="login">
-          <div class="form-group">
-            <label for="userId">아이디:</label>
-            <input type="text" id="userId" v-model="userId" required />
-          </div>
-          <div class="form-group">
-            <label for="password">비밀번호:</label>
-            <input type="password" id="password" v-model="password" required />
-          </div>
-          <div class="form-group">
-            <div v-if="errorMessage" class="error">{{ errorMessage }}</div>
-          </div>
-            <div class="form-group">
-                <button type="submit" class="btnL">로그인</button>
-            </div>
-        </form>
-        <div class="">
-            <router-link to="/regist">회원가입</router-link>
-        </div>
-    </div>
-  </template>
+  <Panel style="width: 20rem;" header="로그인">
+    <Form @submit="login" class="flex justify-center flex-col gap-4">
+      <Message v-if="errorMessage" severity="error" size="small" icon="pi pi-times-circle" class="mb-2">{{ errorMessage }}</Message>
+      <div class="flex flex-col gap-1">
+          <InputText type="text" name="userId" v-model="userId" placeholder="아이디" maxlength="20" @input="filterInputs1('userId')"/>
+      </div>
+      <div class="flex flex-col gap-1">
+          <InputText type="password" name="password" v-model="password" placeholder="비밀번호" maxlength="16" @input="filterInputs1('password')"/>
+      </div>
+      <Button type="submit" severity="success" label="로그인" />
+    </Form>
+    <router-link to="/regist" class="flex flex-col gap-1"><Button label="회원가입" variant="link" /></router-link>
+  </Panel>
+</template>
 
 <script>
 import axios from "axios";
+import { nextTick } from "vue";
 
 export default {
   name: 'Login',
@@ -36,7 +28,29 @@ export default {
     };
   },
   methods: {
+    // 영어 대소문자, 숫자, !@#_ 특수문자 허용
+    filterInputs1(field) {
+      nextTick(() => {
+        this[field] = this[field].replace(/[^A-Za-z\d!@#$_]/g, ""); 
+      });
+    },
+    // 기본 형식 검사
+    basicCheck() {
+      if (!this.userId.trim()) {
+        this.errorMessage = "아이디를 입력해주세요.";
+        return false;
+      }
+      if (!this.password.trim()) {
+        this.errorMessage = "비밀번호를 입력해주세요.";
+        return false;
+      }
+      return true;
+    },
     async login() {
+      if(!this.basicCheck()) {
+        return;
+      }
+
       try {
         // 로그인 API 요청
         const response = await axios.post("http://localhost:8081/api/auth/login", {
@@ -55,7 +69,6 @@ export default {
         // 헤더 업데이트 트리거
         window.dispatchEvent(new Event("storage"));
 
-        // 로그인 성공 후 원하는 페이지로 이동 (예: 대시보드)
         this.$router.push("/");
       } catch (error) {
         // 오류 처리

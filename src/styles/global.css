@@ -2,7 +2,6 @@
 @import "tailwindcss";
 @import "tailwindcss-primeui";
 
-
 @layer tailwind-base, primevue, tailwind-utilities;
 
 @layer tailwind-utilities {
@@ -55,54 +54,12 @@
   }
   
   footer {
-    height: 100px;
+    height: 130px;
     width: 100%;
-    background-color: #34495e;
+    background-color: rgb(0, 116, 25);
     padding: 10px;
     color: white;
     text-align: center;
-  }
-
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  input {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    box-sizing: border-box;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-  }
-  
-  .btnL {
-    width: 100%;
-    padding: 10px;
-    background-color: #34495e;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .btnL:hover {
-    background-color: #2c3e50;
-  }
-    
-  .btnS {
-    width: fit-content;
-    padding: 10px;
-    background-color: #2e52c9;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .btnS:hover {
-    background-color: #213fa0;
   }
 
   .header-container {
@@ -122,20 +79,6 @@
     width: 100vw;
   }
 
-  .column-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .row-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-
   .main-container {
     display: flex;
     justify-content: center;
@@ -144,121 +87,4 @@
     width: 70%;
     margin-top: 80px;
     padding: 20px;
-  }
-
-  .login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: calc(100vh - 100px);
-    background-color: #f4f4f4;
-    margin: 0;
-  }
-  
-  .login-form {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px; /* 최대 너비 설정 */
-    box-sizing: border-box;
-  }
-
-  .form-group {
-    margin-bottom: 15px;
-  }
-
-  .error {
-    color: red;
-    font-size: 12px;
-  }
-
-  .invalid {
-    color: red;
-    font-size: 12px;
-  }
-
-  .valid {
-    color: rgb(34, 177, 34);
-    font-size: 12px;
-  }
-
-  .regist-form {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 600px; /* 최대 너비 설정 */
-    box-sizing: border-box;
-  }
-
-  .inputM {
-    width: 45%;
-    margin-right: 8px;
-  }
-
-  .inputL {
-    width: 80%;
-    margin-right: 8px;
-  } 
-
-  .radio-group {
-    display: flex;
-    gap: 20px;
-  }
-
-  .radio-option {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 500;
-  }
-
-  .radio-option input[type="radio"] {
-    display: none;
-  }
-
-  .custom-radio {
-    width: 18px;
-    height: 18px;
-    border: 1.6px solid #9b9b9b;
-    border-radius: 50%;
-    display: inline-block;
-    position: relative;
-    transition: all 0.3s ease;
-  }
-
-  .radio-option input[type="radio"]:checked + .custom-radio::after {
-    content: "";
-    width: 8px;
-    height: 8px;
-    background: #007bff;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .mr8 {
-    margin-right: 8px;
-  }
-
-  .mr16 {
-    margin-right: 16px;
-  }
-
-  .p-anchor {
-    text-decoration: underline;
-    color: #333;
-    cursor: pointer;
-  }
-  
-  .p-anchor:hover {
-    color: #333;
-    text-decoration: underline;
   }
