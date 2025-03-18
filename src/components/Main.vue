@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-full flex flex-col items-center gap-4">
+  <div class="w-full h-full flex flex-col items-center gap-5">
     <h1 class="text-xl">여행지를 검색해보세요.</h1>
     <InputGroup style="width: 25rem;">
         <InputText placeholder="Keyword"/>
@@ -7,32 +7,28 @@
             <Button icon="pi pi-search" severity="secondary" variant="text"/>
         </InputGroupAddon>
     </InputGroup>
-    <div id="map" style="width: 100%; height: 600px;"></div>
+    <div id="map"></div>
   </div>
 </template>
 
-<script>
-let map;
+<script setup>
+import { onMounted } from 'vue';
 
-export default {
-  name: 'Main',
-  mounted() {
-    this.initMap();
-  },
-  methods: {
-    async initMap() {
-      if (typeof google === 'undefined' || !google.maps) {
-        console.error("Google Maps API가 로드되지 않았습니다.");
-        return;
-      }
+onMounted(async () => {
+  if (!window.googleMapsReady) {
+    console.error("🚨 Google Maps API가 로드되지 않았습니다!");
+    return;
+  }
 
-      const { Map } = await google.maps.importLibrary("maps");
+  // ✅ Google Maps API가 로드될 때까지 기다림
+  await window.googleMapsReady;
+  initMap();
+});
 
-      new Map(document.getElementById("map"), {
-        center: { lat: 37.564, lng: 127.001 },
-        zoom: 8,
-      });
-    }
-  },
+function initMap() {
+  const map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: 37.5665, lng: 126.9780 }, // 서울 좌표 예시
+    zoom: 10,
+  });
 }
 </script>
