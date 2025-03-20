@@ -17,7 +17,7 @@ const googleMapsApiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
 onMounted(() => {
   if (!googleMapsApiKey) {
-    console.error("🚨 API 키가 존재하지 않습니다! `.env` 파일을 확인하세요.");
+    console.error("🚨 API 키가 존재하지 않습니다!");
     return;
   }
 
