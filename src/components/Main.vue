@@ -15,11 +15,11 @@
 import { ref, onMounted } from 'vue';
 
 const googleMapsMapId = import.meta.env.VITE_GOOGLE_MAPS_MAP_ID;
-const map = ref(null);
-const placesService = ref(null);
-const markers = ref([]);
-const searchKeyword = ref('');
-const image = "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
+let map;
+let placesService;
+let markers = [];
+let searchKeyword = '';
+//const image = "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
 
 onMounted(async () => {
   if (!window.googleMapsReady) {
@@ -34,33 +34,34 @@ onMounted(async () => {
 });
 
 function initMap() {
-  map.value = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 37.5665, lng: 126.9780 }, // 서울 좌표 예시
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: 37.5665, lng: 126.9780 }, // 서울 좌표
     zoom: 10,
     mapId: googleMapsMapId,
-    disableDefaultUI: true, // ✅ 기본 UI 전체 비활성화
+    //disableDefaultUI: true, // ✅ 기본 UI 전체 비활성화
     mapTypeControl: false,  // ✅ 지도 유형(위성 지도 등) 선택 버튼 비활성화
     streetViewControl: false, // ✅ 거리뷰 아이콘 비활성화
   });
 
   // placesService 초기화
-  placesService.value = new google.maps.places.PlacesService(map.value);
+  placesService = new google.maps.places.PlacesService(map);
 }
 
 function searchPlaces(keyword) {
-  if (!placesService.value || !keyword) return;
+  if (!placesService || !keyword) return;
   
   const request = {
     query: keyword,
     fields: ["name", "geometry", "formatted_address"],
   };
 
-  placesService.value.textSearch(request, (results, status) => {
+  placesService.textSearch(request, (results, status) => {
     if (status === google.maps.places.PlacesServiceStatus.OK) {
-      clearMarkers();
+      clearMarker(); // 기존 마커 삭제
+
       results.forEach((place) => {
         if (place.geometry?.location) {
-          addMarker(place);
+          addMarker(place); // 새 마커 추가
         }
       });
     }
@@ -70,30 +71,31 @@ function searchPlaces(keyword) {
 function addMarker(place) {
   const marker = new google.maps.Marker({
     position: place.geometry.location,
-    map: map.value,
-    icon: image,
+    map: map,
+    //icon: image,
     title: place.name,
   });
+  
   // 마커를 중심으로 지도 이동
-  map.value.setCenter(place.geometry.location);
-  markers.value.push(marker);
+  map.setCenter(place.geometry.location);
+  map.setZoom(12); // ✅ 항상 줌을 10으로 설정
+
+  markers.push(marker);
 }
 
-function clearMarkers() {
-  console.log("삭제할 마커 수:", markers.value.length); // 마커 수 확인
-  markers.value.forEach((marker, index) => {
+function clearMarker() {
+  markers.forEach((marker, index) => {
     if (marker.getMap()) {
-      console.log(`마커 ${index} 제거:`, marker);
-      marker.setMap(null); // 마커를 지도에서 제거
+      marker.setMap(null);
     }
   });
-  markers.value = [];
-  console.log("마커 배열 초기화 완료:", markers.value); // 배열 초기화 확인
+
+  markers = [];
 }
 
 function handleSearch() {
-  if (searchKeyword.value) {
-    searchPlaces(searchKeyword.value);
+  if (searchKeyword) {
+    searchPlaces(searchKeyword);
   }
 }
 
