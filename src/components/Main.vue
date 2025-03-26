@@ -4,21 +4,28 @@
     <InputGroup style="width: 25rem;">
         <InputText placeholder="Keyword" v-model="searchKeyword" @keyup.enter="handleSearch" />
         <InputGroupAddon>
-            <Button icon="pi pi-search" severity="secondary" variant="text" @click="handleSearch"/>
+            <Button icon="pi pi-search" severity="secondary" variant="text" @click="handleSearch" />
         </InputGroupAddon>
     </InputGroup>
     <div id="map"></div>
+    <div id="map-reviews" v-if="reviews.length > 0" style="width: 100%;">
+      <ScrollPanel style="width: 100%; height: 300px;">
+        <MainReviews v-for="(review, index) in reviews" :key="index" :review="review" />
+      </ScrollPanel>
+    </div>
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted } from 'vue';
+import MainReviews from "./MainReviews.vue"; // ✅ 컴포넌트 불러오기
 
 const googleMapsMapId = import.meta.env.VITE_GOOGLE_MAPS_MAP_ID;
 let map;
 let placesService;
 let markers = [];
 let searchKeyword = '';
+let reviews = ref([]);
 //const image = "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
 
 onMounted(async () => {
@@ -57,11 +64,12 @@ function searchPlaces(keyword) {
 
   placesService.textSearch(request, (results, status) => {
     if (status === google.maps.places.PlacesServiceStatus.OK) {
-      clearMarker(); // 기존 마커 삭제
+      clearMarker(); // ✅ 기존 마커 삭제
+      reviews.value = []; // ✅ 기존 장소 리뷰 삭제
 
       results.forEach((place) => {
         if (place.geometry?.location) {
-          addMarker(place); // 새 마커 추가
+          addMarker(place); // ✅ 새 마커 추가
         }
       });
     }
@@ -75,10 +83,16 @@ function addMarker(place) {
     //icon: image,
     title: place.name,
   });
+
+  marker.place_id = place.place_id;
+
+  // ✅ 마커 클릭 이벤트 추가
+  marker.addListener("click", function () {
+    searchPlaceDetails(this);
+  });
   
-  // 마커를 중심으로 지도 이동
-  map.setCenter(place.geometry.location);
-  map.setZoom(12); // ✅ 항상 줌을 10으로 설정
+  map.setCenter(place.geometry.location); // ✅ 검색 후 항상 마커를 중심으로 지도 이동
+  map.setZoom(14); // ✅ 검색 후 항상 줌을 14로 설정
 
   markers.push(marker);
 }
@@ -97,6 +111,24 @@ function handleSearch() {
   if (searchKeyword) {
     searchPlaces(searchKeyword);
   }
+}
+
+async function searchPlaceDetails(marker) {
+  if (!placesService || !marker || !marker.place_id) return;
+
+  const request = {
+    placeId: marker.place_id,
+    fields: ["name", "formatted_address", "geometry", "reviews", "photos"], // ✅ 필요한 필드 지정
+  };
+
+  placesService.getDetails(request, (place, status) => {
+    if (status === google.maps.places.PlacesServiceStatus.OK) {
+      reviews.value = place.reviews;
+      console.log("장소 정보:", place);
+    } else {
+      console.error("🚨 장소 정보를 가져오는 데 실패했습니다! :", status);
+    }
+  });
 }
 
 </script>
