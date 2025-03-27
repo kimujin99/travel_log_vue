@@ -8,14 +8,14 @@
         </InputGroupAddon>
     </InputGroup>
     <div id="map"></div>
-    <div id="map-details" v-if="hasSelectedPlace" class="mb-8 flex flex-col items-center justify-center">
+    <div id="map-details" v-if="hasSelectedPlace" class="mb-8 flex flex-col items-center justify-center w-full">
       <Panel :header="selectedPlace.name" class="w-full">
           <p class="m-0">
               {{ selectedPlace.formatted_address }}
           </p>
       </Panel>
-      <div class="flex items-center justify-center">
-        <Galleria v-if="photoUrls.length > 0" :value="photoUrls" :responsiveOptions="responsiveOptions" :numVisible="5" containerStyle="width: 50%; height: 350px;">
+      <div class="flex items-center justify-center w-full">
+        <Galleria :value="photoUrls" :responsiveOptions="responsiveOptions" :numVisible="5" containerStyle="width: 50%; height: 350px;">
             <template #item="slotProps">
                 <img :src="slotProps.item.src" alt="alt" style="width: 100%; max-height: 250px; object-fit: contain;" @error="onImageError" />
             </template>
@@ -77,8 +77,16 @@ function initMap() {
 
   // placesService 초기화
   placesService = new google.maps.places.PlacesService(map);
+
+  // ✅ 지도 클릭 이벤트 추가
+  map.addListener("click", (event) => {
+    const lat = event.latLng.lat();
+    const lng = event.latLng.lng();
+    searchPlaceByLatLng(lat, lng);  // 여기서 lat, lng를 전달
+  });
 }
 
+// ✅ 검색 키워드로 장소 검색 (textSearch)
 function searchPlaces(keyword) {
   if (!placesService || !keyword) return;
   
@@ -98,6 +106,31 @@ function searchPlaces(keyword) {
           addMarker(place); // ✅ 새 마커 추가
         }
       });
+    }
+  });
+}
+
+// ✅ 지도에서 클릭한 위치로 장소 검색 (textSearch)
+function searchPlaceByLatLng(lat, lng) {
+  const request = {
+    query: `${lat}, ${lng}`,  // 클릭한 위치로 쿼리 생성
+    fields: ["name", "geometry", "formatted_address", "photos", "reviews"]
+  };
+
+  placesService.textSearch(request, (results, status) => {
+    if (status === google.maps.places.PlacesServiceStatus.OK && results.length > 0) {
+      // ✅ 기존 데이터 삭제
+      clearMarker();
+      selectedPlace.value = {};
+
+      const place = results[0];  // 첫 번째 검색 결과
+
+      if (place.geometry?.location) {
+        addMarker(place);
+        searchPlaceDetails(place);
+      }
+    } else {
+      console.warn("⚠️ 장소 검색 결과가 없습니다. 상태 코드:", status);
     }
   });
 }
