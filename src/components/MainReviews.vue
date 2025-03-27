@@ -2,7 +2,7 @@
     <Panel>
         <template #header>
             <div class="flex items-center gap-2">
-                <Avatar :image="review.profile_photo_url" shape="circle" />
+                <Avatar :image="review.profile_photo_url" shape="circle" @error="onImageError" />
                 <span class="font-bold">{{ review.author_name }}</span>
                 <Rating :model-value="review.rating" :stars="5" readonly />
             </div>

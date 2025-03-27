@@ -8,25 +8,50 @@
         </InputGroupAddon>
     </InputGroup>
     <div id="map"></div>
-    <div id="map-reviews" v-if="reviews.length > 0" style="width: 100%;">
-      <ScrollPanel style="width: 100%; height: 300px;">
-        <MainReviews v-for="(review, index) in reviews" :key="index" :review="review" />
-      </ScrollPanel>
+    <div id="map-details" v-if="hasSelectedPlace" class="mb-8 flex flex-col items-center justify-center">
+      <Panel :header="selectedPlace.name" class="w-full">
+          <p class="m-0">
+              {{ selectedPlace.formatted_address }}
+          </p>
+      </Panel>
+      <div class="flex items-center justify-center">
+        <Galleria v-if="photoUrls.length > 0" :value="photoUrls" :responsiveOptions="responsiveOptions" :numVisible="5" containerStyle="width: 50%; height: 350px;">
+            <template #item="slotProps">
+                <img :src="slotProps.item.src" alt="alt" style="width: 100%; max-height: 250px; object-fit: contain;" @error="onImageError" />
+            </template>
+            <template #thumbnail="slotProps">
+                <img :src="slotProps.item.src" alt="thumbnail-alt" style="max-height: 100px; object-fit: cover;" @error="onImageError" />
+            </template>
+        </Galleria>
+        <ScrollPanel style="width: 50%; height: 350px;">
+          <MainReviews v-for="(review, index) in selectedPlace.reviews" :key="index" :review="review" />
+        </ScrollPanel>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue';
-import MainReviews from "./MainReviews.vue"; // ✅ 컴포넌트 불러오기
+import { ref, onMounted, computed } from 'vue';
+import MainReviews from "./MainReviews.vue";
 
 const googleMapsMapId = import.meta.env.VITE_GOOGLE_MAPS_MAP_ID;
 let map;
 let placesService;
 let markers = [];
 let searchKeyword = '';
-let reviews = ref([]);
+let selectedPlace = ref({});
 //const image = "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
+
+const hasSelectedPlace = computed(() => {
+  return selectedPlace.value && Object.keys(selectedPlace.value).length > 0;
+});
+
+const photoUrls = computed(() => {
+  return selectedPlace.value.photos?.map(photo => ({
+    src: photo.getUrl({ maxHeight: 350 }) // Google API에서 URL 변환
+  }));
+});
 
 onMounted(async () => {
   if (!window.googleMapsReady) {
@@ -64,8 +89,9 @@ function searchPlaces(keyword) {
 
   placesService.textSearch(request, (results, status) => {
     if (status === google.maps.places.PlacesServiceStatus.OK) {
-      clearMarker(); // ✅ 기존 마커 삭제
-      reviews.value = []; // ✅ 기존 장소 리뷰 삭제
+      // ✅ 기존 데이터 삭제
+      clearMarker();
+      selectedPlace.value = {};
 
       results.forEach((place) => {
         if (place.geometry?.location) {
@@ -123,12 +149,18 @@ async function searchPlaceDetails(marker) {
 
   placesService.getDetails(request, (place, status) => {
     if (status === google.maps.places.PlacesServiceStatus.OK) {
-      reviews.value = place.reviews;
+      selectedPlace.value = place;
+
       console.log("장소 정보:", place);
     } else {
       console.error("🚨 장소 정보를 가져오는 데 실패했습니다! :", status);
     }
   });
+}
+
+// ✅ 이미지 로드 실패 시 대체 이미지로 변경
+function onImageError(event) {
+  event.target.src = "https://www.shoshinsha-design.com/wp-content/uploads/2020/05/noimage-760x460.png";
 }
 
 </script>
