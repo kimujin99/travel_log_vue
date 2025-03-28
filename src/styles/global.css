@@ -37,6 +37,7 @@
     background-color: #ffffff;
     border-bottom: 1.5px solid #ddd;
     padding: 20px;
+    z-index: 999;
   }
   
   footer {

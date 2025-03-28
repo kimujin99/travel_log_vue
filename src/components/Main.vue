@@ -1,47 +1,106 @@
 <template>
-  <div class="w-full h-full flex flex-col items-center gap-5">
-    <h1 class="text-xl">여행지를 검색해보세요.</h1>
-    <InputGroup style="width: 25rem;">
-        <InputText placeholder="Keyword" v-model="searchKeyword" @keyup.enter="handleSearch" />
-        <InputGroupAddon>
-            <Button icon="pi pi-search" severity="secondary" variant="text" @click="handleSearch" />
-        </InputGroupAddon>
-    </InputGroup>
-    <div id="map"></div>
-    <div id="map-details" v-if="hasSelectedPlace" class="mb-8 flex flex-col items-center justify-center w-full">
-      <Panel :header="selectedPlace.name" class="w-full">
-          <p class="m-0">
-              {{ selectedPlace.formatted_address }}
-          </p>
-      </Panel>
-      <div class="flex items-center justify-center w-full">
-        <Galleria :value="photoUrls" :responsiveOptions="responsiveOptions" :numVisible="5" containerStyle="width: 50%; height: 350px;">
-            <template #item="slotProps">
-                <img :src="slotProps.item.src" alt="alt" style="width: 100%; max-height: 250px; object-fit: contain;" @error="onImageError" />
-            </template>
-            <template #thumbnail="slotProps">
-                <img :src="slotProps.item.src" alt="thumbnail-alt" style="max-height: 100px; object-fit: cover;" @error="onImageError" />
-            </template>
-        </Galleria>
-        <ScrollPanel style="width: 50%; height: 350px;">
-          <MainReviews v-for="(review, index) in selectedPlace.reviews" :key="index" :review="review" />
-        </ScrollPanel>
+  <div class="w-full h-full flex flex-col justify-center items-center gap-8">
+    <div v-if="hasLoginToken" class="w-full h-full flex justify-center items-center" style="height: 150px;">
+      <Button size="large" label="나의 여행 일정 등록하기"/>
+    </div>
+    <div class="w-full h-full flex justify-center flex-col items-center gap-5">
+      <h1 class="text-xl">🗺️ 여행지를 검색해보세요!</h1>
+      <h2 class="text-l">장소를 선택하면 리뷰와 평점을 확인할 수 있습니다. :)</h2>
+      <InputGroup style="width: 25rem;">
+          <InputText placeholder="Keyword" v-model="searchKeyword" @keyup.enter="handleSearch" />
+          <InputGroupAddon>
+              <Button icon="pi pi-search" severity="secondary" variant="text" @click="handleSearch" />
+          </InputGroupAddon>
+      </InputGroup>
+      <div id="map"></div>
+      <div id="map-details" v-if="hasSelectedPlace" class="mb-8 flex flex-col items-center justify-center w-full">
+        <Panel :header="selectedPlace.name" class="w-full">
+            <p class="m-0">
+                {{ selectedPlace.formatted_address }}
+            </p>
+        </Panel>
+        <div v-if="selectedPlace.photos || selectedPlace.reviews" class="flex items-center justify-center w-full">
+          <div style="width: 50%; height: 350px;">
+            <Galleria :value="photoUrls" :responsiveOptions="responsiveOptions" :numVisible="5" containerStyle="width: 100%; height: 350px; justify-content: center; align-items: center;">
+                <template #item="slotProps">
+                  <Image 
+                    v-if="!errorMap[slotProps.item.src]"
+                    :src="slotProps.item.src" 
+                    alt="alt"
+                    style="height: 250px; object-fit: contain;" 
+                    @error="() => errorMap[slotProps.item.src] = true" 
+                    preview
+                  />
+                  <img 
+                    v-else
+                    src="https://www.shoshinsha-design.com/wp-content/uploads/2020/05/noimage-760x460.png"
+                    alt="fallback"
+                    style="height: 250px; object-fit: contain;" 
+                  />
+                </template>
+                <template #thumbnail="slotProps">
+                  <div class="flex justify-center items-center">
+                    <Image 
+                      v-if="!errorMap[slotProps.item.src]"
+                      :src="slotProps.item.src" 
+                      alt="thumbnail" 
+                      style="max-height: 99px; object-fit: cover;"
+                      @error="() => errorMap[slotProps.item.src] = true"
+                    />
+                    <img 
+                      v-else 
+                      src="https://www.shoshinsha-design.com/wp-content/uploads/2020/05/noimage-760x460.png"
+                      alt="thumbnail"
+                      style="max-height: 99px; object-fit: cover;"
+                    />
+                  </div>
+                </template>
+            </Galleria>
+          </div>
+          <div style="width: 50%; height: 350px;">
+            <ScrollPanel style="width: 100%; height: 350px;">
+              <MainReviews v-for="(review, index) in selectedPlace.reviews" :key="index" :review="review" />
+            </ScrollPanel>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted, computed } from 'vue';
+import { ref, onMounted, onBeforeUnmount, computed } from 'vue';
 import MainReviews from "./MainReviews.vue";
 
 const googleMapsMapId = import.meta.env.VITE_GOOGLE_MAPS_MAP_ID;
+let loginToken = ref(localStorage.getItem("authToken"));
+
 let map;
 let placesService;
 let markers = [];
 let searchKeyword = '';
 let selectedPlace = ref({});
+const errorMap = ref({});
+
 //const image = "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
+
+const syncLoginState = () => {
+    loginToken.value = localStorage.getItem("authToken");
+};
+
+// ✅ storage 이벤트 리스너 등록
+onMounted(() => {
+    window.addEventListener("storage", syncLoginState);
+});
+
+// ✅ 컴포넌트 unmount 될 때 정리
+onBeforeUnmount(() => {
+    window.removeEventListener("storage", syncLoginState);
+});
+
+const hasLoginToken = computed(() => {
+  return loginToken.value && Object.keys(loginToken.value).length > 0;
+});
 
 const hasSelectedPlace = computed(() => {
   return selectedPlace.value && Object.keys(selectedPlace.value).length > 0;
