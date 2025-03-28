@@ -1,7 +1,9 @@
 <template>
   <div class="w-full h-full flex flex-col justify-center items-center gap-8">
     <div v-if="hasLoginToken" class="w-full h-full flex justify-center items-center" style="height: 150px;">
-      <Button size="large" label="나의 여행 일정 등록하기"/>
+      <router-link to="/travle/regist">
+        <Button size="large" label="나의 여행 일정 등록하기"/>
+      </router-link>
     </div>
     <div class="w-full h-full flex justify-center flex-col items-center gap-5">
       <h1 class="text-xl">🗺️ 여행지를 검색해보세요!</h1>

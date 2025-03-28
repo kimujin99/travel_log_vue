@@ -13,7 +13,7 @@
       </router-link>
       <div class="flex items-center justify-center gap-2">
         <p v-if="isLoggedIn" style=" margin-right: 15px;">
-          <span><strong style="font-size: 17px;">{{ username }}</strong> 님, 안녕하세요!</span>
+          <span><strong style="font-size: 17px;">{{ username }}</strong> 님, 안녕하세요!😄</span>
         </p>
         <p>
           <router-link to="/">홈</router-link>
