@@ -1,46 +1,50 @@
 import requests
 import csv
 
-# Geonames API에 접근하는 함수
-def get_all_cities_from_geonames():
-    username = 'your_geonames_username'  # Geonames 사용자 이름을 여기에 입력
-    country_code = 'KR'  # 한국의 국가 코드
-    cities = []
-    start_row = 0  # 데이터 시작 위치
-    max_rows = 1000  # 한 번에 가져올 최대 도시 수
+# 🔹 1. 국가 코드 목록 CSV 파일 읽기
+country_codes = []
+with open("countries.csv", mode="r", encoding="utf-8") as file:
+    reader = csv.DictReader(file)
+    for row in reader:
+        country_codes.append(row["isoAlpha2"])
 
-    while True:
-        url = f'http://api.geonames.org/citiesJSON?lang=ko&country={country_code}&maxRows={max_rows}&startRow={start_row}&username={username}'
-        response = requests.get(url)
-        
-        if response.status_code == 200:
-            data = response.json()
-            cities_data = data.get('geonames', [])
-            if not cities_data:
-                break  # 데이터가 더 이상 없으면 종료
-            cities.extend(cities_data)
-            start_row += max_rows  # 다음 페이지로 이동
-        else:
-            print("API 요청 실패")
-            break
-    return cities
+# 🔹 2. CSV 파일 준비
+output_filename = "all_cities.csv"
 
-# 데이터를 CSV로 저장하는 함수
-def save_to_csv(cities, filename='cities.csv'):
-    with open(filename, mode='w', newline='', encoding='utf-8') as file:
-        writer = csv.writer(file)
-        writer.writerow(['city_name', 'country_sn'])  # 헤더 작성
-        
-        for city in cities:
-            city_name = city['name']
-            country_sn = 1  # 한국의 경우 country_sn이 1로 설정 (예시로 사용)
-            writer.writerow([city_name, country_sn])
+# CSV 파일 헤더 정의
+header = ["countryCode", "name", "toponymName"]
 
-# 메인 실행
-if __name__ == '__main__':
-    cities = get_all_cities_from_geonames()  # API에서 모든 도시 목록 가져오기
-    if cities:
-        save_to_csv(cities)  # CSV 파일로 저장
-        print("CSV 파일 저장 완료!")
-    else:
-        print("도시 데이터가 없습니다.")
+with open(output_filename, mode="w", newline="", encoding="utf-8") as file:
+    writer = csv.writer(file)
+    writer.writerow(header)  # 헤더 추가
+
+# 🔹 3. 국가별 도시 목록 가져와서 CSV 파일에 추가
+USERNAME = ""  # Geonames 사용자 이름
+
+def fetch_and_save_cities(country_code):
+    url = f"http://api.geonames.org/searchJSON?country={country_code}&featureClass=A&featureCode=ADM1&&maxRows=1000&lang=ko&username={USERNAME}"
+    
+    response = requests.get(url)
+    data = response.json()
+
+    if "geonames" not in data:
+        print(f"⚠️ {country_code} 데이터 없음")
+        return []
+
+    # 🔹 4. 필요한 데이터 추출
+    rows = []
+    for city in data["geonames"]:
+        rows.append([city["countryCode"], city["name"], city["toponymName"]])
+
+    return rows
+
+# 🔹 5. 모든 국가 코드에 대해 실행하고 파일에 추가 저장
+with open(output_filename, mode="a", newline="", encoding="utf-8") as file:
+    writer = csv.writer(file)
+    
+    for country_code in country_codes:
+        city_data = fetch_and_save_cities(country_code)
+        writer.writerows(city_data)  # CSV 파일에 추가 저장
+        print(f"✅ {country_code} 데이터 저장 완료")
+
+print(f"🚀 모든 국가의 도시 데이터를 {output_filename} 파일에 저장 완료!")

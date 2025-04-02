@@ -1,101 +1,43 @@
 <template>
-  <div class="w-full h-full flex flex-col justify-center items-center gap-8">
-    <div v-if="hasLoginToken" class="w-full h-full flex justify-center items-center" style="height: 150px;">
+  <div class="col-container gap-8">
+    <div v-if="hasLoginToken" class="row-container" style="height: 150px;">
       <router-link to="/travle/regist">
         <Button size="large" label="나의 여행 일정 등록하기"/>
       </router-link>
     </div>
-    <div class="w-full h-full flex justify-center flex-col items-center gap-5">
+    <div class="col-container gap-5">
       <h1 class="text-xl">🗺️ 여행지를 검색해보세요!</h1>
-      <h2 class="text-l">장소를 선택하면 리뷰와 평점을 확인할 수 있습니다. :)</h2>
+      <h2 class="text-l">검색한 국가의 여행 정보를 확인해보세요. :)</h2>
       <InputGroup style="width: 25rem;">
-          <InputText placeholder="Keyword" v-model="searchKeyword" @keyup.enter="handleSearch" />
+          <InputText placeholder="Keyword" v-model="searchKeyword" @keyup.enter="searchLocation"/>
           <InputGroupAddon>
-              <Button icon="pi pi-search" severity="secondary" variant="text" @click="handleSearch" />
+              <Button icon="pi pi-search" severity="secondary" variant="text" @click="searchLocation"/>
           </InputGroupAddon>
       </InputGroup>
-      <div id="map"></div>
-      <div id="map-details" v-if="hasSelectedPlace" class="mb-8 flex flex-col items-center justify-center w-full">
-        <Panel :header="selectedPlace.name" class="w-full">
-            <p class="m-0">
-                {{ selectedPlace.formatted_address }}
-            </p>
-        </Panel>
-        <div v-if="selectedPlace.photos || selectedPlace.reviews" class="flex items-center justify-center w-full">
-          <div style="width: 50%; height: 350px;">
-            <Galleria :value="photoUrls" :responsiveOptions="responsiveOptions" :numVisible="5" containerStyle="width: 100%; height: 350px; justify-content: center; align-items: center;">
-                <template #item="slotProps">
-                  <Image 
-                    v-if="!errorMap[slotProps.item.src]"
-                    :src="slotProps.item.src" 
-                    alt="alt"
-                    style="height: 250px; object-fit: contain;" 
-                    @error="() => errorMap[slotProps.item.src] = true" 
-                    preview
-                  />
-                  <img 
-                    v-else
-                    src="https://www.shoshinsha-design.com/wp-content/uploads/2020/05/noimage-760x460.png"
-                    alt="fallback"
-                    style="height: 250px; object-fit: contain;" 
-                  />
-                </template>
-                <template #thumbnail="slotProps">
-                  <div class="flex justify-center items-center">
-                    <Image 
-                      v-if="!errorMap[slotProps.item.src]"
-                      :src="slotProps.item.src" 
-                      alt="thumbnail" 
-                      style="max-height: 99px; object-fit: cover;"
-                      @error="() => errorMap[slotProps.item.src] = true"
-                    />
-                    <img 
-                      v-else 
-                      src="https://www.shoshinsha-design.com/wp-content/uploads/2020/05/noimage-760x460.png"
-                      alt="thumbnail"
-                      style="max-height: 99px; object-fit: cover;"
-                    />
-                  </div>
-                </template>
-            </Galleria>
-          </div>
-          <div style="width: 50%; height: 350px;">
-            <ScrollPanel style="width: 100%; height: 350px;">
-              <MainReviews v-for="(review, index) in selectedPlace.reviews" :key="index" :review="review" />
-            </ScrollPanel>
-          </div>
-        </div>
-      </div>
+      <div id="map" ref="mapContainer"></div>
     </div>
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount, computed } from 'vue';
-import MainReviews from "./MainReviews.vue";
+import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
 
-const googleMapsMapId = import.meta.env.VITE_GOOGLE_MAPS_MAP_ID;
-let loginToken = ref(localStorage.getItem("authToken"));
+const loginToken = ref(localStorage.getItem("authToken"));
+const mapContainer = ref(null);
+const map = ref(null); // map 객체를 ref로 선언
+const searchKeyword = ref('');
 
-let map;
-let placesService;
-let markers = [];
-let searchKeyword = '';
-let selectedPlace = ref({});
-const errorMap = ref({});
-
-//const image = "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
-
+// ✅ 로그인 여부 확인
 const syncLoginState = () => {
     loginToken.value = localStorage.getItem("authToken");
 };
 
-// ✅ storage 이벤트 리스너 등록
 onMounted(() => {
     window.addEventListener("storage", syncLoginState);
 });
 
-// ✅ 컴포넌트 unmount 될 때 정리
 onBeforeUnmount(() => {
     window.removeEventListener("storage", syncLoginState);
 });
@@ -104,157 +46,79 @@ const hasLoginToken = computed(() => {
   return loginToken.value && Object.keys(loginToken.value).length > 0;
 });
 
-const hasSelectedPlace = computed(() => {
-  return selectedPlace.value && Object.keys(selectedPlace.value).length > 0;
+// ✅ 지도 출력
+onMounted(() => {
+  if (!mapContainer.value) return;
+
+  map.value = L.map('map').setView({ lon: 0, lat: 0 }, 2); // map 객체를 ref에 저장
+
+  map.value.setMaxBounds([[-90, -180], [90, 180]]); // 최대 이동 범위 설정
+  map.value.setMinZoom(2); // 최소 줌 아웃 수준
+  map.value.setMaxZoom(19); // 최대 줌 인 수준
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap 기여자</a>',
+  }).addTo(map.value);
+
+  // 축척 막대를 지도 왼쪽 하단에 노출
+  L.control.scale({ imperial: true, metric: true }).addTo(map.value);
 });
 
-const photoUrls = computed(() => {
-  return selectedPlace.value.photos?.map(photo => ({
-    src: photo.getUrl({ maxHeight: 350 }) // Google API에서 URL 변환
-  }));
-});
+// ✅ Nominatim API로 장소 검색하는 함수
+const searchLocation = async () => {
+  if (!searchKeyword.value) return;
 
-onMounted(async () => {
-  if (!window.googleMapsReady) {
-    console.error("🚨 Google Maps API가 로드되지 않았습니다!");
-    return;
-  }
+  try {
+    const response = await fetch(
+      `https://nominatim.openstreetmap.org/search?q=${searchKeyword.value}&format=json&limit=5`
+    );
+    const data = await response.json();
 
-  // ✅ Google Maps API가 로드될 때까지 기다림
-  await window.googleMapsReady;
+    removeAllMarkers(); // 마커 초기화
 
-  initMap();
-});
+    console.log(data);
 
-function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 37.5665, lng: 126.9780 }, // 서울 좌표
-    zoom: 10,
-    mapId: googleMapsMapId,
-    //disableDefaultUI: true, // ✅ 기본 UI 전체 비활성화
-    mapTypeControl: false,  // ✅ 지도 유형(위성 지도 등) 선택 버튼 비활성화
-    streetViewControl: false, // ✅ 거리뷰 아이콘 비활성화
-  });
+    // 검색 결과에서 첫 번째 위치를 사용 (기본적으로 첫 번째 결과를 선택)
+    const location = data[0];
+    if (location) {
+      const lat = location.lat;
+      const lon = location.lon;
 
-  // placesService 초기화
-  placesService = new google.maps.places.PlacesService(map);
+      if (!map.value) return; // map이 초기화되지 않았다면 실행하지 않음
+      
+      map.value.setView([lat, lon], 13);
+      L.marker([lat, lon]).addTo(map.value).bindPopup(location.display_name).openPopup();
 
-  // ✅ 지도 클릭 이벤트 추가
-  map.addListener("click", (event) => {
-    const lat = event.latLng.lat();
-    const lng = event.latLng.lng();
-    searchPlaceByLatLng(lat, lng);  // 여기서 lat, lng를 전달
-  });
-}
-
-// ✅ 검색 키워드로 장소 검색 (textSearch)
-function searchPlaces(keyword) {
-  if (!placesService || !keyword) return;
-  
-  const request = {
-    query: keyword,
-    fields: ["name", "geometry", "formatted_address"],
-  };
-
-  placesService.textSearch(request, (results, status) => {
-    if (status === google.maps.places.PlacesServiceStatus.OK) {
-      // ✅ 기존 데이터 삭제
-      clearMarker();
-      selectedPlace.value = {};
-
-      results.forEach((place) => {
-        if (place.geometry?.location) {
-          addMarker(place); // ✅ 새 마커 추가
-        }
-      });
-    }
-  });
-}
-
-// ✅ 지도에서 클릭한 위치로 장소 검색 (textSearch)
-function searchPlaceByLatLng(lat, lng) {
-  const request = {
-    query: `${lat}, ${lng}`,  // 클릭한 위치로 쿼리 생성
-    fields: ["name", "geometry", "formatted_address", "photos", "reviews"]
-  };
-
-  placesService.textSearch(request, (results, status) => {
-    if (status === google.maps.places.PlacesServiceStatus.OK && results.length > 0) {
-      // ✅ 기존 데이터 삭제
-      clearMarker();
-      selectedPlace.value = {};
-
-      const place = results[0];  // 첫 번째 검색 결과
-
-      if (place.geometry?.location) {
-        addMarker(place);
-        searchPlaceDetails(place);
-      }
+      getCountryCode(lat, lon);
     } else {
-      console.warn("⚠️ 장소 검색 결과가 없습니다. 상태 코드:", status);
+      alert('🚨 검색 결과가 존재하지 않습니다!');
     }
-  });
-}
-
-function addMarker(place) {
-  const marker = new google.maps.Marker({
-    position: place.geometry.location,
-    map: map,
-    //icon: image,
-    title: place.name,
-  });
-
-  marker.place_id = place.place_id;
-
-  // ✅ 마커 클릭 이벤트 추가
-  marker.addListener("click", function () {
-    searchPlaceDetails(this);
-  });
-  
-  map.setCenter(place.geometry.location); // ✅ 검색 후 항상 마커를 중심으로 지도 이동
-  map.setZoom(14); // ✅ 검색 후 항상 줌을 14로 설정
-
-  markers.push(marker);
-}
-
-function clearMarker() {
-  markers.forEach((marker, index) => {
-    if (marker.getMap()) {
-      marker.setMap(null);
-    }
-  });
-
-  markers = [];
-}
-
-function handleSearch() {
-  if (searchKeyword) {
-    searchPlaces(searchKeyword);
+  } catch (error) {
+    console.error('Error fetching location:', error);
   }
-}
+};
 
-async function searchPlaceDetails(marker) {
-  if (!placesService || !marker || !marker.place_id) return;
-
-  const request = {
-    placeId: marker.place_id,
-    fields: ["name", "formatted_address", "geometry", "reviews", "photos"], // ✅ 필요한 필드 지정
-  };
-
-  placesService.getDetails(request, (place, status) => {
-    if (status === google.maps.places.PlacesServiceStatus.OK) {
-      selectedPlace.value = place;
-
-      console.log("장소 정보:", place);
-    } else {
-      console.error("🚨 장소 정보를 가져오는 데 실패했습니다! :", status);
+// ✅ 기존 마커 제거하는 함수
+const removeAllMarkers = () => {
+  if (!map.value) return;
+  map.value.eachLayer(layer => {
+    if (layer instanceof L.Marker) {
+      map.value.removeLayer(layer);
     }
   });
-}
+};
 
-// ✅ 이미지 로드 실패 시 대체 이미지로 변경
-function onImageError(event) {
-  event.target.src = "https://www.shoshinsha-design.com/wp-content/uploads/2020/05/noimage-760x460.png";
-}
+const getCountryCode = async (lat, lon) => {
+  try {
+    const response = await fetch(
+      `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json`
+    );
+    const data = await response.json();
 
+    console.log('상세 정보:', data.address.country_code); // 🔥 가져온 데이터 확인
+  } catch (error) {
+    console.error('Error fetching place details:', error);
+  }
+};
 </script>

@@ -1,0 +1,3962 @@
+countryCode,name,toponymName
+GD,Carriacou and Petite Martinique,Carriacou and Petite Martinique
+GD,세인트패트릭구,Saint Patrick
+GD,세인트마크구,Saint Mark
+GD,세인트존구,Saint John
+GD,세인트조지구,Saint George
+GD,세인트데이비드구,Saint David
+GD,세인트앤드루구,Saint Andrew
+CH,취리히 주,Kanton Zürich
+CH,추크 주,Kanton Zug
+CH,보 주,Canton de Vaud
+CH,발레 주,Canton du Valais
+CH,우리 주,Kanton Uri
+CH,티치노 주,Cantone Ticino
+CH,투르가우 주,Kanton Thurgau
+CH,졸로투른 주,Kanton Solothurn
+CH,슈비츠 주,Kanton Schwyz
+CH,샤프하우젠 주,Kanton Schaffhausen
+CH,장크트갈렌 주,Kanton St. Gallen
+CH,베른 주,Canton de Berne
+CH,바젤슈타트 주,Kanton Basel-Stadt
+CH,바젤란트 주,Kanton Basel-Landschaft
+CH,아펜첼아우서로덴 주,Kanton Appenzell Ausserrhoden
+CH,아펜첼이너로덴 주,Kanton Appenzell Innerrhoden
+CH,아르가우 주,Kanton Aargau
+CH,옵발덴 주,Kanton Obwalden
+CH,니트발덴 주,Kanton Nidwalden
+CH,뇌샤텔 주,Canton de Neuchâtel
+CH,루체른 주,Kanton Luzern
+CH,쥐라 주,Canton de Jura
+CH,그라우뷘덴 주,Kanton Graubünden
+CH,글라루스 주,Kanton Glarus
+CH,제네바 주,Canton de Genève
+CH,프리부르 주,Canton de Fribourg
+SL,북부주,Northern Province
+SL,동부주,Eastern Province
+SL,서부구,Western Area
+SL,남부주,Southern Province
+SL,North West Province,North West Province
+HU,서볼치서트마르베레그 주,Szabolcs-Szatmár-Bereg
+HU,야스너지쿤솔노크 주,Jász-Nagykun-Szolnok
+HU,헤베시 주,Heves megye
+HU,허이두비허르 주,Hajdú-Bihar
+HU,촌그라드 주,Csongrád megye
+HU,보르쇼드어버우이젬플렌 주,Borsod-Abauj Zemplen county
+HU,베케시 주,Bekes County
+HU,페슈트 주,Pest megye
+HU,노그라드 주,Nógrád megye
+HU,코마롬에스테르곰 주,Komárom-Esztergom
+HU,죄르모숀쇼프론 주,Győr-Moson-Sopron megye
+HU,페예르 주,Fejér megye
+HU,부다페스트,Budapest
+HU,버러녀 주,Baranya county
+HU,바치키슈쿤 주,Bács-Kiskun county
+HU,절러 주,Zala megye
+HU,베스프렘 주,Veszprém megye
+HU,버시 주,Vas megye
+HU,톨너 주,Tolna megye
+HU,쇼모지 주,Somogy megye
+TW,푸젠 성,Fukien
+TW,타이완 성,Taiwan
+TW,가오슝 시,Kaohsiung
+TW,타이베이 시,Taipei
+WF,Uvéa,Uvéa
+WF,Sigave,Sigave
+WF,Alo,Alo
+BB,세인트토머스구,Saint Thomas
+BB,세인트필립구,Saint Philip
+BB,세인트피터구,Saint Peter
+BB,세인트마이클구,Saint Michael
+BB,세인트루시구,Saint Lucy
+BB,세인트조지프구,Saint Joseph
+BB,세인트존구,Saint John
+BB,세인트제임스구,Saint James
+BB,세인트조지구,Saint George
+BB,세인트앤드루구,Saint Andrew
+BB,크라이스트처치구,Christ Church
+CI,바사상드라 지구,Bas-Sassandra
+CI,라크구,Lacs
+CI,라귄구,Lagunes
+CI,Montagnes,Montagnes
+CI,사반 지구,Savanes
+CI,발레뒤방다마 지구,Vallée du Bandama
+CI,Woroba,Woroba
+CI,잔잔구,Zanzan
+CI,Yamoussoukro Autonomous District,Yamoussoukro Autonomous District
+CI,Comoé,Comoé
+CI,뎅겔레 지구,Denguélé
+CI,Gôh-Djiboua,Gôh-Djiboua
+CI,Sassandra-Marahoué,Sassandra-Marahoué
+CI,Abidjan,Abidjan
+TN,타타우인주,Tataouine
+TN,시디부지드주,Gouvernorat de Sidi Bouzid
+TN,스팍스주,Gouvernorat de Sfax
+TN,케빌리주,Gouvernorat de Kébili
+TN,가프사주,Gafsa Governorate
+TN,가베스주,Gouvernorat de Gabès
+TN,나뵐주,Gouvernorat de Nabeul
+TN,메드닌주,Gouvernorat de Médenine
+TN,젠두바주,Gouvernorat de Jendouba
+TN,벤아루스주,Gouvernorat de Ben Arous
+TN,비제르테주,Gouvernorat de Bizerte
+TN,Gouvernorat de Béja,Gouvernorat de Béja
+TN,아리아나주,Gouvernorat de l’Ariana
+TN,카이르완주,Gouvernorat de Kairouan
+TN,카세린주,Gouvernorat de Kasserine
+TN,모나스티르주,Gouvernorat de Monastir
+TN,마디아주,Gouvernorat de Mahdia
+TN,케프주,Gouvernorat de Kef
+TN,자구완주,Gouvernorat de Zaghouan
+TN,튀니스주,Gouvernorat de Tunis
+TN,수스주,Gouvernorat de Sousse
+TN,실리아나주,Gouvernorat de Siliana
+TN,마누바주,Manouba
+TN,토죄르주,Gouvernorat de Tozeur
+IT,시칠리아,Sicilia
+IT,풀리아 주,Puglia
+IT,피에몬테 주,Piemonte
+IT,토스카나 주,Toscana
+IT,에밀리아로마냐 주,Emilia-Romagna
+IT,베네토 주,Veneto
+IT,롬바르디아 주,Lombardia
+IT,라치오 주,Lazio
+IT,사르데냐 주,Sardegna
+IT,칼라브리아 주,Calabria
+IT,아브루초 주,Abruzzo
+IT,움브리아 주,Umbria
+IT,트렌티노알토아디제 주,Trentino-Alto Adige
+IT,몰리세 주,Molise
+IT,마르케 주,Marche
+IT,캄파니아 주,Campania
+IT,바실리카타 주,Basilicata
+IT,발레다오스타 주,Regione Autonoma Valle d'Aosta
+IT,리구리아 주,Liguria
+IT,프리울리베네치아줄리아 주,Friuli Venezia Giulia
+BJ,알리보리주,Alibori
+BJ,보르구주,Borgou Department
+BJ,콜린주,Collines Department
+BJ,쿠포주,Kouffo Department
+BJ,동가주,Donga
+BJ,리토랄주,Littoral
+BJ,플라토주,Plateau Department
+BJ,아틀랑티크주,Atlantique Department
+BJ,아타코라주,Atakora Department
+BJ,주주,Zou Department
+BJ,우에메주,Département de l’Ouémé
+BJ,모노주,Mono
+ID,South Papua,South Papua
+ID,Provinsi Kalimantan Timur,Provinsi Kalimantan Timur
+ID,Provinsi Kalimantan Tengah,Provinsi Kalimantan Tengah
+ID,Provinsi Kalimantan Barat,Provinsi Kalimantan Barat
+ID,자와티무르 주,Jawa Timur
+ID,Provinsi Papua,Provinsi Papua
+ID,North Maluku,North Maluku
+ID,Provinsi Riau,Provinsi Riau
+ID,수마트라슬라탄 주,Sumatera Selatan
+ID,Provinsi Sumatera Barat,Provinsi Sumatera Barat
+ID,술라웨시우타라 주,Sulawesi Utara
+ID,Sulawesi Tenggara,Sulawesi Tenggara
+ID,술라웨시틍아 주,Sulawesi Tengah
+ID,Provinsi Sulawesi Selatan,Provinsi Sulawesi Selatan
+ID,East Nusa Tenggara,East Nusa Tenggara
+ID,Provinsi Maluku,Provinsi Maluku
+ID,수마트라우타라 주,North Sumatra
+ID,Provinsi Kalimantan Selatan,Provinsi Kalimantan Selatan
+ID,Provinsi Jawa Tengah,Provinsi Jawa Tengah
+ID,자와바랏 주,Jawa Barat
+ID,Provinsi Jambi,Provinsi Jambi
+ID,Provinsi Papua Barat,Provinsi Papua Barat
+ID,Provinsi Sulawesi Barat,Provinsi Sulawesi Barat
+ID,Kepulauan Bangka Belitung,Kepulauan Bangka Belitung
+ID,Propinsi Bengkulu,Propinsi Bengkulu
+ID,Provinsi Lampung,Provinsi Lampung
+ID,West Nusa Tenggara,West Nusa Tenggara
+ID,Nanggroe Aceh Darussalam Province,Nanggroe Aceh Darussalam Province
+ID,Southwest Papua,Southwest Papua
+ID,Central Papua,Central Papua
+ID,Highland Papua,Highland Papua
+ID,Daerah Khusus Ibukota Jakarta,Daerah Khusus Ibukota Jakarta
+ID,Daerah Istimewa Yogyakarta,Daerah Istimewa Yogyakarta
+ID,반텐 주,Banten
+ID,Provinsi Gorontalo,Provinsi Gorontalo
+ID,발리 섬,Provinsi Bali
+ID,Provinsi Kepulauan Riau,Provinsi Kepulauan Riau
+ID,North Kalimantan,North Kalimantan
+CV,Concelho do Porto Novo,Concelho do Porto Novo
+CV,Concelho da Ribeira Brava,Concelho da Ribeira Brava
+CV,Concelho de Santa Catarina do Fogo,Concelho de Santa Catarina do Fogo
+CV,Concelho de São Salvador do Mundo,Concelho de São Salvador do Mundo
+CV,Concelho do Tarrafal de São Nicolau,Concelho do Tarrafal de São Nicolau
+CV,São Lourenço dos Órgãos,São Lourenço dos Órgãos
+CV,Concelho de Ribeira Grande de Santiago,Concelho de Ribeira Grande de Santiago
+CV,Concelho dos Mosteiros,Concelho dos Mosteiros
+CV,Concelho de Santa Cruz,Concelho de Santa Cruz
+CV,Concelho de São Domingos,Concelho de São Domingos
+CV,Concelho do São Filipe,Concelho do São Filipe
+CV,Concelho de São Miguel,Concelho de São Miguel
+CV,Concelho do Tarrafal,Concelho do Tarrafal
+CV,Concelho de São Vicente,Concelho de São Vicente
+CV,Concelho de Santa Catarina,Concelho de Santa Catarina
+CV,Sal Municipality,Sal Municipality
+CV,Concelho da Ribeira Grande,Concelho da Ribeira Grande
+CV,Concelho da Praia,Concelho da Praia
+CV,Concelho do Paul,Concelho do Paul
+CV,Concelho do Maio,Concelho do Maio
+CV,Concelho da Brava,Concelho da Brava
+CV,Concelho da Boa Vista,Concelho da Boa Vista
+KN,Trinity Palmetto Point,Trinity Palmetto Point
+KN,Saint Thomas Middle Island,Saint Thomas Middle Island
+KN,Saint Thomas Lowland,Saint Thomas Lowland
+KN,Saint Peter Basseterre,Saint Peter Basseterre
+KN,Saint Paul Charlestown,Saint Paul Charlestown
+KN,Saint Paul Capesterre,Saint Paul Capesterre
+KN,Saint Mary Cayon,Saint Mary Cayon
+KN,Saint John Figtree,Saint John Figtree
+KN,Saint John Capesterre,Saint John Capesterre
+KN,Saint James Windward,Saint James Windward
+KN,Saint George Gingerland,Saint George Gingerland
+KN,Saint George Basseterre,Saint George Basseterre
+KN,Saint Anne Sandy Point,Saint Anne Sandy Point
+KN,Christ Church Nichola Town,Christ Church Nichola Town
+LA,루앙프라방 주,Luang Prabang Province
+LA,사이냐불리 주,Xaignabouli
+LA,사완나켓 주,Khouèng Savannakhét
+LA,살라완 주,Salavan
+LA,퐁살리 주,Khouèng Phôngsali
+LA,우돔싸이 주,Khouèng Oudômxai
+LA,루앙남타 주,Louangnamtha
+LA,캄무안 주,Khammouan
+LA,후아판 주,Houaphan
+LA,참빠삭 주,Champasak
+LA,앗타푸 주,Attapu
+LA,씨앙쿠앙 주,Xiangkhouang
+LA,비엔티안 주,Vientiane Province
+LA,세콩 주,Khouèng Xékong
+LA,보케오 주,Khouèng Bokèo
+LA,볼리캄사이 주,Bolikhamxai
+LA,비엔티안 도,Vientiane Prefecture
+LA,Xaisomboun Province,Xaisomboun Province
+BQ,Bonaire,Bonaire
+BQ,Saba,Saba
+BQ,신트외스타티위스 섬,Sint Eustatius
+UG,중부주,Central Region
+UG,동부주,Eastern Region
+UG,북부주,Northern Region
+UG,서부주,Western Region
+AD,에스칼데스엔고르단,Escaldes-Engordany
+AD,Andorra la Vella,Andorra la Vella
+AD,산줄리아데로리아,Sant Julià de Lòria
+AD,우르디누,Ordino
+AD,라마사나,La Massana
+AD,엥캄,Encamp
+AD,카닐료,Canillo
+BI,부줌부라 도시주,Bujumbura Mairie Province
+BI,부줌부라 교외주,Bujumbura Rural Province
+BI,기테가주,Gitega Province
+BI,루이기주,Ruyigi Province
+BI,캉쿠조주,Cankuzo Province
+BI,카루지주,Karuzi Province
+BI,부반자주,Bubanza Province
+BI,치비토케주,Cibitoke Province
+BI,응고지주,Ngozi Province
+BI,카얀자주,Kayanza Province
+BI,무잉가주,Muyinga Province
+BI,키룬도주,Kirundo Province
+BI,마캄바주,Makamba Province
+BI,부루리주,Bururi Province
+BI,무람비야주,Muramvya Province
+BI,루타나주,Rutana Province
+BI,음와로주,Province de Mwaro
+BI,루몽게주,Rumonge Province
+ZA,림포포주,Limpopo
+ZA,노스웨스트주,North West
+ZA,웨스턴케이프주,Western Cape
+ZA,프리스테이트주,Free State
+ZA,콰줄루나탈주,KwaZulu-Natal
+ZA,이스턴케이프주,Eastern Cape
+ZA,하우텡주,Gauteng
+ZA,음푸말랑가주,Mpumalanga
+ZA,노던케이프주,Northern Cape
+FR,누벨아키텐,Nouvelle-Aquitaine
+FR,브르타뉴,Bretagne
+FR,상트르,Centre-Val de Loire
+FR,프로방스알프코트다쥐르,Provence-Alpes-Côte d'Azur
+FR,페이드라루아르,Pays de la Loire
+FR,부르고뉴프랑슈콩테,Bourgogne-Franche-Comté
+FR,노르망디,Normandie
+FR,그랑테스트,Grand Est
+FR,옥시타니,Occitanie
+FR,오드프랑스,Hauts-de-France
+FR,오베르뉴론알프,Auvergne-Rhône-Alpes
+FR,코르시카,Corse
+FR,일드프랑스,Île-de-France
+RE,레위니옹,Réunion
+GP,과들루프,Guadeloupe
+MQ,마르티니크,Martinique
+GF,프랑스령 기아나,Guyane
+LY,Al Wāḩāt,Al Wāḩāt
+LY,알쿠프라 주,Al Kufrah
+LY,Wādī ash Shāţi’,Wādī ash Shāţi’
+LY,주프라 주,Al Jufrah
+LY,무르주크주,Murzuq
+LY,Al Buţnān,Al Buţnān
+LY,알자발알가르비 주,Jabal al Gharbi District
+LY,Wādī al Ḩayāt,Wādī al Ḩayāt
+LY,Surt,Surt
+LY,Nālūt,Nālūt
+LY,Sha‘bīyat Mişrātah,Sha‘bīyat Mişrātah
+LY,Ghāt,Ghāt
+LY,An Nuqāţ al Khams,An Nuqāţ al Khams
+LY,Al Jabal al Akhḑar,Al Jabal al Akhḑar
+LY,Al Jafārah,Al Jafārah
+LY,Al Marqab,Al Marqab
+LY,Darnah,Darnah
+LY,Sha‘bīyat Banghāzī,Sha‘bīyat Banghāzī
+LY,Al Marj,Al Marj
+LY,Az Zāwiyah,Az Zāwiyah
+LY,Tripoli,Tripoli
+LY,세바주,Sabhā
+MX,유카탄주,Estado de Yucatán
+MX,오아하카주,Estado de Oaxaca
+MX,베라크루스주,Estado de Veracruz-Llave
+MX,타마울리파스주,Estado de Tamaulipas
+MX,두랑고주,Estado de Durango
+MX,할리스코주,Estado de Jalisco
+MX,코아우일라주,Estado de Coahuila de Zaragoza
+MX,치와와주,Estado de Chihuahua
+MX,바하칼리포르니아수르주,Estado de Baja California Sur
+MX,바하 칼리포르니아 주,Estado de Baja California
+MX,소노라주,Estado de Sonora
+MX,시날로아주,Estado de Sinaloa
+MX,사카테카스주,Estado de Zacatecas
+MX,멕시코주,Estado de México
+MX,게레로주,Estado de Guerrero
+MX,킨타나로오주,Estado de Quintana Roo
+MX,푸에블라주,Estado de Puebla
+MX,Estado de Nuevo León,Estado de Nuevo León
+MX,치아파스 주,Estado de Chiapas
+MX,캄페체주,Estado de Campeche
+MX,산루이스포토시주,Estado de San Luis Potosí
+MX,콜리마주,Estado de Colima
+MX,나야리트주,Estado de Nayarit
+MX,미초아칸주,Estado de Michoacán de Ocampo
+MX,이달고주,Estado de Hidalgo
+MX,멕시코시티,Ciudad de México
+MX,케레타로주,Estado de Querétaro
+MX,모렐로스주,Estado de Morelos
+MX,틀락스칼라주,Estado de Tlaxcala
+MX,타바스코주,Estado de Tabasco
+MX,Estado de Guanajuato,Estado de Guanajuato
+MX,아과스칼리엔테스주,Estado de Aguascalientes
+GA,월뢰은템주,Province du Woleu-Ntem
+GA,오고웨마리팀주,Province de l’Ogooué-Maritime
+GA,Province de l’Ogooué-Lolo,Province de l’Ogooué-Lolo
+GA,오고웨이빈도주,Province de l’Ogooué-Ivindo
+GA,냥가주,Province de la Nyanga
+GA,Province de la Ngounié,Province de la Ngounié
+GA,오트오고웨주,Province du Haut-Ogooué
+GA,무아얭오고웨주,Province du Moyen-Ogooué
+GA,에스튀에르주,Estuaire
+MP,Northern Islands Municipality,Northern Islands Municipality
+MP,Rota Municipality,Rota Municipality
+MP,사이판,Saipan Municipality
+MP,Tinian Municipality,Tinian Municipality
+MK,Opština Pehčevo,Opština Pehčevo
+MK,Novo Selo,Novo Selo
+MK,보실로보시,Bosilovo
+MK,Vasilevo,Vasilevo
+MK,Opština Dojran,Opština Dojran
+MK,보그단치시,Bogdanci
+MK,Opština Konče,Opština Konče
+MK,마케돈스카카메니차시,Makedonska Kamenica
+MK,즈르노프치시,Zrnovci
+MK,카르빈치시,Karbinci
+MK,Demir Kapija,Demir Kapija
+MK,로소만시,Rosoman
+MK,그라드스코시,Gradsko
+MK,로조보시,Lozovo
+MK,Češinovo-Obleševo,Češinovo-Obleševo
+MK,Novaci,Novaci
+MK,Berovo,Berovo
+MK,Bitola,Bitola
+MK,Mogila,Mogila
+MK,Opština Aračinovo,Opština Aračinovo
+MK,Bogovinje,Bogovinje
+MK,브르베니차 시,Brvenica
+MK,차슈카시,Opština Čaška
+MK,Opština Centar Župa,Opština Centar Župa
+MK,Opština Čučer-Sandevo,Opština Čučer-Sandevo
+MK,Debar,Debar
+MK,Opština Delčevo,Opština Delčevo
+MK,Demir Hisar,Demir Hisar
+MK,돌네니시,Dolneni
+MK,Gevgelija,Gevgelija
+MK,고스티바르,Gostivar
+MK,일린덴시,Ilinden
+MK,예구노브체 시,Jegunovce
+MK,Kavadarci,Kavadarci
+MK,Opština Kičevo,Opština Kičevo
+MK,Opština Kočani,Opština Kočani
+MK,Kriva Palanka,Kriva Palanka
+MK,Opština Krivogaštani,Opština Krivogaštani
+MK,Opština Kruševo,Opština Kruševo
+MK,Kumanovo,Kumanovo
+MK,Opština Lipkovo,Opština Lipkovo
+MK,Makedonski Brod,Makedonski Brod
+MK,Negotino,Negotino
+MK,Ohrid,Ohrid
+MK,Petrovec,Petrovec
+MK,플라스니차시,Plasnica
+MK,Prilep,Prilep
+MK,Opština Probištip,Opština Probištip
+MK,Opština Radoviš,Opština Radoviš
+MK,Opština Rankovce,Opština Rankovce
+MK,마브로보로스투샤시,Opština Mavrovo i Rostuše
+MK,Opština Sopište,Opština Sopište
+MK,Opština Staro Nagoričane,Opština Staro Nagoričane
+MK,Opština Štip,Opština Štip
+MK,Struga,Struga
+MK,Strumica,Strumica
+MK,Opština Studeničani,Opština Studeničani
+MK,스베티니콜레시,Sveti Nikole
+MK,테아르체시,Tearce
+MK,Tetovo,Tetovo
+MK,Veles,Veles
+MK,Opština Vevčani,Opština Vevčani
+MK,Vinica,Vinica
+MK,Opština Vrapčište,Opština Vrapčište
+MK,Zelenikovo,Zelenikovo
+MK,Opština Želino,Opština Želino
+MK,발란도보시,Valandovo
+MK,Kratovo,Kratovo
+MK,레센시,Resen
+MK,데바르차시,Debarca
+MK,Grad Skopje,Grad Skopje
+CN,Henan Sheng,Henan Sheng
+CN,Hebei Sheng,Hebei Sheng
+CN,Guizhou Sheng,Guizhou Sheng
+CN,Guangdong Sheng,Guangdong Sheng
+CN,Gansu Sheng,Gansu Sheng
+CN,푸젠 성,Fujian Sheng
+CN,Zhejiang Sheng,Zhejiang Sheng
+CN,Yunnan Sheng,Yunnan Sheng
+CN,Shandong Sheng,Shandong Sheng
+CN,산시 성,Shaanxi
+CN,Chongqing Shi,Chongqing Shi
+CN,Jiangxi Sheng,Jiangxi Sheng
+CN,Jiangsu Sheng,Jiangsu Sheng
+CN,Hunan Sheng,Hunan Sheng
+CN,후베이 성,Hubei Sheng
+CN,Xinjiang Uyghur Autonomous Region,Xinjiang Uyghur Autonomous Region
+CN,Qinghai Sheng,Qinghai Sheng
+CN,쓰촨 성,Sichuan Sheng
+CN,Shanxi Sheng,Shanxi Sheng
+CN,Inner Mongolia Autonomous Region,Inner Mongolia Autonomous Region
+CN,Liaoning Sheng,Liaoning Sheng
+CN,Jilin Sheng,Jilin Sheng
+CN,Heilongjiang Sheng,Heilongjiang Sheng
+IN,아루나찰프라데시 주,State of Arunāchal Pradesh
+CN,Hainan Sheng,Hainan Sheng
+CN,Shanghai Shi,Shanghai Shi
+CN,Tianjin Shi,Tianjin Shi
+CN,Beijing Shi,Beijing Shi
+CN,Guangxi Zhuang Autonomous Region,Guangxi Zhuang Autonomous Region
+CN,Ningxia Hui Autonomous Region,Ningxia Hui Autonomous Region
+CN,Anhui Sheng,Anhui Sheng
+CN,Tibet Autonomous Region,Tibet Autonomous Region
+YE,하드라마우트주,Hadhramaut Governorate
+YE,자우프주,Muḩāfaz̧at al Jawf
+YE,샤브와주,Shabwah
+YE,마리브주,Muḩāfaz̧at Ma’rib
+YE,마라주,Al Mahrah
+YE,호데이다주,Muḩāfaz̧at al Ḩudaydah
+YE,Amanat alasimah,Amanat alasimah
+YE,다마르주,Muḩāfaz̧at Dhamār
+YE,타이즈주,Muḩāfaz̧at Ta‘izz
+YE,사나주,Sanaa
+YE,사다주,Muḩāfaz̧at Şa‘dah
+YE,라이마주,Muḩāfaz̧at Raymah
+YE,마위트주,Al Maḩwīt
+YE,바이다주,Al Bayda Governorate
+YE,Governorate Number One,Governorate Number One
+YE,아브얀주,Muḩāfaz̧at Abyan
+YE,달리주,Muḩāfaz̧at aḑ Ḑāli‘
+YE,암란주,Muḩāfaz̧at ‘Amrān
+YE,하자주,Muḩāfaz̧at Ḩajjah
+YE,이브주,Ibb
+YE,라히즈주,Muḩāfaz̧at Laḩij
+YE,소코트라주,Socotra
+GG,Saint Pierre du Bois,Saint Pierre du Bois
+GG,Torteval,Torteval
+GG,Saint Saviour,Saint Saviour
+GG,Forest,Forest
+GG,Saint Martin,Saint Martin
+GG,Saint Andrew,Saint Andrew
+GG,Saint Peter Port,Saint Peter Port
+GG,Castel,Castel
+GG,Vale,Vale
+GG,Saint Sampson,Saint Sampson
+GG,Alderney,Alderney
+SB,테모투주,Temotu Province
+SB,말라이타 주,Malaita Province
+SB,슈아절주,Choiseul
+SB,마키라울라와주,Makira-Ulawa Province
+SB,서부주,Western Province
+SB,이사벨주,Isabel Province
+SB,과달카날주,Guadalcanal Province
+SB,렌넬벨로나주,Rennell and Bellona
+SB,중부주,Central Province
+SB,Honiara,Honiara
+SJ,스발바르 제도,Svalbard
+SJ,Jan Mayen,Jan Mayen
+FO,Vága Sýsla,Vága Sýsla
+FO,Suðuroyar sýsla,Suðuroyar sýsla
+FO,Streymoyar Sýsla,Streymoyar Sýsla
+FO,Sandoyar Sýsla,Sandoyar Sýsla
+FO,Norðoyar sýsla,Norðoyar sýsla
+FO,Eysturoyar sýsla,Eysturoyar sýsla
+UZ,나보이주,Navoiy Region
+UZ,카라칼파크스탄 공화국,Karakalpakstan
+UZ,타슈켄트주,Tashkent Region
+UZ,카슈카다리야주,Qashqadaryo Region
+UZ,Tashkent,Tashkent
+UZ,시르다리야주,Sirdaryo Region
+UZ,나망간주,Namangan Region
+UZ,호레즘주,Xorazm Region
+UZ,페르가나주,Fergana Region
+UZ,안디잔주,Andijan Region
+UZ,수르한다리야주,Surxondaryo Region
+UZ,사마르칸트주,Samarqand Region
+UZ,지자흐주,Jizzakh Region
+UZ,부하라주,Bukhara Region
+EG,마트루주,Muḩāfaz̧at Maţrūḩ
+EG,알와디알자디드주,New Valley
+EG,홍해주,Red Sea Governorate
+EG,자누브시나주,South Sinai Governorate
+EG,샤말시나주,North Sinai
+EG,아스완주,Muḩāfaz̧at Aswān
+EG,기자주,Muḩāfaz̧at al Jīzah
+EG,소하그주,Muḩāfaz̧at Sūhāj
+EG,카프르엘셰이크주,Kafr ash Shaykh
+EG,다미에타주,Damietta Governorate
+EG,포트사이드주,Port Said
+EG,Muḩāfaz̧at Banī Suwayf,Muḩāfaz̧at Banī Suwayf
+EG,케나주,Muḩāfaz̧at Qinā
+EG,아시우트주,Muḩāfaz̧at Asyūţ
+EG,수에즈주,Suez
+EG,Muḩāfaz̧at ash Sharqīyah,Muḩāfaz̧at ash Sharqīyah
+EG,칼리우비야주,Muḩāfaz̧at al Qalyūbīyah
+EG,카이로주,Cairo Governorate
+EG,미니아주,Muḩāfaz̧at al Minyā
+EG,무누피아주,Muḩāfaz̧at al Minūfīyah
+EG,이스마일리아주,Ismailia Governorate
+EG,알렉산드리아주,Alexandria
+EG,가르비야주,Muḩāfaz̧at al Gharbīyah
+EG,파이윰주,Muḩāfaz̧at al Fayyūm
+EG,베헤이라 주,Beheira Governorate
+EG,다칼리야주,Muḩāfaz̧at ad Daqahlīyah
+EG,룩소르주,Luxor
+SN,탐바쿤다주,Tambacounda
+SN,마탐주,Matam
+SN,루가주,Louga
+SN,카프린주,Région de Kaffrine
+SN,Région de Kédougou,Région de Kédougou
+SN,세디우주,Région de Sédhiou
+SN,지긴쇼르주,Ziguinchor
+SN,Région de Thiès,Région de Thiès
+SN,생루이주,Saint-Louis
+SN,콜다주,Kolda
+SN,카올라크주,Kaolack
+SN,파티크주,Fatick
+SN,디우르벨주,Diourbel
+SN,다카르주,Dakar
+LK,북서부주,North Western Province
+LK,중북부주,North Central Province
+LK,중부주,Central Province
+LK,남부주,Southern Province
+LK,사바라가무와주,Sabaragamuwa Province
+LK,서부주,Western Province
+LK,우바주,Province of Uva
+LK,북부주,Northern Province
+LK,동부주,Eastern Province
+PS,West Bank,West Bank
+PS,가자 지구,Gaza Strip
+IL,Judea and Samaria Area,Judea and Samaria Area
+BD,다카주,Dhaka Division
+BD,치타공 구,Chittagong
+BD,쿨나주,Khulna Division
+BD,라지샤히주,Rājshāhi Division
+BD,바리살주,Barisal Division
+BD,실렛주,Sylhet Division
+BD,랑푸르주,Rangpur Division
+BD,Mymensingh Division,Mymensingh Division
+PE,Ucayali,Ucayali
+PE,쿠스코주,Cusco
+PE,라리베르타드주,La Libertad
+PE,우아누코주,Región de Huánuco
+PE,카하마르카주,Cajamarca
+PE,앙카시주,Ancash
+PE,아마소나스주,Amazonas
+PE,Puno,Puno
+PE,파스코주,Pasco
+PE,리마주,Lima
+PE,아야쿠초주,Ayacucho
+PE,아레키파주,Arequipa
+PE,람바예케주,Lambayeque
+PE,타크나주,Tacna
+PE,리마군,Provincia de Lima
+PE,우앙카벨리카주,Huancavelica
+PE,아푸리막주,Región de Apurímac
+PE,산마르틴주,Región de San Martín
+PE,피우라주,Piura
+PE,로레토주,Loreto
+PE,툼베스주,Tumbes
+PE,Callao,Callao
+PE,모케과주,Departamento de Moquegua
+PE,마드레데디오스주,Madre de Dios
+PE,후닌주,Junín
+PE,이카주,Ica
+TR,삼순주,Samsun
+TR,오르두주,Ordu
+TR,Düzce,Düzce
+TR,토카트주,Tokat
+TR,코자엘리주,Kocaeli
+TR,키르클라렐리주,Kırklareli
+TR,카스타모누주,Kastamonu
+TR,카르스주,Kars
+TR,이스탄불주,İstanbul
+TR,시노프주,Sinop
+TR,사카리아주,Sakarya
+TR,리제주,Rize
+TR,바르틴주,Bartın
+TR,카라뷔크주,Karabük
+TR,얄로바주,Yalova
+TR,아르다한주,Ardahan
+TR,바이부르트주,Bayburt
+TR,초룸주,Çorum
+TR,창키리주,Çankırı
+TR,차나칼레주,Çanakkale
+TR,부르사주,Bursa
+TR,볼루주,Bolu
+TR,아르트빈주,Artvin
+TR,아마시아주,Amasya
+TR,귀뮈샤네주,Gümüşhane
+TR,기레순주,Giresun
+TR,에디르네주,Edirne
+TR,종굴다크주,Zonguldak
+TR,트라브존주,Trabzon
+TR,테키르다주,Tekirdağ
+TR,안탈리아 주,Antalya
+TR,앙카라주,Ankara
+TR,아리 주,Ağrı
+TR,아피온카라히사르주,Afyonkarahisar
+TR,아디야만주,Adıyaman
+TR,아다나 주,Adana
+TR,비틀리스주,Bitlis
+TR,빙괼주,Bingöl
+TR,빌레지크주,Bilecik
+TR,발리케시르주,Balıkesir
+TR,아이든주,Aydın
+TR,오스마니예주,Osmaniye
+TR,이디르주,Iğdır
+TR,악사라이주,Aksaray
+TR,바트만주,Batman
+TR,카라만주,Karaman
+TR,키리칼레주,Kırıkkale
+TR,시르나크주,Şırnak
+TR,킬리스주,Kilis
+TR,카흐라만마라슈주,Kahramanmaraş
+TR,이즈미르주,İzmir
+TR,이스파르타주,Isparta
+TR,메르신주,Mersin
+TR,코니아주,Konya
+TR,키르셰히르주,Kırşehir
+TR,카이세리주,Kayseri
+TR,시바스주,Sivas
+TR,시이르트주,Siirt
+TR,부르두르주,Burdur
+TR,가지안테프주,Gaziantep
+TR,에스키셰히르주,Eskişehir
+TR,에르주룸주,Erzurum
+TR,에르진잔주,Erzincan
+TR,엘라지주,Elâzığ
+TR,디야르바키르주,Diyarbakır
+TR,데니즐리주,Denizli
+TR,니데주,Niğde
+TR,네브셰히르주,Nevşehir
+TR,무슈주,Muş
+TR,물라 주,Muğla
+TR,마르딘주,Mardin
+TR,마니사주,Manisa
+TR,말라티아주,Malatya
+TR,퀴타히아주,Kütahya
+TR,하타이주,Hatay
+TR,하카리주,Hakkari
+TR,반주,Van
+TR,우샤크주,Uşak
+TR,샨리우르파주,Şanlıurfa
+TR,툰젤리주,Tunceli
+TR,요즈가트주,Yozgat
+AF,헤라트주,Herāt
+AF,헬만드주,Helmand
+AF,구르주,Wilāyat-e Ghōr
+AF,가즈니주,Wilāyat-e Ghaznī
+AF,Wilāyat-e Nīmrōz,Wilāyat-e Nīmrōz
+AF,칸다하르주,Kandahār
+AF,파르야브주,Faryab Province
+AF,파라주,Farāh
+AF,바다흐샨주,Badakhshān
+AF,로가르주,Wilāyat-e Lōgar
+AF,라그만주,Wilāyat-e Laghmān
+AF,쿤두즈주,Kunduz
+AF,쿠나르주,Wilāyat-e Kunaṟ
+AF,카불주,Wilāyat-e Kābul
+AF,주즈잔주,Wilāyat-e Jowzjān
+AF,Parwān,Parwān
+AF,팍티카주,Wilāyat-e Paktīkā
+AF,팍티야 주,Wilāyat-e Paktiyā
+AF,우루즈간주,Uruzgān
+AF,낭가르하르주,Nangarhār
+AF,카피사주,Wilāyat-e Kāpīsā
+AF,사망간주,Samangān
+AF,바미안주,Wilāyat-e Bāmyān
+AF,발흐주,Balkh
+AF,호스트주,Velāyat-e Khowst
+AF,누리스탄주,Velāyat-e Nūrestān
+AF,바글란주,Wilāyat-e Baghlān
+AF,바드기스주,Bādghīs
+AF,자불주,Wilāyat-e Zābul
+AF,사르이폴주,Sar-e Pul
+AF,Wardak,Wardak
+AF,타하르주,Wilāyat-e Takhār
+AF,다이쿤디주,Daykundi Province
+AF,판지시르주,Panjshir
+CK,Aitutaki,Aitutaki
+CK,Atiu,Atiu
+CK,Mangaia,Mangaia
+CK,Manihiki,Manihiki
+CK,Ma'uke,Ma'uke
+CK,Mitiaro,Mitiaro
+CK,Palmerston,Palmerston
+CK,Penrhyn,Penrhyn
+CK,Pukapuka,Pukapuka
+CK,Rakahanga,Rakahanga
+CK,Rarotonga,Rarotonga
+GB,잉글랜드,England
+GB,Wales,Wales
+GB,북아일랜드,Northern Ireland
+GB,스코틀랜드,Scotland
+JE,Saint Clement,Saint Clement
+JE,Saint Saviour,Saint Saviour
+JE,Saint Brelade,Saint Brelade
+JE,Grouville,Grouville
+JE,Saint Mary,Saint Mary
+JE,Saint Lawrence,Saint Lawrence
+JE,Saint Peter,Saint Peter
+JE,Saint Ouen,Saint Ouen
+JE,Saint John,Saint John
+JE,Trinity,Trinity
+JE,Saint Martin,Saint Martin
+JE,Saint Helier,Saint Helier
+GG,Saint Pierre du Bois,Saint Pierre du Bois
+GG,Torteval,Torteval
+GG,Saint Saviour,Saint Saviour
+GG,Forest,Forest
+GG,Saint Martin,Saint Martin
+GG,Saint Andrew,Saint Andrew
+GG,Saint Peter Port,Saint Peter Port
+GG,Castel,Castel
+GG,Vale,Vale
+GG,Saint Sampson,Saint Sampson
+IM,Andreas,Andreas
+IM,Arbory,Arbory
+IM,Bride,Bride
+IM,Castletown,Castletown
+IM,Douglas,Douglas
+IM,Jurby,Jurby
+IM,Laxey,Laxey
+IM,Lezayre,Lezayre
+IM,Malew,Malew
+IM,Marown,Marown
+IM,Maughold,Maughold
+IM,Michael,Michael
+IM,Onchan,Onchan
+IM,Patrick,Patrick
+IM,Peel,Peel
+IM,Port Erin,Port Erin
+IM,Port St Mary,Port St Mary
+IM,Ramsey,Ramsey
+IM,Rushen,Rushen
+GG,Alderney,Alderney
+ZM,North-Western Province,North-Western Province
+ZM,서부주,Western Province
+ZM,중부 주,Central Province
+ZM,무칭가주,Muchinga Province
+ZM,북부주,Northern Province
+ZM,루사카주,Lusaka Province
+ZM,루아풀라주,Luapula Province
+ZM,동부주,Eastern Province
+ZM,코퍼벨트주,Copperbelt Province
+ZM,남부주,Southern Province
+FI,라피 지역,Lapland
+FI,카이누 지역,Kainuu
+FI,북포흐얀마 지역,Pohjois-Pohjanmaa
+FI,포흐얀마 지역,Pohjanmaa
+FI,북카리알라 지역,Pohjois-Karjala
+FI,중부 포흐얀마 지역,Keski-Pohjanmaa
+FI,남포흐얀마 지역,South Ostrobothnia
+FI,북사보 지역,Pohjois-Savo
+FI,남사보 지역,Southern Savonia
+FI,South Karelia Region,South Karelia Region
+FI,퀴멘락소 지역,Kymenlaakso
+FI,피르칸마 지역,Pirkanmaa
+FI,칸타헤메 지역,Kanta-Häme
+FI,남서수오미 지역,Varsinais-Suomi
+FI,우시마 지역,Uusimaa
+FI,Paijat-Hame Region,Paijat-Hame Region
+FI,사타쿤타 지역,Satakunta
+AX,Ålands skärgård,Ålands skärgård
+FI,Central Finland,Central Finland
+AX,Mariehamns stad,Mariehamns stad
+AX,Ålands landsbygd,Ålands landsbygd
+NE,틸라베리주,Tillaberi Region
+NE,잔데르 주,Zinder
+NE,디파주,Diffa
+NE,타우아주,Tahoua
+NE,아가데즈주,Agadez
+NE,도소주,Dosso Region
+NE,마라디주,Maradi
+NE,Niamey,Niamey
+TK,Nukunonu,Nukunonu
+TK,Atafu,Atafu
+TK,Fakaofo,Fakaofo
+GW,톰발리 주,Tombali
+GW,키나라 주,Quinara
+GW,Oio Region,Oio Region
+GW,Gabú,Gabú
+GW,Cacheu Region,Cacheu Region
+GW,볼라마 주,Bolama
+GW,Bissau Region,Bissau Region
+GW,비옴부 주,Biombo
+GW,Bafatá,Bafatá
+AZ,고란보이구,Goranboy Rayon
+AZ,이스마이을르구,Ismayilli Rayon
+AZ,샤브란구,Shabran Rayon
+AZ,발라켄구,Balakan Rayon
+AZ,베르데 구,Barda Rayon
+AZ,Baku City,Baku City
+AZ,Ganja City,Ganja City
+AZ,Mingacevir City,Mingacevir City
+AZ,Gobustan Rayon,Gobustan Rayon
+AZ,Yevlakh City,Yevlakh City
+AZ,아흐수구,Aghsu Rayon
+AZ,토부스구,Tovuz Rayon
+AZ,퀴르데미르구,Kurdamir Rayon
+AZ,게벨레구,Qabala Rayon
+AZ,구사르구,Qusar Rayon
+AZ,Shusha,Shusha
+AZ,호자벤트구,Khojavend District
+AZ,마살르구,Masally District
+AZ,퓌줄리구,Fizuli Rayon
+AZ,제브라이을구,Jabrayil District
+AZ,젤릴라바트구,Jalilabad
+AZ,아스타라구,Astara District
+AZ,Saatly Rayon,Saatly Rayon
+AZ,켈베제르구,Kalbajar District
+AZ,Qazakh Rayon,Qazakh Rayon
+AZ,Qakh Rayon,Qakh Rayon
+AZ,Goychay Rayon,Goychay Rayon
+AZ,Dashkasan Rayon,Dashkasan Rayon
+AZ,Aghstafa Rayon,Aghstafa Rayon
+AZ,Naftalan City,Naftalan City
+AZ,Samukh Rayon,Samukh Rayon
+AZ,Shaki city,Shaki city
+AZ,Siazan Rayon,Siazan Rayon
+AZ,Sumqayit City,Sumqayit City
+AZ,Khizi Rayon,Khizi Rayon
+AZ,Hajigabul Rayon,Hajigabul Rayon
+AZ,게데베이구,Gadabay Rayon
+AZ,Zardab Rayon,Zardab Rayon
+AZ,자가탈라구,Zaqatala Rayon
+AZ,Yevlakh Rayon,Yevlakh Rayon
+AZ,Oghuz Rayon,Oghuz Rayon
+AZ,Absheron Rayon,Absheron Rayon
+AZ,Aghdash Rayon,Aghdash Rayon
+AZ,Ujar Rayon,Ujar Rayon
+AZ,Shamakhi Rayon,Shamakhi Rayon
+AZ,Shaki Rayon,Shaki Rayon
+AZ,Shamkir Rayon,Shamkir Rayon
+AZ,Quba Rayon,Quba Rayon
+AZ,Goygol Rayon,Goygol Rayon
+AZ,Khachmaz Rayon,Khachmaz Rayon
+AZ,Aghjabadi Rayon,Aghjabadi Rayon
+AZ,Aghdam Rayon,Aghdam Rayon
+AZ,Shirvan,Shirvan
+AZ,Lankaran Sahari,Lankaran Sahari
+AZ,테르테르구,Tartar Rayon
+AZ,Xankandi Sahari,Xankandi Sahari
+AZ,Neftchala Rayon,Neftchala Rayon
+AZ,나히체반,Nakhchivan Autonomous Republic
+AZ,레리크구,Lerik Rayon
+AZ,Lankaran Rayon,Lankaran Rayon
+AZ,Laçın Rayonu,Laçın Rayonu
+AZ,Qubadli Rayon,Qubadli Rayon
+AZ,Imishli Rayon,Imishli Rayon
+AZ,Xocalı Rayonu,Xocalı Rayonu
+AZ,Beylagan Rayon,Beylagan Rayon
+AZ,젠길란구,Zangilan Rayon
+AZ,야르듬르구,Yardymli Rayon
+AZ,Şuşa Rayonu,Şuşa Rayonu
+AZ,살리안구,Salyan Rayon
+AZ,사비라바트구,Sabirabad Rayon
+AZ,빌레수바르구,Bilasuvar Rayon
+RE,레위니옹,Réunion
+DJ,타주라주,Tadjourah
+DJ,오보크주,Obock
+DJ,디킬주,Dikhil
+DJ,아르타주,Arta Region
+DJ,Djibouti Region,Djibouti Region
+DJ,알리사비에주,Ali Sabieh Region
+KP,咸鏡南道,South Hamgyong
+KP,평양직할시,Pyongyang
+KP,平南,South Pyongan
+KP,平北,North Pyongan
+KP,강원도,Kangwŏn-do
+KP,黃南,Hwanghae-namdo
+KP,黃北,Hwanghae-bukto
+KP,慈江,Chagang-do
+KP,兩江,Ryanggang
+KP,라선특별시,Rason
+KP,咸北,North Hamgyong Province
+KP,Nampo,Nampo
+KP,Kaesong,Kaesong
+MU,Grand Port District,Grand Port District
+MU,Flacq District,Flacq District
+MU,Black River District,Black River District
+MU,Savanne District,Savanne District
+MU,Rivière du Rempart District,Rivière du Rempart District
+MU,Port Louis District,Port Louis District
+MU,Plaines Wilhems District,Plaines Wilhems District
+MU,Pamplemousses District,Pamplemousses District
+MU,Moka District,Moka District
+MU,Cargados Carajos,Cargados Carajos
+MU,Agalega Islands,Agalega Islands
+MU,로드리게스섬,Rodrigues
+MS,Parish of Saint Peter,Parish of Saint Peter
+MS,Parish of Saint Georges,Parish of Saint Georges
+MS,Parish of Saint Anthony,Parish of Saint Anthony
+VI,Saint Croix Island,Saint Croix Island
+VI,Saint John Island,Saint John Island
+VI,Saint Thomas Island,Saint Thomas Island
+CO,비차다주,Departamento del Vichada
+CO,Departamento del Caquetá,Departamento del Caquetá
+CO,아마소나스주,Amazonas
+CO,라과히라주,Departamento de La Guajira
+CO,우일라주,Departamento del Huila
+CO,과비아레주,Departamento del Guaviare
+CO,과이니아주,Departamento del Guainía
+CO,쿤디나마르카주,Departamento de Cundinamarca
+CO,Departamento de Córdoba,Departamento de Córdoba
+CO,Departamento del Chocó,Departamento del Chocó
+CO,세사르주,Departamento del Cesar
+CO,카우카주,Departamento del Cauca
+CO,카사나레주,Departamento de Casanare
+CO,톨리마주,Departamento de Tolima
+CO,산탄데르주,Departamento de Santander
+CO,푸투마요주,Departamento del Putumayo
+CO,노르테데산탄데르주,Departamento de Norte de Santander
+CO,Departamento de Nariño,Departamento de Nariño
+CO,메타주,Departamento del Meta
+CO,마그달레나주,Departamento del Magdalena
+CO,Departamento del Vaupés,Departamento del Vaupés
+CO,바예델카우카주,Departamento del Valle del Cauca
+CO,Departamento de Boyacá,Departamento de Boyacá
+CO,Departamento de Bolívar,Departamento de Bolívar
+CO,안티오키아주,Departamento de Antioquia
+CO,수크레주,Departamento de Sucre
+CO,"Providencia y Santa Catalina, Departamento de Archipiélago de San Andrés","Providencia y Santa Catalina, Departamento de Archipiélago de San Andrés"
+CO,리사랄다주,Departamento de Risaralda
+CO,킨디오주,Quindío Department
+CO,칼다스주,Departamento de Caldas
+CO,Distrito Capital de Bogotá,Distrito Capital de Bogotá
+CO,Departamento del Atlántico,Departamento del Atlántico
+CO,아라우카주,Departamento de Arauca
+GR,중부 그리스 주,Central Greece
+GR,이오니아 제도 주,Ionian Islands
+GR,북부 에게 주,North Aegean
+GR,남부 에게 주,South Aegean
+GR,아토스 산,Mount Athos
+GR,아티키 주,Attica
+GR,중부 마케도니아 주,Central Macedonia
+GR,크리티 주,Crete
+GR,동부 마케도니아와 트라키 주,Eastern Macedonia and Thrace
+GR,이피로스 주,Epirus
+GR,펠로폰니소스 주,Peloponnese
+GR,테살리아 주,Thessaly
+GR,서부 그리스 주,Western Greece
+GR,서부 마케도니아 주,Western Macedonia
+HR,자그레브 주,Zagreb County
+HR,벨로바르빌로고라 주,Bjelovar-Bilogora County
+HR,브로드포사비나 주,Brod-Posavina County
+HR,두브로브니크네레트바 주,Dubrovnik-Neretva County
+HR,이스트라 주,Istria County
+HR,카를로바츠 주,Karlovac County
+HR,코프리브니차크리제브치 주,Koprivnica-Križevci County
+HR,크라피나자고례 주,Krapina-Zagorje County
+HR,리카센 주,Lika-Senj County
+HR,메지무례 주,Međimurje County
+HR,오시예크바라냐 주,Osijek-Baranja County
+HR,포제가슬라보니아 주,Požega-Slavonia County
+HR,프리모례고르스키코타르 주,Primorje-Gorski Kotar County
+HR,시베니크크닌 주,Šibenik-Knin County
+HR,시사크모슬라비나 주,Sisak-Moslavina County
+HR,스플리트달마티아 주,Split-Dalmatia County
+HR,바라주딘 주,Varaždin County
+HR,부코바르스리옘 주,Vukovar-Srijem County
+HR,자다르 주,Zadar County
+HR,자그레브 직할시,City of Zagreb
+HR,비로비티차포드라비나 주,Virovitica-Podravina County
+MA,Drâa-Tafilalet,Drâa-Tafilalet
+MA,오리앙탈 지방,Oriental
+MA,Fès-Meknès,Fès-Meknès
+MA,Béni Mellal-Khénifra,Béni Mellal-Khénifra
+MA,Marrakesh-Safi,Marrakesh-Safi
+MA,Souss-Massa,Souss-Massa
+MA,Guelmim-Oued Noun,Guelmim-Oued Noun
+MA,Tanger-Tetouan-Al Hoceima,Tanger-Tetouan-Al Hoceima
+MA,Rabat-Salé-Kénitra,Rabat-Salé-Kénitra
+MA,Casablanca-Settat,Casablanca-Settat
+MA,Laâyoune-Sakia El Hamra,Laâyoune-Sakia El Hamra
+MA,Dakhla-Oued Ed-Dahab,Dakhla-Oued Ed-Dahab
+DZ,와르글라 주,Wilaya de Ouargla
+DZ,일리지주,Illizi
+DZ,틴두프주,Wilaya de Tindouf
+DZ,타만라세트주,Wilaya de Tamanrasset
+DZ,Bordj Badji Mokhtar,Bordj Badji Mokhtar
+DZ,Beni Abbes,Beni Abbes
+DZ,In Guezzam,In Guezzam
+DZ,In Salah,In Salah
+DZ,Djanet,Djanet
+DZ,라구아트주,Wilaya de Laghouat
+DZ,엘웨드 주,El Oued
+DZ,엘바야드주,El Bayadh
+DZ,젤파주,Wilaya de Djelfa
+DZ,나마주,Wilaya de Naama
+DZ,베샤르주,Wilaya de Béchar
+DZ,Timimoun,Timimoun
+DZ,El Menia,El Menia
+DZ,수크아라스주,Wilaya de Souk Ahras
+DZ,스키크다 주,Wilaya de Skikda
+DZ,시디벨아베스주,Wilaya de Sidi Bel Abbès
+DZ,세티프주,Wilaya de Sétif
+DZ,Wilaya de Saïda,Wilaya de Saïda
+DZ,밀라주,Wilaya de Mila
+DZ,Wilaya de Médéa,Wilaya de Médéa
+DZ,마스카라주,Wilaya de Mascara
+DZ,콩스탕틴주,Wilaya de Constantine
+DZ,슐레프주,Wilaya de Chlef
+DZ,Wilaya de Boumerdes,Wilaya de Boumerdes
+DZ,부이라주,Wilaya de Bouira
+DZ,보르즈부아레리즈주,Wilaya de Bordj Bou Arréridj
+DZ,블리다주,Wilaya de Blida
+DZ,비스크라주,Wilaya de Biskra
+DZ,Wilaya de Ghardaïa,Wilaya de Ghardaïa
+DZ,엘타르프주,El Tarf
+DZ,렐리잔주,Wilaya de Relizane
+DZ,움엘부아기주,Oum el Bouaghi
+DZ,오랑주,Oran
+DZ,음실라주,M’sila
+DZ,모스타가넴주,Wilaya de Mostaganem
+DZ,Wilaya de Bejaïa,Wilaya de Bejaïa
+DZ,바트나주,Wilaya de Batna
+DZ,안나바주,Annaba
+DZ,알제주,Wilaya d’ Alger
+DZ,아인테무셴트주,Wilaya de Aïn Temouchent
+DZ,아인데플라주,Wilaya de Aïn Defla
+DZ,켄셸라주,Wilaya de Khenchela
+DZ,지젤주,Wilaya de Jijel
+DZ,겔마주,Wilaya de Guelma
+DZ,틀렘센주,Wilaya de Tlemcen
+DZ,티지우주주,Wilaya de Tizi Ouzou
+DZ,티셈실트주,Wilaya de Tissemsilt
+DZ,Wilaya de Tipaza,Wilaya de Tipaza
+DZ,티아레트 주,Wilaya de tiaret kabas
+DZ,테베사주,Wilaya de Tébessa
+DZ,Touggourt,Touggourt
+DZ,El Mghair,El Mghair
+DZ,Ouled Djellal,Ouled Djellal
+DZ,아드라르주,Adrar
+NL,림뷔르흐 주,Provincie Limburg
+NL,오버레이설 주,Provincie Overijssel
+NL,노르트홀란트 주,Provincie Noord-Holland
+NL,노르트브라반트주,Provincie Noord-Brabant
+NL,흐로닝언 주,Provincie Groningen
+NL,헬데를란트 주,Provincie Gelderland
+NL,프리슬란트 주,Provincie Friesland
+NL,드렌터 주,Provincie Drenthe
+NL,플레볼란트 주,Provincie Flevoland
+NL,위트레흐트 주,Provincie Utrecht
+NL,자위트홀란트주,Provincie Zuid-Holland
+NL,제일란트 주,Provincie Zeeland
+SD,북쿠르두판주,North Kordofan
+SD,알자지라주,Al Jazirah State
+SD,백나일주,White Nile
+SD,청나일주,Blue Nile
+SD,남다르푸르주,South Darfur
+SD,동다르푸르주,East Darfur
+SD,홍해주,Red Sea
+SD,알카다리프주,Al Qadarif State
+SD,서다르푸르주,Sultanate Dar Massalit
+SD,서쿠르두판주,West Kordofan State
+SD,남쿠르두판주,South Kordofan
+SD,카살라주,Kassala State
+SD,나일주,River Nile
+SD,북다르푸르주,North Darfur
+SD,센나르주,Sennar
+SD,북부주,Northern
+SD,하르툼주,Khartoum
+SD,중앙다르푸르주,Central Darfur State
+FJ,동부구,Eastern Division
+FJ,서부구,Western Division
+FJ,북부구,Northern Division
+FJ,중부구,Central Division
+FJ,로투마,Rotuma
+LI,Vaduz,Vaduz
+LI,트리젠베르크,Triesenberg
+LI,트리젠,Triesen
+LI,Schellenberg,Schellenberg
+LI,샨,Schaan
+LI,루겔,Ruggell
+LI,Planken,Planken
+LI,마우렌,Mauren
+LI,감프린,Gamprin
+LI,에셴,Eschen
+LI,Balzers,Balzers
+NP,Bagmati Province,Bagmati Province
+NP,Gandaki Pradesh,Gandaki Pradesh
+NP,Lumbini Province,Lumbini Province
+NP,Karnali Province,Karnali Province
+NP,Sudurpashchim Pradesh,Sudurpashchim Pradesh
+NP,Koshi,Koshi
+NP,Madhesh,Madhesh
+PR,Adjuntas,Adjuntas
+PR,Aguadilla,Aguadilla
+PR,Aguas Buenas,Aguas Buenas
+PR,Aibonito,Aibonito
+PR,Añasco,Añasco
+PR,Arecibo,Arecibo
+PR,Barceloneta,Barceloneta
+PR,Bayamón Municipio,Bayamón Municipio
+PR,Cabo Rojo Municipio,Cabo Rojo Municipio
+PR,Caguas Municipio,Caguas Municipio
+PR,Camuy Municipio,Camuy Municipio
+PR,Canóvanas Municipio,Canóvanas Municipio
+PR,Carolina Municipio,Carolina Municipio
+PR,Cataño Municipio,Cataño Municipio
+PR,Cayey Municipio,Cayey Municipio
+PR,Ceiba Municipio,Ceiba Municipio
+PR,Ciales Municipio,Ciales Municipio
+PR,Cidra Municipio,Cidra Municipio
+PR,Coamo Municipio,Coamo Municipio
+PR,Comerío Municipio,Comerío Municipio
+PR,Corozal Municipio,Corozal Municipio
+PR,Dorado Municipio,Dorado Municipio
+PR,Fajardo Municipio,Fajardo Municipio
+PR,Florida Municipio,Florida Municipio
+PR,Guánica Municipio,Guánica Municipio
+PR,Guayama Municipio,Guayama Municipio
+PR,Guayanilla Municipio,Guayanilla Municipio
+PR,Guaynabo Municipio,Guaynabo Municipio
+PR,Gurabo Municipio,Gurabo Municipio
+PR,Hatillo Municipio,Hatillo Municipio
+PR,Hormigueros Municipio,Hormigueros Municipio
+PR,Humacao Municipio,Humacao Municipio
+PR,Municipio de Isabela,Municipio de Isabela
+PR,Municipio de Jayuya,Municipio de Jayuya
+PR,Juana Díaz Municipio,Juana Díaz Municipio
+PR,Municipio de Juncos,Municipio de Juncos
+PR,Lajas Municipio,Lajas Municipio
+PR,Lares Municipio,Lares Municipio
+PR,Las Marías Municipio,Las Marías Municipio
+PR,Las Piedras Municipio,Las Piedras Municipio
+PR,Loíza Municipio,Loíza Municipio
+PR,Luquillo Municipio,Luquillo Municipio
+PR,Manatí Municipio,Manatí Municipio
+PR,Maricao Municipio,Maricao Municipio
+PR,Maunabo Municipio,Maunabo Municipio
+PR,Mayagüez Municipio,Mayagüez Municipio
+PR,Moca Municipio,Moca Municipio
+PR,Morovis Municipio,Morovis Municipio
+PR,Naguabo Municipio,Naguabo Municipio
+PR,Naranjito Municipio,Naranjito Municipio
+PR,Orocovis Municipio,Orocovis Municipio
+PR,Patillas Municipio,Patillas Municipio
+PR,Peñuelas Municipio,Peñuelas Municipio
+PR,Ponce Municipio,Ponce Municipio
+PR,Rincón Municipio,Rincón Municipio
+PR,Quebradillas Municipio,Quebradillas Municipio
+PR,Río Grande Municipio,Río Grande Municipio
+PR,Sabana Grande Municipio,Sabana Grande Municipio
+PR,Salinas Municipio,Salinas Municipio
+PR,San Germán Municipio,San Germán Municipio
+PR,San Juan,San Juan
+PR,San Lorenzo Municipio,San Lorenzo Municipio
+PR,San Sebastián Municipio,San Sebastián Municipio
+PR,Santa Isabel Municipio,Santa Isabel Municipio
+PR,Toa Alta Municipio,Toa Alta Municipio
+PR,Toa Baja Municipio,Toa Baja Municipio
+PR,Trujillo Alto Municipio,Trujillo Alto Municipio
+PR,Utuado Municipio,Utuado Municipio
+PR,Vega Alta Municipio,Vega Alta Municipio
+PR,Vega Baja Municipio,Vega Baja Municipio
+PR,Villalba Municipio,Villalba Municipio
+PR,Yabucoa Municipio,Yabucoa Municipio
+PR,Yauco Municipio,Yauco Municipio
+PR,Vieques Municipality,Vieques Municipality
+PR,Aguada,Aguada
+PR,Arroyo,Arroyo
+PR,Barranquitas,Barranquitas
+PR,Culebra Municipio,Culebra Municipio
+GE,크베모카르틀리 주,Kvemo Kartli
+GE,카헤티 주,Kakheti
+GE,구리아 주,Guria
+GE,이메레티주,Imereti
+GE,시다카르틀리 주,Shida Kartli
+GE,므츠헤타므티아네티 주,Mtskheta-Mtianeti
+GE,라차레츠후미크베모스바네티 주,Racha-Lechkhumi and Kvemo Svaneti
+GE,사메그렐로제모스바네티 주,Samegrelo-Zemo Svanetis Mkhare
+GE,삼츠헤자바헤티 주,Samtskhe-Javakheti
+GE,압하스,Abkhazia
+GE,트빌리시,K'alak'i T'bilisi
+GE,아자리야 공화국,Adjara
+PK,발루치스탄주,Balochistan
+PK,신드주,Sindh
+PK,펀자브주,Punjab Province
+PK,카이베르파크툰크와주,Khyber Pakhtunkhwa Province
+PK,이슬라마바드 수도권,Islamabad
+PK,아자드 카슈미르,Azad Jammu and Kashmir
+PK,길기트발티스탄,Gilgit-Baltistan
+MC,Commune de Monaco,Commune de Monaco
+BW,크갈라가디구,Kgalagadi District
+BW,중부구,Central District
+BW,남부구,Southern District
+BW,북서부구,North West District
+BW,퀘넹구,Kweneng District
+BW,간지구,Ghanzi District
+BW,South East District,South East District
+BW,North East District,North East District
+BW,크가틀렝구,Kgatleng District
+BW,Chobe District,Chobe District
+BW,City of Francistown,City of Francistown
+BW,Gaborone,Gaborone
+BW,Jwaneng,Jwaneng
+BW,Lobatse,Lobatse
+BW,Selibe Phikwe,Selibe Phikwe
+BW,Sowa Town,Sowa Town
+LB,Mohafazat Nabatîyé,Mohafazat Nabatîyé
+LB,Mohafazat Mont-Liban,Mohafazat Mont-Liban
+LB,Beyrouth,Beyrouth
+LB,Mohafazat Liban-Nord,Mohafazat Liban-Nord
+LB,남부주,Mohafazat Liban-Sud
+LB,Mohafazat Béqaa,Mohafazat Béqaa
+LB,Mohafazat Aakkâr,Mohafazat Aakkâr
+LB,바알베크헤르멜주,Mohafazat Baalbek-Hermel
+PG,Bougainville,Bougainville
+PG,뉴아일랜드주,New Ireland Province
+PG,밀른베이주,Milne Bay Province
+PG,서부주,Western Province
+PG,오로주,Northern Province
+PG,모로베주,Morobe Province
+PG,마누스주,Manus Province
+PG,마당주,Madang Province
+PG,서던하일랜즈 주,Southern Highlands Province
+PG,산다운주,West Sepik Province
+PG,걸프주,Gulf Province
+PG,동세픽주,East Sepik Province
+PG,동뉴브리튼주,East New Britain Province
+PG,중앙주,Central Province
+PG,서뉴브리튼주,West New Britain Province
+PG,National Capital District,National Capital District
+PG,엥가주,Enga Province
+PG,이스턴하일랜즈 주,Eastern Highlands Province
+PG,심부주,Chimbu Province
+PG,웨스턴하일랜즈 주,Western Highlands Province
+PG,헬라주,Hela
+PG,지와카주,Jiwaka
+YT,Acoua,Acoua
+YT,Bandraboua,Bandraboua
+YT,Bandrele,Bandrele
+YT,Bouéni,Bouéni
+YT,Chiconi,Chiconi
+YT,Chirongui,Chirongui
+YT,Dembeni,Dembeni
+YT,Dzaoudzi,Dzaoudzi
+YT,Kani-Kéli,Kani-Kéli
+YT,Koungou,Koungou
+YT,Mamoudzou,Mamoudzou
+YT,Mtsamboro,Mtsamboro
+YT,M'Tsangamouji,M'Tsangamouji
+YT,Ouangani,Ouangani
+YT,Pamandzi,Pamandzi
+YT,Sada,Sada
+YT,Tsingoni,Tsingoni
+DO,Provincia de Santiago Rodríguez,Provincia de Santiago Rodríguez
+DO,산티아고주,Provincia de Santiago
+DO,산페드로데마코리스주,Provincia de San Pedro de Macorís
+DO,산후안주,Provincia de San Juan
+DO,Provincia de San Cristóbal,Provincia de San Cristóbal
+DO,Provincia Sánchez Ramírez,Provincia Sánchez Ramírez
+DO,사마나주,Samaná Province
+DO,Provincia de Hermanas Mirabal,Provincia de Hermanas Mirabal
+DO,푸에르토플라타주,Provincia de Puerto Plata
+DO,Provincia de Peravia,Provincia de Peravia
+DO,페데르날레스주,Provincia de Pedernales
+DO,국가 지구,Distrito Nacional
+DO,몬테플라타주,Provincia de Monte Plata
+DO,몬테크리스티주,Provincia de Monte Cristi
+DO,Provincia de Monseñor Nouel,Provincia de Monseñor Nouel
+DO,Provincia María Trinidad Sánchez,Provincia María Trinidad Sánchez
+DO,Provincia de La Vega,Provincia de La Vega
+DO,라로마나주,Provincia de La Romana
+DO,라알타그라시아주,Provincia de La Altagracia
+DO,인데펜덴시아주,Provincia de Independencia
+DO,아토마요르주,Provincia de Hato Mayor
+DO,에스파이야트주,Provincia Espaillat
+DO,Provincia de El Seibo,Provincia de El Seibo
+DO,Provincia de Elías Piña,Provincia de Elías Piña
+DO,두아르테주,Provincia Duarte
+DO,Provincia de Dajabón,Provincia de Dajabón
+DO,바라오나주,Provincia de Barahona
+DO,바오루코주,Provincia de Baoruco
+DO,아수아주,Provincia de Azua
+DO,발베르데주,Provincia de Valverde
+DO,Provincia de San José de Ocoa,Provincia de San José de Ocoa
+DO,산토도밍고주,Provincia de Santo Domingo
+QA,Baladīyat ash Shamāl,Baladīyat ash Shamāl
+QA,알코르,Baladīyat al Khawr wa adh Dhakhīrah
+QA,움살랄,Baladīyat Umm Şalāl
+QA,Baladīyat ar Rayyān,Baladīyat ar Rayyān
+QA,Baladīyat ad Dawḩah,Baladīyat ad Dawḩah
+QA,Al Wakrah,Al Wakrah
+QA,알다옌,Baladīyat az̧ Z̧a‘āyin
+QA,Al-Shahaniya,Al-Shahaniya
+MG,Diana Region,Diana Region
+MG,Sava Region,Sava Region
+MG,Sofia Region,Sofia Region
+MG,Analanjirofo Region,Analanjirofo Region
+MG,Boeny Region,Boeny Region
+MG,Betsiboka Region,Betsiboka Region
+MG,Alaotra Mangoro Region,Alaotra Mangoro Region
+MG,Melaky Region,Melaky Region
+MG,Atsinanana Region,Atsinanana Region
+MG,Menabe Region,Menabe Region
+MG,Ihorombe Region,Ihorombe Region
+MG,Anosy Region,Anosy Region
+MG,Atsimo-Andrefana Region,Atsimo-Andrefana Region
+MG,Bongolava Region,Bongolava Region
+MG,Vakinankaratra Region,Vakinankaratra Region
+MG,Itasy Region,Itasy Region
+MG,Analamanga Region,Analamanga Region
+MG,Amoron'i Mania Region,Amoron'i Mania Region
+MG,Haute Matsiatra Region,Haute Matsiatra Region
+MG,Atsimo-Atsinanana Region,Atsimo-Atsinanana Region
+MG,Androy Region,Androy Region
+MG,Fitovinany Region,Fitovinany Region
+MG,Vatovavy Region,Vatovavy Region
+IN,서벵골 주,West Bengal
+IN,차티스가르 주,State of Chhattīsgarh
+IN,자르칸드 주,State of Jhārkhand
+IN,State of Uttarākhand,State of Uttarākhand
+IN,비하르 주,State of Bihar
+IN,아삼 주,Assam
+IN,안드라프라데시 주,State of Andhra Pradesh
+IN,안다만 니코바르 제도,Union Territory of Andaman and Nicobar Islands
+IN,State of Odisha,State of Odisha
+IN,라자스탄 주,State of Rājasthān
+IN,펀자브 주,State of Punjab
+IN,푸두체리,Union Territory of Puducherry
+IN,마하라슈트라 주,State of Mahārāshtra
+IN,마디아프라데시 주,Madhya Pradesh
+IN,Union Territory of Lakshadweep,Union Territory of Lakshadweep
+IN,케랄라 주,State of Kerala
+IN,카르나타카 주,State of Karnataka
+IN,우타르프라데시 주,Uttar Pradesh
+IN,텔랑가나 주,State of Telangāna
+IN,타밀나두 주,State of Tamil Nādu
+IN,히마찰프라데시 주,State of Himāchal Pradesh
+IN,하리아나 주,State of Haryāna
+IN,구자라트 주,State of Gujarāt
+IN,라다크,Ladakh
+IN,아루나찰프라데시 주,State of Arunāchal Pradesh
+IN,나갈랜드 주,State of Nāgāland
+IN,미조람 주,Mizoram
+IN,메갈라야 주,Meghālaya
+IN,마니푸르 주,Manipur
+IN,State of Jammu and Kashmīr,State of Jammu and Kashmīr
+IN,트리푸라 주,Tripura
+IN,시킴 주,Sikkim
+IN,Dadra and Nagar Haveli and Daman and Diu,Dadra and Nagar Haveli and Daman and Diu
+IN,National Capital Territory of Delhi,National Capital Territory of Delhi
+IN,찬디가르,Union Territory of Chandigarh
+IN,고아 주,Goa
+PK,아자드 카슈미르,Azad Jammu and Kashmir
+PK,길기트발티스탄,Gilgit-Baltistan
+SY,하사카주,Al-Hasakah Governorate
+SY,홈스주,Homs Governorate
+SY,데이르에조르주,Deir ez-Zor Governorate
+SY,Ar-Raqqah Governorate,Ar-Raqqah Governorate
+SY,라타키아주,Latakia Governorate
+SY,다마스쿠스주,Damascus Governorate
+SY,이들리브주,Idlib Governorate
+SY,하마주,Hama Governorate
+SY,알레포주,Aleppo Governorate
+SY,타르투스주,Tartus Governorate
+SY,리프디마슈크주,Damascus Countryside
+SY,다라주,Daraa Governorate
+SY,수와이다주,As-Suwayda Governorate
+SY,쿠네이트라주,Quneitra Governorate
+ME,Opština Rožaje,Opština Rožaje
+ME,헤르체그노비,Herceg Novi
+ME,코토르,Kotor
+ME,Opština Kolašin,Opština Kolašin
+ME,Berane,Berane
+ME,Opština Šavnik,Opština Šavnik
+ME,Opština Plužine,Opština Plužine
+ME,Pljevlja,Pljevlja
+ME,Opština Plav,Opština Plav
+ME,Tivat,Tivat
+ME,Podgorica,Podgorica
+ME,Danilovgrad,Danilovgrad
+ME,Cetinje,Cetinje
+ME,Budva,Budva
+ME,비옐로폴레,Bijelo Polje
+ME,Bar,Bar
+ME,Opština Nikšić,Opština Nikšić
+ME,모이코바츠,Mojkovac
+ME,Andrijevica,Andrijevica
+ME,Opština Žabljak,Opština Žabljak
+ME,Ulcinj,Ulcinj
+ME,Tuzi,Tuzi
+ME,Gusinje,Gusinje
+ME,Petnjica,Petnjica
+ME,Zeta,Zeta
+SZ,Shiselweni District,Shiselweni District
+SZ,만지니구,Manzini
+SZ,루봄보구,Lubombo District
+SZ,호호구,Hhohho
+PY,프레시덴테아예스주,Departamento de Presidente Hayes
+PY,알토파라과이주,Departamento de Alto Paraguay
+PY,Departamento de Boquerón,Departamento de Boquerón
+PY,Asunción,Asunción
+PY,산페드로주,Departamento de San Pedro
+PY,Departamento de Paraguarí,Departamento de Paraguarí
+PY,Departamento de Ñeembucú,Departamento de Ñeembucú
+PY,미시오네스주,Departamento de Misiones
+PY,이타푸아주,Departamento de Itapúa
+PY,Departamento del Guairá,Departamento del Guairá
+PY,코르디예라주,Departamento de la Cordillera
+PY,Departamento de Concepción,Departamento de Concepción
+PY,센트랄주,Departamento Central
+PY,카닌데유주,Departamento de Canindeyú
+PY,카사파주,Departamento de Caazapá
+PY,Departamento de Caaguazú,Departamento de Caaguazú
+PY,아맘바이주,Departamento del Amambay
+PY,Departamento del Alto Paraná,Departamento del Alto Paraná
+SV,Departamento de Usulután,Departamento de Usulután
+SV,손소나테주,Departamento de Sonsonate
+SV,산비센테주,Departamento de San Vicente
+SV,산타아나주,Departamento de Santa Ana
+SV,산살바도르주,Departamento de San Salvador
+SV,산미겔주,Departamento de San Miguel
+SV,Departamento de Morazán,Departamento de Morazán
+SV,Departamento de La Unión,Departamento de La Unión
+SV,라파스주,Departamento de La Paz
+SV,라리베르타드주,Departamento de La Libertad
+SV,Departamento de Cuscatlán,Departamento de Cuscatlán
+SV,찰라테낭고주,Departamento de Chalatenango
+SV,Departamento de Cabañas,Departamento de Cabañas
+SV,Departamento de Ahuachapán,Departamento de Ahuachapán
+UA,키로보흐라드주,Kirovohrad Oblast
+UA,Kherson Oblast,Kherson Oblast
+UA,하르키우주,Kharkivska Oblast
+UA,도네츠크주,Donetska Oblast
+UA,Dnipropetrovsk Oblast,Dnipropetrovsk Oblast
+UA,체르니히우주,Chernihivska Oblast
+UA,체르카시주,Cherkasy Oblast
+UA,오데사주,Odeska Oblast
+UA,미콜라이우주,Mykolayiv Oblast
+UA,르비우주,Lvivska Oblast
+UA,Rivnenska Oblast,Rivnenska Oblast
+UA,폴타바주,Poltava Oblast
+UA,수미주,Sumska Oblast
+UA,루한스크주,Luhanska Oblast
+UA,Kyiv Oblast,Kyiv Oblast
+UA,크림 자치 공화국,Autonomous Republic of Crimea
+UA,Zhytomyrska Oblast,Zhytomyrska Oblast
+UA,자포리자주,Zaporizhzhya Oblast
+UA,이바노프란키우스크주,Ivano-Frankivsk Oblast
+UA,흐멜니츠키주,Khmelnytskyi Oblast
+UA,Chernivtsi Oblast,Chernivtsi Oblast
+UA,Sebastopol City,Sebastopol City
+UA,테르노필주,Ternopil Oblast
+UA,볼린주,Volynska Oblast
+UA,빈니차주,Vinnytsya Oblast
+UA,Misto Kyiv,Misto Kyiv
+UA,자카르파탸주,Zakarpattia Oblast
+IM,Ballaugh,Ballaugh
+IM,Braddan,Braddan
+IM,German,German
+IM,Lonan,Lonan
+IM,Santon,Santon
+IM,Andreas,Andreas
+IM,Arbory,Arbory
+IM,Bride,Bride
+IM,Castletown,Castletown
+IM,Douglas,Douglas
+IM,Jurby,Jurby
+IM,Laxey,Laxey
+IM,Lezayre,Lezayre
+IM,Malew,Malew
+IM,Marown,Marown
+IM,Maughold,Maughold
+IM,Michael,Michael
+IM,Onchan,Onchan
+IM,Patrick,Patrick
+IM,Peel,Peel
+IM,Port Erin,Port Erin
+IM,Port St Mary,Port St Mary
+IM,Ramsey,Ramsey
+IM,Rushen,Rushen
+NA,하르다프주,Hardap
+NA,카라스주,Karas
+NA,쿠네네주,Kunene
+NA,오초존주파주,Otjozondjupa
+NA,에롱고주,Erongo
+NA,오마헤케주,Omaheke
+NA,오시코토주,Oshikoto
+NA,호마스주,Khomas
+NA,동카방고주,Kavango East Region
+NA,카프리비 주,Zambezi Region
+NA,오항궤나주,Ohangwena
+NA,오무사티주,Omusati
+NA,오샤나주,Oshana
+NA,서카방고주,Kavango West Region
+AE,아부다비의 토후국,Abu Dhabi
+AE,Imārat Umm al Qaywayn,Imārat Umm al Qaywayn
+AE,Imārat Ra’s al Khaymah,Imārat Ra’s al Khaymah
+AE,Dubai,Dubai
+AE,Ash Shāriqah,Ash Shāriqah
+AE,Imārat al Fujayrah,Imārat al Fujayrah
+AE,Imārat ‘Ajmān,Imārat ‘Ajmān
+BG,가브로보 주,Gabrovo
+BG,Oblast Kardzhali,Oblast Kardzhali
+BG,Oblast Kyustendil,Oblast Kyustendil
+BG,Oblast Shumen,Oblast Shumen
+BG,Oblast Silistra,Oblast Silistra
+BG,Oblast Sliven,Oblast Sliven
+BG,Oblast Smolyan,Oblast Smolyan
+BG,Oblast Stara Zagora,Oblast Stara Zagora
+BG,Oblast Targovishte,Oblast Targovishte
+BG,Oblast Veliko Tarnovo,Oblast Veliko Tarnovo
+BG,Oblast Vidin,Oblast Vidin
+BG,Oblast Yambol,Oblast Yambol
+BG,Lovech,Lovech
+BG,Haskovo,Haskovo
+BG,Sofia-Grad,Sofia-Grad
+BG,Oblast Vratsa,Oblast Vratsa
+BG,Varna,Varna
+BG,Oblast Dobrich,Oblast Dobrich
+BG,소피아 주,Sofia
+BG,Oblast Ruse,Oblast Ruse
+BG,Plovdiv,Plovdiv
+BG,Oblast Pleven,Oblast Pleven
+BG,Pernik,Pernik
+BG,Pazardzhik,Pazardzhik
+BG,Burgas,Burgas
+BG,Blagoevgrad,Blagoevgrad
+BG,Oblast Razgrad,Oblast Razgrad
+BG,Oblast Montana,Oblast Montana
+GL,세르메르소크,Sermersooq
+GL,Avannaata,Avannaata
+GL,쿠얄레크,Kujalleq
+GL,케카타,Qeqqata
+GL,Qeqertalik,Qeqertalik
+DE,헤센 주,Hessen
+DE,슐레스비히홀슈타인 주,Schleswig-Holstein
+DE,작센안할트 주,Saxony-Anhalt
+DE,노르트라인베스트팔렌 주,Nordrhein-Westfalen
+DE,니더작센 주,Lower Saxony
+DE,메클렌부르크포어포메른 주,Mecklenburg-Western Pomerania
+DE,브란덴부르크 주,Brandenburg
+DE,바덴뷔르템베르크주,Baden-Württemberg
+DE,바이에른 자유주,Bavaria
+DE,자유 한자 도시 함부르크,Free and Hanseatic City of Hamburg
+DE,라인란트팔츠주,Rheinland-Pfalz
+DE,작센 자유주,Saxony
+DE,자를란트주,Saarland
+DE,튀링겐 자유주,Thuringia
+DE,자유 한자 도시 브레멘,Bremen
+DE,베를린,Land Berlin
+KH,스퉁트렝주,Stung Treng
+KH,Ŏtâr Méanchey,Ŏtâr Méanchey
+KH,Siem Reap,Siem Reap
+KH,라타나키리주,Ratanakiri
+KH,프레이벵주,Prey Veng
+KH,프레아비헤아르주,Preah Vihear
+KH,Phnom Penh,Phnom Penh
+KH,파일린,Pailin
+KH,Mondolkiri,Mondolkiri
+KH,Kratie,Kratie
+KH,케프,Kep
+KH,코콩 주,Koh Kong
+KH,칸달주,Kandal
+KH,캄포트주,Kampot
+KH,캄퐁톰주,Kampong Thom
+KH,캄퐁스페우주,Kampong Speu
+KH,캄퐁치낭주,Kampong Chhnang
+KH,캄퐁참주,Kampong Cham
+KH,푸르사트주,Pursat
+KH,바탐방주,Battambang
+KH,Takeo,Takeo
+KH,스바이리엥주,Svay Rieng
+KH,시아누크빌,Preah Sihanouk
+KH,반테아이메안체이주,Banteay Meanchey
+KH,Tboung Khmum,Tboung Khmum
+IQ,안바르주,Muḩāfaz̧at al Anbār
+IQ,An Najaf,An Najaf
+IQ,무탄나주,Muḩāfaz̧at al Muthanná
+IQ,Muḩāfaz̧at al Başrah,Muḩāfaz̧at al Başrah
+IQ,살라딘주,Muhafazat Salah ad Din
+IQ,Muḩāfaz̧at Nīnawá,Muḩāfaz̧at Nīnawá
+IQ,Muḩāfaz̧at al Qādisīyah,Muḩāfaz̧at al Qādisīyah
+IQ,Muhafazat Wasit,Muhafazat Wasit
+IQ,마이산주,Muḩāfaz̧at Maysān
+IQ,Muḩāfaz̧at Karbalā’,Muḩāfaz̧at Karbalā’
+IQ,Erbil,Erbil
+IQ,디얄라주,Diyālá
+IQ,디카르주,Muḩāfaz̧at Dhī Qār
+IQ,다후크주,Dihok
+IQ,바그다드주,Baghdad Governorate
+IQ,Muḩāfaz̧at Bābil,Muḩāfaz̧at Bābil
+IQ,Kirkuk,Kirkuk
+IQ,Muḩāfaz̧at as Sulaymānīyah,Muḩāfaz̧at as Sulaymānīyah
+IQ,Halabja Governorate,Halabja Governorate
+TF,Archipel des Kerguelen,Archipel des Kerguelen
+TF,Archipel des Crozet,Archipel des Crozet
+TF,Îles Saint-Paul et Nouvelle-Amsterdam,Îles Saint-Paul et Nouvelle-Amsterdam
+TF,Îles Éparses de l'océan Indien,Îles Éparses de l'océan Indien
+TF,La Terre-Adélie,La Terre-Adélie
+SE,노르보텐주,Norrbotten County
+SE,예블레보리주,Gävleborg County
+SE,달라르나주,Dalarna County
+SE,옘틀란드주,Jämtland County
+SE,베스테르노를란드주,Västernorrland County
+SE,베스테르보텐주,Västerbotten County
+SE,베스트라예탈란드주,Västra Götaland County
+SE,할란드주,Halland County
+SE,블레킹에주,Blekinge County
+SE,고틀란드주,Gotland County
+SE,크로노베리주,Kronoberg County
+SE,Stockholm County,Stockholm County
+SE,쇠데르만란드주,Södermanland County
+SE,옌셰핑주,Jönköping County
+SE,베스트만란드주,Västmanland County
+SE,베름란드주,Värmland County
+SE,웁살라주,Uppsala County
+SE,외스테르예틀란드주,Östergötland County
+SE,스코네주,Skåne County
+SE,칼마르주,Kalmar County
+SE,외레브로주,Örebro County
+CU,Provincia de Camagüey,Provincia de Camagüey
+CU,아르테미사주,Artemisa
+CU,마야베케주,Provincia Mayabeque
+CU,상크티스피리투스주,Provincia de Sancti Spíritus
+CU,Provincia de Pinar del Río,Provincia de Pinar del Río
+CU,마탄사스주,Provincia de Matanzas
+CU,Municipio Especial Isla de la Juventud,Municipio Especial Isla de la Juventud
+CU,올긴주,Provincia de Holguín
+CU,관타나모주,Provincia de Guantánamo
+CU,그란마주,Provincia Granma
+CU,비야클라라주,Provincia de Villa Clara
+CU,산티아고데쿠바주,Provincia de Santiago de Cuba
+CU,La Habana,La Habana
+CU,시엔푸에고스주,Provincia de Cienfuegos
+CU,시에고데아빌라주,Provincia de Ciego de Ávila
+CU,라스투나스주,Las Tunas
+KG,밧켄주,Batken
+KG,오시주,Osh Oblasty
+KG,잘랄아바트주,Jalal-Abad oblast
+KG,추이주,Chuyskaya Oblast’
+KG,탈라스주,Talas
+KG,나린주,Naryn oblast
+KG,이식쿨주,Issyk-Kul Region
+KG,Gorod Bishkek,Gorod Bishkek
+KG,Osh City,Osh City
+RU,아무르주,Amur Oblast
+RU,하바롭스크 지방,Khabarovskiy Kray
+RU,Irkutsk Oblast,Irkutsk Oblast
+RU,프리모르스키 지방,Primorskiy Kray
+RU,Krasnoyarskiy Kray,Krasnoyarskiy Kray
+RU,옴스크주,Omsk Oblast
+RU,노보시비르스크주,Novosibirsk Oblast
+RU,Khanty-Mansiyskiy Avtonomnyy Okrug-Yugra,Khanty-Mansiyskiy Avtonomnyy Okrug-Yugra
+RU,Kemerovo Oblast,Kemerovo Oblast
+RU,알타이 공화국,Respublika Altay
+RU,첼랴빈스크주,Chelyabinsk Oblast
+RU,스베르들롭스크주,Sverdlovsk Oblast
+RU,야말로네네츠 자치구,Yamalo-Nenetskiy Avtonomnyy Okrug
+RU,튜멘주,Tyumenskaya Oblast’
+RU,투바 공화국,Respublika Tyva
+RU,알타이 지방,Altayskiy Kray
+RU,코미 공화국,Komi
+RU,칼미크 공화국,Kalmykiya
+RU,카렐리야 공화국,Respublika Kareliya
+RU,키로프주,Kirov Oblast
+RU,네네츠 자치구,Nenetskiy Avtonomnyy Okrug
+RU,페름 지방,Perm Krai
+RU,Orenburg Oblast,Orenburg Oblast
+RU,로스토프주,Rostov Oblast
+RU,사라토프주,Saratovskaya Oblast
+RU,무르만스크주,Murmansk Oblast
+RU,볼로그다주,Vologda Oblast
+RU,볼고그라드주,Volgograd Oblast
+RU,트베리주,Tver Oblast
+RU,바시키르 공화국,Bashkortostan
+RU,아르한겔스크주,Arkhangelsk Oblast
+RU,Transbaikal Territory,Transbaikal Territory
+RU,축치 자치구,Chukotskiy Avtonomnyy Okrug
+RU,사할린주,Sakhalin Oblast
+RU,Respublika Buryatiya,Respublika Buryatiya
+RU,마가단주,Magadan Oblast
+RU,캄차카,Kamchatka Krai
+RU,유대인 자치주,Yevrey (Jewish) Autonomous Oblast
+RU,쿠르간주,Kurgan Oblast
+RU,하카스 공화국,Respublika Khakasiya
+RU,블라디미르주,Vladimirskaya Oblast’
+RU,마리옐 공화국,Respublika Mariy-El
+RU,코스트로마주,Kostroma Oblast
+RU,칼루가주,Kaluga Oblast
+RU,레닌그라드주,Leningrad Oblast
+RU,쿠르스크주,Kursk Oblast
+RU,펜자주,Penza Oblast
+RU,노브고로드주,Novgorod Oblast
+RU,오룔주,Oryol Oblast
+RU,랴잔주,Ryazan Oblast
+RU,사마라주,Samara Oblast
+RU,프스코프주,Pskov Oblast
+RU,모스크바주,Moscow Oblast
+RU,모르도바 공화국,Respublika Mordoviya
+RU,스타브로폴 지방,Stavropol Kray
+RU,보로네시주,Voronezh Oblast
+RU,스몰렌스크주,Smolensk Oblast
+RU,울리야놉스크 주,Ulyanovsk Oblast
+RU,Udmurtskaya Respublika,Udmurtskaya Respublika
+RU,야로슬라블주,Yaroslavl Oblast
+RU,Tatarstan,Tatarstan
+RU,탐보프주,Tambov Oblast
+RU,크라스노다르 지방,Krasnodarskiy Kray
+RU,니즈니노브고로드주,Nizhny Novgorod Oblast
+RU,다게스탄 공화국,Dagestan
+RU,벨고로드주,Belgorod Oblast
+RU,브랸스크주,Bryansk Oblast
+RU,아스트라한주,Astrakhan Oblast
+RU,리페츠크주,Lipetsk Oblast
+RU,카라차예보체르케스카야 공화국,Karachayevo-Cherkesiya
+RU,칼리닌그라드주,Kaliningrad Oblast
+RU,카바르디노발카르 공화국,Kabardino-Balkarskaya Respublika
+RU,이바노보주,Ivanovo Oblast
+RU,상트페테르부르크,Sankt-Peterburg
+RU,북오세티야 공화국,North Ossetia-Alania
+RU,Moskva,Moskva
+RU,툴라주,Tula Oblast
+RU,Respublika Ingushetiya,Respublika Ingushetiya
+RU,추바시 공화국,Chuvashskaya Respublika
+RU,체첸 공화국,Chechenskaya Respublika
+RU,아디게야 공화국,Respublika Adygeya
+RU,Republic of Sakha (Yakutia),Republic of Sakha (Yakutia)
+RU,Tomsk Oblast,Tomsk Oblast
+MY,사라왁주,Sarawak
+MY,사바주,Sabah
+MY,페락주,Perak
+MY,파항주,Pahang
+MY,조호르주,Johor
+MY,Melaka,Melaka
+MY,트렝가누주,Terengganu
+MY,슬랑오르주,Selangor
+MY,프를리스주,Perlis
+MY,느그리슴빌란주,Negeri Sembilan
+MY,클란탄주,Kelantan
+MY,Kuala Lumpur,Kuala Lumpur
+MY,피낭주,Pulau Pinang
+MY,크다주,Kedah
+MY,Labuan,Labuan
+MY,Putrajaya,Putrajaya
+ST,상투메 섬,São Tomé
+ST,프린시페 섬,Príncipe
+CY,파포스 구,Paphos District
+CY,니코시아 구,Nicosia District
+CY,리마솔 구,Limassol District
+CY,라르나카 구,Eparchía Lárnakas
+CY,키레니아 구,Kyrenia District
+CY,파마구스타 구,Famagusta District
+CA,유콘 준주,Yukon
+CA,서스캐처원 주,Saskatchewan
+CA,브리티시컬럼비아 주,British Columbia
+CA,매니토바 주,Manitoba
+CA,온타리오 주,Ontario
+CA,노바스코샤 주,Nova Scotia
+CA,Québec,Québec
+CA,뉴펀들랜드,Newfoundland and Labrador
+CA,뉴브런즈윅 주,New Brunswick/Nouveau-Brunswick
+CA,Northwest Territories,Northwest Territories
+CA,누나부트 준주,Nunavut
+CA,프린스에드워드아일랜드 주,Prince Edward Island
+CA,앨버타 주,Alberta
+MW,중부주,Central Region
+MW,북부주,Northern Region
+MW,남부주,Southern Region
+SA,동부주,Eastern Province
+SA,리야드주,Riyadh Region
+SA,Medina Region,Medina Region
+SA,Al Jawf Region,Al Jawf Region
+SA,Northern Borders Region,Northern Borders Region
+SA,Mecca Region,Mecca Region
+SA,Ha'il Region,Ha'il Region
+SA,타부크주,Tabuk Region
+SA,아시르주,'Asir Region
+SA,Al-Qassim Region,Al-Qassim Region
+SA,나즈란 주,Najran Region
+SA,Jazan Region,Jazan Region
+SA,Al Bahah Region,Al Bahah Region
+BA,Federation of Bosnia and Herzegovina,Federation of Bosnia and Herzegovina
+BA,Republika Srpska,Republika Srpska
+BA,브르치코 행정구,Brčko District
+ET,아파르주,Afar Region
+ET,암하라주,Amhara Region
+ET,오로미아주,Oromiya Region
+ET,소말리주,Somali Region
+ET,감벨라주,Gambela Region
+ET,티그라이주,Tigray Region
+ET,Addis Ababa,Addis Ababa
+ET,디레다와,Dire Dawa Region
+ET,하라리주,Harari Region
+ET,베니샹굴구무즈주,Benishangul-Gumuz Region
+ET,Sidama Region,Sidama Region
+ET,Central Ethiopia Regional State,Central Ethiopia Regional State
+ET,South Ethiopia Regional State,South Ethiopia Regional State
+ET,South West Ethiopia Peoples' Region,South West Ethiopia Peoples' Region
+ES,카나리아 제도,Canary Islands
+ES,카스티야라만차 지방,Castilla-La Mancha
+ES,에스트레마두라 지방,Extremadura
+ES,발렌시아 지방,Comunitat Valenciana
+ES,발레아레스 제도,Comunitat Autònoma de les Illes Balears
+ES,아라곤 지방,Aragon
+ES,카스티야이레온 지방,Castilla y León
+ES,무르시아 지방,Región de Murcia
+ES,세우타,Ceuta
+ES,라리오하 지방,La Rioja
+ES,칸타브리아 지방,Cantabria
+ES,아스투리아스 지방,Principality of Asturias
+ES,나바라 지방,Navarra
+ES,마드리드 지방,Comunidad de Madrid
+ES,멜리야,Melilla
+ES,안달루시아 지방,Andalusia
+ES,카탈루냐 지방,Catalunya
+ES,갈리시아 지방,Galicia
+ES,바스크 지방,Euskal Autonomia Erkidegoa
+SI,아이도우슈치나,Občina Ajdovščina
+SI,이드리야,Idrija
+SI,흐라스트니크 지방 자치제,Hrastnik
+SI,Grosuplje,Grosuplje
+SI,Gornja Radgona,Gornja Radgona
+SI,Dravograd,Dravograd
+SI,Občina Domžale,Občina Domžale
+SI,Litija,Litija
+SI,Lenart,Lenart
+SI,라슈코,Občina Laško
+SI,Krško,Krško
+SI,코페르,Koper
+SI,Občina Kočevje,Občina Kočevje
+SI,Kamnik,Kamnik
+SI,Jesenice,Jesenice
+SI,이졸라,Izola
+SI,일리르스카비스트리차,Ilirska Bistrica
+SI,Ribnica,Ribnica
+SI,라도울리차,Radovljica
+SI,Radlje ob Dravi,Radlje ob Dravi
+SI,프투이,Ptuj
+SI,포스토이나,Postojna
+SI,Piran,Piran
+SI,트레브네 지방 자치제,Trebnje
+SI,Trbovlje,Trbovlje
+SI,Občina Tolmin,Občina Tolmin
+SI,Velenje,Velenje
+SI,Občina Šmarje pri Jelšah,Občina Šmarje pri Jelšah
+SI,슬로벤스케코니체,Slovenske Konjice
+SI,슬로벤스카비스트리차,Slovenska Bistrica
+SI,Slovenj Gradec,Slovenj Gradec
+SI,슈코퍄로카 지방 자치제,Občina Škofja Loka
+SI,Občina Sežana,Občina Sežana
+SI,세브니차 지방 자치제,Sevnica
+SI,센튜르 지방 자치제,Občina Šentjur
+SI,치르노멜 지방 자치제,Občina Črnomelj
+SI,Celje,Celje
+SI,Občina Brežice,Občina Brežice
+SI,Občina Ormož,Občina Ormož
+SI,Mestna Občina Novo mesto,Mestna Občina Novo mesto
+SI,Nova Gorica,Nova Gorica
+SI,Murska Sobota,Murska Sobota
+SI,Mozirje,Mozirje
+SI,Metlika,Metlika
+SI,마리보르 도시 지방 자치제,Maribor
+SI,로가테츠,Logatec
+SI,류토메르,Ljutomer
+SI,Hrpelje-Kozina,Hrpelje-Kozina
+SI,Občina Divača,Občina Divača
+SI,피우카,Pivka
+SI,로슈카돌리나,Občina Loška Dolina
+SI,Občina Loški Potok,Občina Loški Potok
+SI,Osilnica,Osilnica
+SI,Občina Velike Lašče,Občina Velike Lašče
+SI,Občina Škofljica,Občina Škofljica
+SI,이그,Ig
+SI,Brezovica,Brezovica
+SI,Borovnica,Borovnica
+SI,Vipava,Vipava
+SI,Komen,Komen
+SI,Miren-Kostanjevica,Miren-Kostanjevica
+SI,Brda,Brda
+SI,Občina Kanal ob Soči,Občina Kanal ob Soči
+SI,Občina Žiri,Občina Žiri
+SI,체르크노,Cerkno
+SI,젤레즈니키,Občina Železniki
+SI,고레냐바스폴랴네,Gorenja Vas-Poljane
+SI,Dobrova-Polhov Gradec,Dobrova-Polhov Gradec
+SI,코바리드 지방 자치제,Občina Kobarid
+SI,Občina Bovec,Občina Bovec
+SI,보힌,Bohinj
+SI,Občina Bled,Občina Bled
+SI,Naklo,Naklo
+SI,Kranjska Gora,Kranjska Gora
+SI,Preddvor,Preddvor
+SI,체르클레나고렌스켐,Cerklje na Gorenjskem
+SI,Občina Šenčur,Občina Šenčur
+SI,Vodice,Vodice
+SI,Medvode,Medvode
+SI,Občina Mengeš,Občina Mengeš
+SI,돌프리류블랴니,Dol pri Ljubljani
+SI,Občina Moravče,Občina Moravče
+SI,Gornji Grad,Gornji Grad
+SI,Občina Luče,Občina Luče
+SI,Občina Ravne na Koroškem,Občina Ravne na Koroškem
+SI,Občina Mežica,Občina Mežica
+SI,Muta,Muta
+SI,Vuzenica,Vuzenica
+SI,치르나나코로슈켐,Občina Črna na Koroškem
+SI,Ljubno,Ljubno
+SI,Občina Šoštanj,Občina Šoštanj
+SI,Občina Šmartno ob Paki,Občina Šmartno ob Paki
+SI,루코비차,Lukovica
+SI,Občina Radeče,Občina Radeče
+SI,Občina Ivančna Gorica,Občina Ivančna Gorica
+SI,Dobrepolje,Dobrepolje
+SI,Občina Semič,Občina Semič
+SI,Občina Šentjernej,Občina Šentjernej
+SI,Občina Škocjan,Občina Škocjan
+SI,Občina Štore,Občina Štore
+SI,Vojnik,Vojnik
+SI,Vitanje,Vitanje
+SI,즈레체,Občina Zreče
+SI,Mislinja,Mislinja
+SI,루셰 지방 자치제,Občina Ruše
+SI,Kungota,Kungota
+SI,Občina Šentilj,Občina Šentilj
+SI,페스니차,Pesnica
+SI,Duplek,Duplek
+SI,Občina Rače-Fram,Občina Rače-Fram
+SI,Občina Starše,Občina Starše
+SI,Občina Kidričevo,Občina Kidričevo
+SI,Občina Majšperk,Občina Majšperk
+SI,Videm,Videm
+SI,Občina Rogaška Slatina,Občina Rogaška Slatina
+SI,Rogatec,Rogatec
+SI,Občina Podčetrtek,Občina Podčetrtek
+SI,Kozje,Kozje
+SI,Občina Gorišnica,Občina Gorišnica
+SI,Občina Zavrč,Občina Zavrč
+SI,도르나바,Dornava
+SI,Občina Juršinci,Občina Juršinci
+SI,Občina Sveti Jurij ob Ščavnici,Občina Sveti Jurij ob Ščavnici
+SI,Radenci,Radenci
+SI,Puconci,Puconci
+SI,Občina Rogašovci,Občina Rogašovci
+SI,Kuzma,Kuzma
+SI,Gornji Petrovci,Gornji Petrovci
+SI,모라브스케 토플리체 지방 자치제,Moravske Toplice
+SI,Kobilje,Kobilje
+SI,Beltinci,Beltinci
+SI,Občina Turnišče,Občina Turnišče
+SI,Odranci,Odranci
+SI,Občina Črenšovci,Občina Črenšovci
+SI,Nazarje,Nazarje
+SI,Mestna Občina Ljubljana,Mestna Občina Ljubljana
+SI,Dobrovnik,Dobrovnik
+SI,Občina Tišina,Občina Tišina
+SI,Cankova,Cankova
+SI,그라드,Grad
+SI,Hodos,Hodos
+SI,Občina Razkrižje,Občina Razkrižje
+SI,Občina Šmartno pri Litiji,Občina Šmartno pri Litiji
+SI,Občina Šalovci,Občina Šalovci
+SI,Občina Žirovnica,Občina Žirovnica
+SI,Jezersko,Jezersko
+SI,Občina Solčava,Občina Solčava
+SI,코멘다,Komenda
+SI,Horjul,Horjul
+SI,Občina Šempeter-Vrtojba,Občina Šempeter-Vrtojba
+SI,Bloke,Bloke
+SI,Občina Sodražica,Občina Sodražica
+SI,Trzin,Trzin
+SI,Prevalje,Prevalje
+SI,Vransko,Vransko
+SI,Tabor,Tabor
+SI,Občina Braslovče,Občina Braslovče
+SI,Polzela,Polzela
+SI,프레볼트,Prebold
+SI,Kostel,Kostel
+SI,Občina Žužemberk,Občina Žužemberk
+SI,돌렌스케토플리체,Dolenjske Toplice
+SI,미르나페치,Občina Mirna Peč
+SI,Bistrica ob Sotli,Bistrica ob Sotli
+SI,Dobje,Dobje
+SI,도브르나,Dobrna
+SI,오플로트니차,Oplotnica
+SI,포드벨카,Podvelka
+SI,Ribnica na Pohorju,Ribnica na Pohorju
+SI,Lovrenc na Pohorju,Lovrenc na Pohorju
+SI,Selnica ob Dravi,Selnica ob Dravi
+SI,Občina Hoče-Slivnica,Občina Hoče-Slivnica
+SI,Občina Miklavž na Dravskem Polju,Občina Miklavž na Dravskem Polju
+SI,하이디나,Hajdina
+SI,Občina Žetale,Občina Žetale
+SI,Podlehnik,Podlehnik
+SI,Markovci,Markovci
+SI,데스트르니크,Destrnik
+SI,Občina Trnovska vas,Občina Trnovska vas
+SI,Občina Sveti Andraž v Slovenskih Goricah,Občina Sveti Andraž v Slovenskih Goricah
+SI,Cerkvenjak,Cerkvenjak
+SI,Benedikt,Benedikt
+SI,‎스베타아나,Sveta Ana
+SI,Občina Križevci,Občina Križevci
+SI,Občina Veržej,Občina Veržej
+SI,Velika Polana,Velika Polana
+SI,렌다바,Lendava
+SI,Občina Žalec,Občina Žalec
+SI,Zagorje ob Savi,Zagorje ob Savi
+SI,Vrhnika,Vrhnika
+SI,Občina Tržič,Občina Tržič
+SI,고레,Gorje
+SI,Sveti Jurij v Slovenskih Goricah,Sveti Jurij v Slovenskih Goricah
+SI,Občina Apače,Občina Apače
+SI,Cirkulane,Cirkulane
+SI,Kostanjevica na Krki,Kostanjevica na Krki
+SI,Log-Dragomer,Log-Dragomer
+SI,Makole,Makole
+SI,모크로노그트레벨노,Mokronog-Trebelno
+SI,Občina Poljčane,Občina Poljčane
+SI,Občina Rečica ob Savinji,Občina Rečica ob Savinji
+SI,Občina Renče-Vogrsko,Občina Renče-Vogrsko
+SI,Občina Središče ob Dravi,Občina Središče ob Dravi
+SI,Občina Straža,Občina Straža
+SI,Sveta Trojica v Slovenskih Goricah,Sveta Trojica v Slovenskih Goricah
+SI,Občina Sveti Tomaž,Občina Sveti Tomaž
+SI,Občina Šentrupert,Občina Šentrupert
+SI,Občina Šmarješke Toplice,Občina Šmarješke Toplice
+SI,Ankaran,Ankaran
+SI,Mirna,Mirna
+SI,Kranj,Kranj
+SI,Cerknica,Cerknica
+OM,도파르주,Dhofar Governorate
+OM,다킬리야주,Muḩāfaz̧at ad Dākhilīyah
+OM,중부주,Muḩāfaz̧at al Wusţá
+OM,Ash Sharqiyah South,Ash Sharqiyah South
+OM,다히라주,Az̧ Z̧āhirah
+OM,부라이미주,Muḩāfaz̧at al Buraymī
+OM,남바티나주,Al Batinah South Governorate
+OM,무스카트주,Muḩāfaz̧at Masqaţ
+OM,무산담주,Musandam
+OM,북동부주,Ash Sharqiyah North Governorate
+OM,북바티나주,Al Batinah North Governorate
+PM,Commune de Saint-Pierre,Commune de Saint-Pierre
+PM,Miquelon-Langlade,Miquelon-Langlade
+MO,Nossa Senhora de Fátima,Nossa Senhora de Fátima
+MO,Santo António,Santo António
+MO,São Lázaro,São Lázaro
+MO,Sé,Sé
+MO,São Lourenço,São Lourenço
+MO,Nossa Senhora do Carmo,Nossa Senhora do Carmo
+MO,Cotai,Cotai
+MO,São Francisco Xavier,São Francisco Xavier
+SM,Castello di San Marino Città,Castello di San Marino Città
+SM,아콰비바,Castello di Acquaviva
+SM,보르고마조레,Castello di Borgo Maggiore
+SM,Castello di Domagnano,Castello di Domagnano
+SM,파에타노,Castello di Faetano
+SM,피오렌티노,Castello di Fiorentino
+SM,몬테자르디노,Castello di Montegiardino
+SM,Serravalle,Serravalle
+SM,키에사누오바,Chiesanuova
+LS,타바체카구,Thaba-Tseka
+LS,쿠팅구,Quthing
+LS,카차스네크구,Qacha’s Nek
+LS,모코틀롱구,Mokhotlong
+LS,모할레스후크구,Mohale’s Hoek District
+LS,마세루구,Maseru
+LS,마페텡구,Mafeteng District
+LS,레리베구,Leribe District
+LS,부타부테구,Butha-Buthe
+LS,베레아구,Berea
+MH,Ailinginae Atoll,Ailinginae Atoll
+MH,Ailinglaplap Atoll,Ailinglaplap Atoll
+MH,Ailuk Atoll,Ailuk Atoll
+MH,Arno Atoll,Arno Atoll
+MH,Aur Atoll,Aur Atoll
+MH,Bikar Atoll,Bikar Atoll
+MH,Bikini Atoll,Bikini Atoll
+MH,Ebon Atoll,Ebon Atoll
+MH,Enewetak Atoll,Enewetak Atoll
+MH,Erikub Atoll,Erikub Atoll
+MH,Jaluit Atoll,Jaluit Atoll
+MH,Kwajalein Atoll,Kwajalein Atoll
+MH,Lae Atoll,Lae Atoll
+MH,Likiep Atoll,Likiep Atoll
+MH,Majuro Atoll,Majuro Atoll
+MH,Maloelap Atoll,Maloelap Atoll
+MH,Mili Atoll,Mili Atoll
+MH,Namdrik Atoll,Namdrik Atoll
+MH,Namu Atoll,Namu Atoll
+MH,Rongelap Atoll,Rongelap Atoll
+MH,Rongrik Atoll,Rongrik Atoll
+MH,Taka Atoll,Taka Atoll
+MH,Bokak Atoll,Bokak Atoll
+MH,Ujae Atoll,Ujae Atoll
+MH,Ujelang Atoll,Ujelang Atoll
+MH,Utrik Atoll,Utrik Atoll
+MH,Wotho Atoll,Wotho Atoll
+MH,Wotje Atoll,Wotje Atoll
+MH,Jabat Island,Jabat Island
+MH,Jemo Island,Jemo Island
+MH,Kili Island,Kili Island
+MH,Lib Island,Lib Island
+MH,Mejit Island,Mejit Island
+IS,Vesturland,Vesturland
+IS,베스트피르디르,Vestfirðir
+IS,Norðurland Vestra,Norðurland Vestra
+IS,Norðurland Eystra,Norðurland Eystra
+IS,Austurland,Austurland
+IS,Suðurland,Suðurland
+IS,회뷔드보르가르스바이디,Höfuðborgarsvæði
+IS,Suðurnes,Suðurnes
+LU,Wiltz,Wiltz
+LU,Vianden,Vianden
+LU,Remich,Remich
+LU,Redange,Redange
+LU,Mersch,Mersch
+LU,Luxembourg,Luxembourg
+LU,Grevenmacher,Grevenmacher
+LU,Canton d'Esch-sur-Alzette,Canton d'Esch-sur-Alzette
+LU,Canton d'Echternach,Canton d'Echternach
+LU,Diekirch,Diekirch
+LU,Clervaux,Clervaux
+LU,Capellen,Capellen
+AR,라리오하주,La Rioja Province
+AR,라팜파주,La Pampa Province
+AR,산티아고델에스테로주,Santiago del Estero Province
+AR,산타페주,Santa Fe Province
+AR,산타크루스주,Santa Cruz Province
+AR,산후안주,San Juan Province
+AR,살타주,Salta Province
+AR,리오네그로주,Río Negro Province
+AR,네우켄주,Neuquén Province
+AR,멘도사주,Mendoza Province
+AR,포르모사주,Formosa Province
+AR,부에노스아이레스주,Buenos Aires
+AR,코르도바주,Córdoba Province
+AR,추부트주,Chubut Province
+AR,차코주,Chaco Province
+AR,카타마르카주,Catamarca Province
+AR,산루이스주,San Luis Province
+AR,티에라델푸에고주,Tierra del Fuego Province
+AR,미시오네스주,Misiones Province
+AR,엔트레리오스주,Entre Ríos Province
+AR,코리엔테스주,Corrientes Province
+AR,후후이주,Jujuy Province
+AR,투쿠만주,Tucumán Province
+AR,Ciudad Autónoma de Buenos Aires,Ciudad Autónoma de Buenos Aires
+NR,야렌구,Yaren
+NR,우아보에구,Uaboe District
+NR,니보크구,Nibok District
+NR,메넹구,Meneng District
+NR,이유브구,Ijuw District
+NR,에와구,Ewa District
+NR,데니고모두구,Denigomodu District
+NR,부아다구,Buada District
+NR,보에구,Boe District
+NR,바이티구,Baiti District
+NR,아니바레구,Anibare District
+NR,아네탄구,Anetan District
+NR,아나바르구,Anabar District
+NR,아이워구,Aiwo District
+MA,Dakhla-Oued Ed-Dahab,Dakhla-Oued Ed-Dahab
+DM,세인트피터구,Saint Peter
+DM,세인트폴구,Saint Paul
+DM,세인트패트릭구,Saint Patrick
+DM,세인트마크구,Saint Mark
+DM,세인트루크구,Saint Luke
+DM,세인트조지프구,Saint Joseph
+DM,세인트존구,Saint John
+DM,세인트조지구,Saint George
+DM,세인트데이비드구,Saint David
+DM,세인트앤드루구,Saint Andrew
+CR,푼타레나스주,Provincia de Puntarenas
+CR,카르타고주,Provincia de Cartago
+CR,알라후엘라주,Provincia de Alajuela
+CR,Provincia de San José,Provincia de San José
+CR,리몬주,Provincia de Limón
+CR,에레디아주,Provincia de Heredia
+CR,과나카스테주,Provincia de Guanacaste
+AU,State of Queensland,State of Queensland
+AU,웨스턴오스트레일리아주,State of Western Australia
+AU,State of South Australia,State of South Australia
+AU,노던 준주,Northern Territory
+AU,빅토리아,State of Victoria
+AU,태즈메이니아주,State of Tasmania
+AU,뉴사우스웨일스주,State of New South Wales
+AU,오스트레일리아 수도 준주,Australian Capital Territory
+TH,딱주,Changwat Tak
+TH,깐짜나부리주,Changwat Kanchanaburi
+TH,Changwat Ang Thong,Changwat Ang Thong
+TH,나라티왓주,Changwat Narathiwat
+TH,Changwat Nan,Changwat Nan
+TH,나콘시탐마랏주,Changwat Nakhon Si Thammarat
+TH,나콘사완주,Changwat Nakhon Sawan
+TH,나콘랏차시마주,Changwat Nakhon Ratchasima
+TH,나콘파놈주,Changwat Nakhon Phanom
+TH,나콘빠톰주,Changwat Nakhon Pathom
+TH,나콘나욕주,Changwat Nakhon Nayok
+TH,묵다한주,Changwat Mukdahan
+TH,마하사라캄주,Changwat Maha Sarakham
+TH,롭부리주,Changwat Lop Buri
+TH,르이주,Changwat Loei
+TH,Bangkok,Bangkok
+TH,콘깬주,Changwat Khon Kaen
+TH,깔라신주,Changwat Kalasin
+TH,촌부리주,Changwat Chon Buri
+TH,짠타부리주,Changwat Chanthaburi
+TH,차이야품주,Changwat Chaiyaphum
+TH,차이낫주,Changwat Chai Nat
+TH,차층사오주,Changwat Chachoengsao
+TH,부리람주,Changwat Buri Ram
+TH,우따라딧주,Changwat Uttaradit
+TH,Changwat Trat,Changwat Trat
+TH,수린주,Changwat Surin
+TH,수판부리주,Changwat Suphan Buri
+TH,송클라주,Changwat Songkhla
+TH,시사껫주,Changwat Si Sa Ket
+TH,싱부리주,Changwat Sing Buri
+TH,사뚠주,Changwat Satun
+TH,사라부리주,Changwat Saraburi
+TH,사뭇송크람주,Changwat Samut Songkhram
+TH,사뭇사콘주,Changwat Samut Sakhon
+TH,사뭇쁘라깐주,Changwat Samut Prakan
+TH,사꼰나콘주,Changwat Sakon Nakhon
+TH,로이엣주,Changwat Roi Et
+TH,라영 주,Changwat Rayong
+TH,아유타야주,Phra Nakhon Si Ayutthaya
+TH,프래주,Changwat Phrae
+TH,핏사눌록주,Changwat Phitsanulok
+TH,피찟주,Changwat Phichit
+TH,펫차분주,Changwat Phetchabun
+TH,파야오주,Changwat Phayao
+TH,파탈룽주,Changwat Phatthalung
+TH,빠따니주,Changwat Pattani
+TH,빠툼타니주,Changwat Pathum Thani
+TH,Changwat Nonthaburi,Changwat Nonthaburi
+TH,농카이주,Changwat Nong Khai
+TH,우돈타니주,Changwat Udon Thani
+TH,쁘라찐부리주,Changwat Prachin Buri
+TH,우본랏차타니주,Changwat Ubon Ratchathani
+TH,암낫짜른주,Changwat Amnat Charoen
+TH,농부아람푸주,Changwat Nong Bua Lamphu
+TH,사깨오주,Changwat Sa Kaeo
+TH,춤폰주,Changwat Chumphon
+TH,치앙라이주,Changwat Chiang Rai
+TH,수랏타니주,Changwat Surat Thani
+TH,수코타이주,Changwat Sukhothai
+TH,랏차부리주,Changwat Ratchaburi
+TH,라농주,Changwat Ranong
+TH,쁘라쭈압키리칸주,Changwat Prachuap Khiri Khan
+TH,푸껫주,Phuket Province
+TH,펫차부리주,Changwat Phetchaburi
+TH,팡응아주,Changwat Phangnga
+TH,매홍손주,Changwat Mae Hong Son
+TH,람푼주,Changwat Lamphun
+TH,람빵주,Changwat Lampang
+TH,끄라비주,Changwat Krabi
+TH,깜팽펫주,Changwat Kamphaeng Phet
+TH,Changwat Uthai Thani,Changwat Uthai Thani
+TH,Changwat Trang,Changwat Trang
+TH,야소톤주,Changwat Yasothon
+TH,얄라주,Changwat Yala
+TH,븡깐주,Changwat Bueng Kan
+TH,치앙마이주,Chiang Mai Province
+HT,니프주,Département de Nippes
+HT,서부주,Département de l'Ouest
+HT,북서부주,Nord-Ouest
+HT,북동부주,Département du Nord-Est
+HT,북부주,Nord
+HT,그랑당스주,Grand'Anse
+HT,중앙주,Centre
+HT,아르티보니트주,Département de l'Artibonite
+HT,남동부주,Sud-Est
+HT,남부주,Sud
+UM,나바사 섬,Navassa Island
+TV,Niutao,Niutao
+TV,나누망가섬,Nanumanga
+TV,바이투푸섬,Vaitupu
+TV,누쿠페타우 환초,Nukufetau
+TV,누쿨라엘라에 환초,Nukulaelae
+TV,누이 환초,Nui
+TV,나누메아 환초,Nanumea
+TV,Funafuti,Funafuti
+HN,Departamento de Islas de la Bahía,Departamento de Islas de la Bahía
+HN,요로주,Departamento de Yoro
+HN,바예주,Departamento de Valle
+HN,Departamento de Santa Bárbara,Departamento de Santa Bárbara
+HN,올란초주,Departamento de Olancho
+HN,오코테페케주,Departamento de Ocotepeque
+HN,아틀란티다주,Departamento de Atlántida
+HN,렘피라주,Departamento de Lempira
+HN,라파스주,Departamento de La Paz
+HN,인티부카주,Departamento de Intibucá
+HN,그라시아스아디오스주,Departamento de Gracias a Dios
+HN,프란시스코모라산주,Departamento de Francisco Morazán
+HN,엘파라이소주,Departamento de El Paraíso
+HN,코르테스주,Departamento de Cortés
+HN,코판주,Departamento de Copán
+HN,코마야과주,Departamento de Comayagua
+HN,콜론주,Departamento de Colón
+HN,촐루테카주,Departamento de Choluteca
+GQ,Provincia de Bioko Norte,Provincia de Bioko Norte
+GQ,Provincia de Bioko Sur,Provincia de Bioko Sur
+GQ,Provincia de Centro Sur,Provincia de Centro Sur
+GQ,Provincia de Kié-Ntem,Provincia de Kié-Ntem
+GQ,Provincia de Litoral,Provincia de Litoral
+GQ,Provincia de Wele-Nzas,Provincia de Wele-Nzas
+GQ,Djibloho,Djibloho
+GQ,Provincia de Annobón,Provincia de Annobón
+LC,Vieux-Fort,Vieux-Fort
+LC,Soufrière,Soufrière
+LC,미쿠구,Micoud
+LC,라보리구,Laborie
+LC,Gros-Islet,Gros-Islet
+LC,데네리구,Dennery
+LC,슈아죌구,Choiseul
+LC,캐스트리스구,Castries
+LC,Anse-la-Raye,Anse-la-Raye
+LC,Canaries,Canaries
+PF,Îles du Vent,Îles du Vent
+PF,Îles Marquises,Îles Marquises
+PF,Îles Sous-le-Vent,Îles Sous-le-Vent
+PF,Îles Australes,Îles Australes
+PF,Îles Tuamotu-Gambier,Îles Tuamotu-Gambier
+BY,민스크주,Minsk Oblast
+BY,민스크,Horad Minsk
+BY,Mogilyov Oblast,Mogilyov Oblast
+BY,Grodno Oblast,Grodno Oblast
+BY,Homyel’ Voblasc’,Homyel’ Voblasc’
+BY,Brest Oblast,Brest Oblast
+BY,비쳅스크주,Vitebsk Oblast
+LV,Valmiera,Valmiera
+LV,발카시,Valka Municipality
+LV,투쿰스시,Tukuma novads
+LV,Talsi Municipality,Talsi Municipality
+LV,Aizkraukles novads,Aizkraukles novads
+LV,Ādažu Novads,Ādažu Novads
+LV,Saulkrastu Novads,Saulkrastu Novads
+LV,벤츠필스시,Ventspils Municipality
+LV,벤츠필스,Ventspils
+LV,Saldus Municipality,Saldus Municipality
+LV,Rīga,Rīga
+LV,Rēzeknes Novads,Rēzeknes Novads
+LV,Rēzekne,Rēzekne
+LV,Preiļi Municipality,Preiļi Municipality
+LV,오그레시,Ogres novads
+LV,Madona Municipality,Madona Municipality
+LV,Ludzas novads,Ludzas novads
+LV,Limbažu novads,Limbažu novads
+LV,리예파야,Liepāja
+LV,Kuldīgas novads,Kuldīgas novads
+LV,Krāslavas novads,Krāslavas novads
+LV,Jūrmala,Jūrmala
+LV,Jelgavas novads,Jelgavas novads
+LV,옐가바,Jelgava
+LV,예캅필스 시,Jēkabpils Municipality
+LV,굴베네시,Gulbenes novads
+LV,Dobeles novads,Dobeles novads
+LV,다우가프필스,Daugavpils
+LV,체시스시,Cēsu Novads
+LV,Bauskas Novads,Bauskas Novads
+LV,Balvu Novads,Balvu Novads
+LV,알룩스네시,Alūksnes Novads
+LV,Mārupes Novads,Mārupes Novads
+LV,올라이네시,Olaines Novads
+LV,체카바시,Ķekavas Novads
+LV,살라스필스시,Salaspils Novads
+LV,리바니시,Līvānu Novads
+LV,바라클랴니시,Varakļānu Novads
+LV,로파지시,Ropažu Novads
+LV,Siguldas Novads,Siguldas Novads
+LV,Smiltenes Novads,Smiltenes Novads
+LV,South Kurzeme Municipality,South Kurzeme Municipality
+LV,Augšdaugava Municipality,Augšdaugava Municipality
+PW,아이라이주,State of Airai
+PW,앙가우르주,State of Angaur
+PW,코로르,State of Koror
+PW,멜레케오크주,State of Melekeok
+PW,가라르드주,State of Ngaraard
+PW,체사르주,State of Ngchesar
+PW,가르첼롱주,State of Ngarchelong
+PW,가르드마우주,State of Ngardmau
+PW,가렘렝구이주,State of Ngeremlengui
+PW,기왈주,State of Ngiwal
+PW,펠렐리우주,State of Peleliu
+PW,가트팡주,State of Ngatpang
+PW,손소롤주,State of Sonsorol
+PW,카양겔주,State of Kayangel
+PW,하토호베이주,State of Hatohobei
+PW,아이멜리크주,State of Aimeliik
+GP,과들루프,Guadeloupe
+PH,무슬림 민다나오 자치구,Autonomous Region in Muslim Mindanao
+PH,미마로파 지방,Mimaropa
+PH,북민다나오 지방,Northern Mindanao
+PH,카가얀밸리 지방,Cagayan Valley
+PH,카라가 지방,Caraga
+PH,일로코스 지방,Ilocos
+PH,칼라바르손 지방,Calabarzon
+PH,서비사야스 지방,Western Visayas
+PH,중앙루손 지방,Central Luzon
+PH,중앙비사야스 지방,Central Visayas
+PH,동비사야스 지방,Eastern Visayas
+PH,삼보앙가반도 지방,Zamboanga Peninsula
+PH,다바오 지방,Davao
+PH,비콜 지방,Bicol
+PH,소크사르젠 지방,Soccsksargen
+PH,코르디예라 행정구,Cordillera Administrative Region
+PH,National Capital Region,National Capital Region
+DK,Region Hovedstaden,Region Hovedstaden
+DK,중앙윌란 지역,Region Midtjylland
+DK,북윌란 지역,North Denmark Region
+DK,셸란 지역,Region Sjælland
+DK,남덴마크 지역,Region Syddanmark
+CM,동부주,East Region
+CM,최북부주,Far North Region
+CM,중앙주,Centre Region
+CM,아다마와 주,Adamaoua Region
+CM,리토랄주,Littoral Region
+CM,South-West Region,South-West Region
+CM,남부주,South Region
+CM,북부주,North Region
+CM,서부주,West Region
+CM,North-West Region,North-West Region
+GN,보케주,Boke Region
+GN,파라나주,Faranah Region
+GN,캉칸주,Kankan Region
+GN,킨디아주,Kindia Region
+GN,은제레코레주,Nzerekore Region
+GN,Conakry Region,Conakry Region
+GN,라베주,Labé Region
+GN,마무주,Mamou Region
+BH,수도주,Capital Governorate
+BH,남부주,Southern Governorate
+BH,북부주,Northern Governorate
+BH,무하라크주,Muharraq Governorate
+SR,시팔리비니구,Distrikt Sipaliwini
+SR,파라구,Distrikt Para
+SR,브로코폰도구,Distrikt Brokopondo
+SR,바니카구,Distrikt Wanica
+SR,사라마카구,Distrikt Saramacca
+SR,파라마리보구,Distrikt Paramaribo
+SR,니케리구,Distrikt Nickerie
+SR,마로베이너구,Distrikt Marowijne
+SR,코로니구,Distrikt Coronie
+SR,코메베이너구,Distrikt Commewijne
+CD,Lualaba,Lualaba
+CD,마니에마주,Province du Maniema
+CD,Kasai Province,Kasai Province
+CD,추아파주,Tshuapa
+CD,초포주,Tshopo
+CD,탕가니카주,Tanganika
+CD,상쿠루주,Sankuru
+CD,오트우엘레주,Haut Uele
+CD,Haut-Lomani,Haut-Lomani
+CD,에카퇴르주,Province de l’Équateur
+CD,바스우엘레 주,Bas Uele
+CD,마이은돔베주,Mai Ndombe
+CD,Kwango,Kwango
+CD,Province du Haut-Katanga,Province du Haut-Katanga
+CD,카사이상트랄 주,Kasaï-Central
+CD,남키부주,South Kivu Province
+CD,북키부주,Province du Nord-Kivu
+CD,몽갈라 주,Mongala
+CD,이투리주,Ituri
+CD,퀼루주,Kwilu
+CD,Province du Kongo Central,Province du Kongo Central
+CD,Lomami,Lomami
+CD,Province du Nord-Ubangi,Province du Nord-Ubangi
+CD,Province du Sud-Ubangi,Province du Sud-Ubangi
+CD,East Kasai,East Kasai
+CD,Kinshasa City,Kinshasa City
+SO,Gobolka Jubbada Hoose,Gobolka Jubbada Hoose
+SO,Gobolka Jubbada Dhexe,Gobolka Jubbada Dhexe
+SO,Gobolka Hiiraan,Gobolka Hiiraan
+SO,Gobolka Gedo,Gobolka Gedo
+SO,Gobolka Galguduud,Gobolka Galguduud
+SO,Gobolka Bay,Gobolka Bay
+SO,Gobolka Bari,Gobolka Bari
+SO,Gobolka Woqooyi Galbeed,Gobolka Woqooyi Galbeed
+SO,Gobolka Togdheer,Gobolka Togdheer
+SO,Gobolka Shabeellaha Hoose,Gobolka Shabeellaha Hoose
+SO,Gobolka Shabeellaha Dhexe,Gobolka Shabeellaha Dhexe
+SO,Gobolka Sanaag,Gobolka Sanaag
+SO,Gobolka Nugaal,Gobolka Nugaal
+SO,Gobolka Mudug,Gobolka Mudug
+SO,Gobolka Sool,Gobolka Sool
+SO,Gobolka Banaadir,Gobolka Banaadir
+SO,Gobolka Bakool,Gobolka Bakool
+SO,Gobolka Awdal,Gobolka Awdal
+CZ,남모라바 주,Jihomoravský kraj
+CZ,남보헤미아 주,Jihočeský kraj
+CZ,Kraj Vysočina,Kraj Vysočina
+CZ,Karlovarský kraj,Karlovarský kraj
+CZ,Královéhradecký kraj,Královéhradecký kraj
+CZ,Liberecký kraj,Liberecký kraj
+CZ,Olomoucký kraj,Olomoucký kraj
+CZ,Moravskoslezský kraj,Moravskoslezský kraj
+CZ,Pardubický kraj,Pardubický kraj
+CZ,Plzeňský kraj,Plzeňský kraj
+CZ,중앙보헤미아 주,Středočeský kraj
+CZ,Ústecký kraj,Ústecký kraj
+CZ,Zlínský kraj,Zlínský kraj
+CZ,Hlavní město Praha,Hlavní město Praha
+NC,Province Sud,Province Sud
+NC,Province Nord,Province Nord
+NC,Province des îles Loyauté,Province des îles Loyauté
+VU,토르바주,Torba Province
+VU,말람파주,Malampa Province
+VU,타페아주,Tafea Province
+VU,산마주,Sanma Province
+VU,페나마주,Penama Province
+VU,Shefa Province,Shefa Province
+SH,Saint Helena,Saint Helena
+SH,Tristan da Cunha,Tristan da Cunha
+SH,Ascension,Ascension
+TG,카라주,Kara
+TG,플라토주,Plateaux
+TG,마리팀주,Maritime
+TG,중앙주,Centrale
+TG,사반주,Savanes
+KE,카지아도현,Kajiado
+KE,와지르현,Wajir
+KE,투르카나현,Turkana
+KE,타나리버현,Tana River
+KE,삼부루현,Samburu
+KE,이시올로현,Isiolo
+KE,가리사현,Garissa
+KE,마르사비트현,Marsabit
+KE,만데라현,Mandera
+KE,키투이현,Kitui
+KE,니아미라현,Nyamira
+KE,Nandi,Nandi
+KE,니안다루아현,Nyandarua
+KE,나쿠루현,Nakuru
+KE,비히가현,Vihiga
+KE,Lamu,Lamu
+KE,마차코스현,Machakos
+KE,마쿠에니현,Makueni
+KE,Elegeyo-Marakwet,Elegeyo-Marakwet
+KE,Taita Taveta,Taita Taveta
+KE,니에리현,Nyeri
+KE,호마베이현,Homa Bay
+KE,보메트현,Bomet
+KE,미고리현,Migori
+KE,서포코트현,West Pokot
+KE,우아신기슈현,Uasin Gishu
+KE,Trans Nzoia,Trans Nzoia
+KE,Tharaka - Nithi,Tharaka - Nithi
+KE,시아야현,Siaya
+KE,키암부현,Kiambu
+KE,케리초현,Kericho
+KE,카카메가현,Kakamega
+KE,엠부현,Embu
+KE,Murang'A,Murang'A
+KE,몸바사현,Mombasa
+KE,메루현,Meru
+KE,라이키피아현,Laikipia
+KE,콸레현,Kwale
+KE,키수무현,Kisumu
+KE,키시현,Kisii
+KE,키리니아가현,Kirinyaga
+KE,킬리피현,Kilifi
+KE,부시아현,Busia
+KE,붕고마현,Bungoma
+KE,바링고현,Baringo
+KE,나로크현,Narok
+KE,나이로비현,Nairobi
+RW,동부주,Eastern Province
+RW,Kigali Province,Kigali Province
+RW,북부주,Northern Province
+RW,서부주,Western Province
+RW,남부주,Southern Province
+EE,래네비루 주,Lääne-Virumaa
+EE,래네 주,Läänemaa
+EE,여게바 주,Jõgevamaa
+EE,얘르바 주,Järvamaa
+EE,이다비루 주,Ida-Virumaa
+EE,히우주,Hiiumaa
+EE,하리우주,Harjumaa
+EE,버루 주,Võrumaa
+EE,빌리안디주,Viljandimaa
+EE,발가 주,Valgamaa
+EE,타르투 주,Tartumaa
+EE,사레주,Saaremaa
+EE,라플라 주,Raplamaa
+EE,펄바 주,Põlvamaa
+EE,패르누 주,Pärnumaa
+RO,카라슈세베린주,Caraş-Severin
+RO,București,București
+RO,브라쇼브주,Braşov
+RO,보토샤니주,Botoşani
+RO,비스트리차너서우드주,Bistriţa-Năsăud
+RO,아르제슈주,Argeş
+RO,프라호바주,Prahova
+RO,올트주,Olt
+RO,마라무레슈주,Maramureş
+RO,돌지주,Dolj
+RO,코바스나주,Covasna
+RO,클루지주,Cluj
+RO,텔레오르만주,Teleorman
+RO,수체아바주,Suceava
+RO,브란체아주,Vrancea
+RO,컬러라시주,Călăraşi
+RO,부저우주,Buzău
+RO,브러일라주,Brăila
+RO,비호르주,Bihor
+RO,바커우주,Bacău
+RO,아라드주,Arad
+RO,일포브주,Ilfov
+RO,네암츠주,Neamţ
+RO,무레슈주,Mureş
+RO,메헤딘치주,Mehedinţi
+RO,이아시주,Iaşi
+RO,이알로미차주,Ialomiţa
+RO,후네도아라주,Hunedoara
+RO,Harghita,Harghita
+RO,고르지주,Gorj
+RO,지우르지우주,Giurgiu
+RO,갈라치주,Galaţi
+RO,듬보비차주,Dâmboviţa
+RO,콘스탄차주,Constanța
+RO,툴체아주,Tulcea
+RO,티미슈주,Timiş
+RO,시비우주,Sibiu
+RO,사투마레주,Satu Mare
+RO,설라지주,Sălaj
+RO,블체아주,Vâlcea
+RO,Vaslui,Vaslui
+RO,알바주,Alba
+TT,Chaguanas,Chaguanas
+TT,쿠바타바키테탈파로 지역,Couva-Tabaquite-Talparo
+TT,Penal/Debe,Penal/Debe
+TT,프린세스타운 지역,Princes Town
+TT,상그레그란데 지역,Sangre Grande
+TT,시파리아 지역,Siparia
+TT,Tunapuna/Piarco,Tunapuna/Piarco
+TT,San Fernando,San Fernando
+TT,City of Port of Spain,City of Port of Spain
+TT,Mayaro,Mayaro
+TT,아리마,Arima
+TT,Tobago,Tobago
+TT,디에고마틴 지역,Diego Martin
+TT,Point Fortin,Point Fortin
+TT,San Juan/Laventille,San Juan/Laventille
+GY,East Berbice-Corentyne Region,East Berbice-Corentyne Region
+GY,포타로시파루니주,Potaro-Siparuni Region
+GY,쿠유니마자루니주,Cuyuni-Mazaruni Region
+GY,바리마와이니주,Barima-Waini Region
+GY,어퍼타쿠투어퍼에세키보주,Upper Takutu-Upper Essequibo Region
+GY,어퍼데메라라버비스주,Upper Demerara-Berbice Region
+GY,포메룬수페남주,Pomeroon-Supenaam Region
+GY,마하이카버비스주,Mahaica-Berbice Region
+GY,에세키보아일랜즈웨스트데메라라주,Essequibo Islands-West Demerara Region
+GY,데메라라마하이카주,Demerara-Mahaica Region
+TL,비케크현,Viqueque
+TL,바우카우현,Baucau
+TL,Oecusse,Oecusse
+TL,아이나루현,Ainaro
+TL,아일레우현,Aileu
+TL,리키사현,Liquiçá
+TL,라우텡현,Lautein
+TL,코바리마 현,Kovalima
+TL,에르메라현,Ermera
+TL,딜리현,Díli
+TL,보보나루현,Bobonaro
+TL,마누파이현,Manufahi
+TL,마나투투현,Manatuto
+VN,Tỉnh Hải Dương,Tỉnh Hải Dương
+VN,빈푹성,Tỉnh Vĩnh Phúc
+VN,Hậu Giang Province,Hậu Giang Province
+VN,롱안성,Long An
+VN,랑선성,Tỉnh Lạng Sơn
+VN,호치민,Ho Chi Minh City
+VN,하장성,Tỉnh Hà Giang
+VN,껀터,Thành Phố Cần Thơ
+VN,동나이성,Tỉnh Đồng Nai
+VN,닌투언성,Tỉnh Ninh Thuận
+VN,Tỉnh Yên Bái,Tỉnh Yên Bái
+VN,꼰뚬성,Kon Tum
+VN,Ðắk Nông,Ðắk Nông
+VN,Tỉnh Ðiện Biên,Tỉnh Ðiện Biên
+VN,박닌성,Tỉnh Bắc Ninh
+VN,박장성,Tỉnh Bắc Giang
+VN,다낭,Thành Phố Đà Nẵng
+VN,빈즈엉성,Tỉnh Bình Dương
+VN,빈프억성,Tỉnh Bình Phước
+VN,타이응우옌성,Tỉnh Thái Nguyên
+VN,꽝남성,Tỉnh Quảng Nam
+VN,푸토성,Tỉnh Phú Thọ
+VN,남딘성,Tỉnh Nam Định
+VN,Tỉnh Hà Nam,Tỉnh Hà Nam
+VN,Tỉnh Bắc Kạn,Tỉnh Bắc Kạn
+VN,박리에우성,Tỉnh Bạc Liêu
+VN,까마우성,Tỉnh Cà Mau
+VN,흥옌성,Tỉnh Hưng Yên
+VN,럼동성,Tỉnh Lâm Đồng
+VN,라이쩌우성,Tỉnh Lai Châu
+VN,Tỉnh Kiến Giang,Tỉnh Kiến Giang
+VN,카인호아성,Tỉnh Khánh Hòa
+VN,하띤성,Tỉnh Hà Tĩnh
+VN,잘라이성,Gia Lai
+VN,안장성,An Giang
+VN,타인호아성,Tỉnh Thanh Hóa
+VN,타이빈성,Tỉnh Thái Bình
+VN,떠이닌성,Tỉnh Tây Ninh
+VN,선라성,Tỉnh Sơn La
+VN,꽝찌성,Tỉnh Quảng Trị
+VN,꽝닌성,Tỉnh Quảng Ninh
+VN,꽝응아이성,Tỉnh Quảng Ngãi
+VN,꽝빈성,Tỉnh Quảng Bình
+VN,푸옌성,Tỉnh Phú Yên
+VN,Tỉnh Hòa Bình,Tỉnh Hòa Bình
+VN,Hanoi,Hanoi
+VN,하이퐁,Thành Phố Hải Phòng
+VN,빈투언성,Tỉnh Bình Thuận
+VN,동탑성,Tỉnh Đồng Tháp
+VN,닥락성,Đắk Lắk Province
+VN,바리어붕따우성,Tỉnh Bà Rịa-Vũng Tàu
+VN,까오방성,Tỉnh Cao Bằng
+VN,빈딘성,Tỉnh Bình Định
+VN,벤째성,Tỉnh Bến Tre
+VN,Tỉnh Nghệ An,Tỉnh Nghệ An
+VN,Tỉnh Ninh Bình,Tỉnh Ninh Bình
+VN,속짱성,Tỉnh Sóc Trăng
+VN,Tỉnh Trà Vinh,Tỉnh Trà Vinh
+VN,뚜옌꽝성,Tỉnh Tuyên Quang
+VN,빈롱성,Tỉnh Vĩnh Long
+VN,라오까이성,Tỉnh Lào Cai
+VN,띠엔장성,Tỉnh Tiền Giang
+VN,Thừa Thiên Huế,Thừa Thiên Huế
+UY,타쿠아렘보 주,Departamento de Tacuarembó
+UY,소리아노주,Departamento de Soriano
+UY,산호세주,Departamento de San José
+UY,살토주,Departamento de Salto
+UY,로차주,Departamento de Rocha
+UY,리베라주,Departamento de Rivera
+UY,리오네그로주,Departamento de Río Negro
+UY,파이산두주,Departamento de Paysandú
+UY,몬테비데오주,Departamento de Montevideo
+UY,말도나도주,Departamento de Maldonado
+UY,라바예하주,Departamento de Lavalleja
+UY,플로리다주,Departamento de Florida
+UY,Departamento de Flores,Departamento de Flores
+UY,두라스노주,Departamento de Durazno
+UY,콜로니아주,Departamento de Colonia
+UY,세로라르고주,Departamento de Cerro Largo
+UY,카넬로네스주,Departamento de Canelones
+UY,아르티가스주,Departamento de Artigas
+UY,트레인타이트레스주,Departamento de Treinta y Tres
+HK,위안랑 구,Yuen Long District
+HK,취안완 구,Tsuen Wan District
+HK,다푸 구,Tai Po District
+HK,시궁 구,Sai Kung District
+HK,리다오 구,Islands District
+HK,중시 구,Central and Western District
+HK,완쯔 구,Wan Chai
+HK,둥 구,Eastern
+HK,난 구,Southern
+HK,쿠이칭 구,Kwai Tsing
+HK,툰먼 구,Tuen Mun
+HK,베이 구,North
+HK,사톈 구,Sha Tin
+HK,유젠왕 구,Yau Tsim Mong
+HK,선수이부 구,Sham Shui Po
+HK,주룽청 구,Kowloon City
+HK,황다셴 구,Wong Tai Sin
+HK,관탕 구,Kwun Tong
+AT,포어아를베르크주,Vorarlberg
+AT,잘츠부르크주,Salzburg
+AT,니더외스터라이히주,Niederösterreich
+AT,티롤주,Tirol
+AT,슈타이어마르크주,Steiermark
+AT,오버외스터라이히주,Oberösterreich
+AT,케른텐주,Kärnten
+AT,부르겐란트주,Burgenland
+AT,Wien,Wien
+AG,세인트필립구,Parish of Saint Philip
+AG,세인트피터구,Parish of Saint Peter
+AG,세인트폴구,Parish of Saint Paul
+AG,세인트메리구,Parish of Saint Mary
+AG,세인트존구,Parish of Saint John
+AG,세인트조지구,Parish of Saint George
+AG,레돈다섬,Redonda
+AG,바부다섬,Barbuda
+TM,마리 주,Mary
+TM,레바프 주,Lebap
+TM,발칸 주,Balkan
+TM,아할 주,Ahal
+TM,Daşoguz Welaýaty,Daşoguz Welaýaty
+TM,Ashgabat,Ashgabat
+MZ,니아사주,Niassa Province
+MZ,남풀라주,Nampula
+MZ,잠베지아주,Província de Zambézia
+MZ,테트주,Tete
+MZ,Manica Province,Manica Province
+MZ,이냠바느주,Inhambane Province
+MZ,가자주,Gaza Province
+MZ,카부델가두주,Cabo Delgado Province
+MZ,소팔라주,Sofala Province
+MZ,마푸토 주,Maputo Province
+MZ,Cidade de Maputo,Cidade de Maputo
+PA,엠베라워우난 특구,Emberá-Wounaan
+PA,응가베부글레 특구,Ngöbe-Buglé
+PA,에레라주,Provincia de Herrera
+PA,Provincia del Darién,Provincia del Darién
+PA,Provincia de Colón,Provincia de Colón
+PA,Provincia de Coclé,Provincia de Coclé
+PA,치리키주,Provincia de Chiriquí
+PA,보카스델토로주,Provincia de Bocas del Toro
+PA,Provincia de Panamá,Provincia de Panamá
+PA,로스산토스주,Provincia de Los Santos
+PA,베라과스주,Provincia de Veraguas
+PA,구나얄라 특구,Guna Yala
+PA,Panamá Oeste,Panamá Oeste
+PA,Naso Tjër Di,Naso Tjër Di
+FM,야프주,State of Yap
+FM,폰페이주,State of Pohnpei
+FM,추크주,State of Chuuk
+FM,State of Kosrae,State of Kosrae
+IE,Connacht,Connacht
+IE,렌스터,Leinster
+IE,얼스터,Ulster
+IE,먼스터,Munster
+GF,프랑스령 기아나,Guyane
+NO,노를란주,Nordland Fylke
+NO,인란데주,Innlandet
+NO,베스트란주,Vestland
+NO,트뢰넬라그,Trøndelag
+NO,로갈란주,Rogaland Fylke
+NO,Møre og Romsdal fylke,Møre og Romsdal fylke
+NO,아그데르주,Agder
+NO,핀마르크주,Finnmark Fylke
+NO,텔레마르크주,Telemark fylke
+NO,외스트폴주,Østfold fylke
+NO,Oslo County,Oslo County
+NO,Buskerud fylke,Buskerud fylke
+NO,베스트폴주,Vestfold fylke
+NO,트롬스주,Troms Fylke
+NO,아케르스후스주,Akershus fylke
+SJ,Jan Mayen,Jan Mayen
+AX,Ålands skärgård,Ålands skärgård
+AX,Mariehamns stad,Mariehamns stad
+AX,Ålands landsbygd,Ålands landsbygd
+CF,바카가주,Vakaga
+CF,와카주,Ouaka
+CF,음보무주,Mbomou
+CF,오트음보무주,Haut-Mbomou
+CF,오트코토주,Haute-Kotto
+CF,바밍기방고랑주,Bamingui-Bangoran
+CF,상가음바에레주,Préfecture de la Sangha-Mbaéré
+CF,우암펭데주,Préfecture de l’Ouham-Pendé
+CF,우암주,Ouham
+CF,옴벨라음포코주,Ombella-Mpoko
+CF,나나맘베레주,Préfecture de la Nana-Mambéré
+CF,맘베레카데이주,Mambéré-Kadéï
+CF,Commune de Bangui,Commune de Bangui
+CF,바스코토주,Basse-Kotto
+CF,로바예주,Lobaye
+CF,케모주,Préfecture de la Kémo
+CF,Préfecture de la Nana-Grébizi,Préfecture de la Nana-Grébizi
+CF,Mambéré,Mambéré
+CF,Ouham-Fafa,Ouham-Fafa
+CF,Lim-Pendé,Lim-Pendé
+BF,부클뒤무운주,Boucle du Mouhoun Region
+BF,동부주,Est
+BF,오트바생주,High-Basins Region
+BF,사엘주,Sahel
+BF,카스카드주,Cascades Region
+BF,중부주,Centre
+BF,중동부주,Centre-Est
+BF,중북부주,Centre-Nord
+BF,중서부주,Centre-Ouest
+BF,중남부주,Centre-Sud
+BF,북부주,Nord
+BF,플라토상트랄주,Plateau-Central
+BF,남서부주,Southwest Region
+ER,안세바주,Anseba Region
+ER,남홍해주,Southern Red Sea Region
+ER,가시바르카주,Gash-Barka Region
+ER,북홍해주,Northern Red Sea Region
+ER,남부주,Debub Region
+ER,중앙주,Maekel Region
+TZ,모로고로주,Morogoro Region
+TZ,루부마주,Ruvuma Region
+TZ,카게라주,Kagera Region
+TZ,탕가주,Tanga Region
+TZ,타보라주,Tabora Region
+TZ,싱기다주,Singida Region
+TZ,루콰주,Rukwa Region
+TZ,프와니주,Coast Region
+TZ,므완자주,Mwanza Region
+TZ,므베야주,Mbeya Region
+TZ,마냐라주,Manyara Region
+TZ,린디주,Lindi Region
+TZ,키고마주,Kigoma Region
+TZ,이링가주,Iringa Region
+TZ,도도마주,Dodoma Region
+TZ,아루샤주,Arusha Region
+TZ,시미유주,Simiyu Region
+TZ,게이타주,Geita Region
+TZ,카타비주,Katavi Region
+TZ,Songwe,Songwe
+TZ,므트와라주,Mtwara Region
+TZ,Zanzibar Urban/West Region,Zanzibar Urban/West Region
+TZ,Zanzibar North Region,Zanzibar North Region
+TZ,Zanzibar Central/South Region,Zanzibar Central/South Region
+TZ,시니앙가주,Shinyanga Region
+TZ,Pemba South Region,Pemba South Region
+TZ,Pemba North Region,Pemba North Region
+TZ,마라주,Mara Region
+TZ,킬리만자로주,Kilimanjaro Region
+TZ,다르에스살람주,Dar es Salaam Region
+TZ,느좀베주,Njombe Region
+KR,경상북도,Gyeongsangbuk-do
+KR,전라남도,Jeollanam-do
+KR,경기도,Gyeonggi-do
+KR,광주광역시,Gwangju
+KR,강원도,Gangwon
+KR,충청남도,Chungcheongnam-do
+KR,충청북도,Chungcheongbuk-do
+KR,전라북도,Jeonbuk
+KR,경상남도,Gyeongsangnam-do
+KR,세종특별자치시,Sejong-si
+KR,대전광역시,Daejeon
+KR,대구광역시,Daegu
+KR,서울특별시,Seoul
+KR,울산광역시,Ulsan
+KR,부산광역시,Busan
+KR,인천광역시,Incheon
+KR,제주특별자치도,Jeju-do
+JO,마안주,Muḩāfaz̧at Ma‘ān
+JO,마프라크주,Al Mafraq
+JO,아질룬주,Ajloun
+JO,제라시주,Jerash
+JO,Muḩāfaz̧at al ‘Aqabah,Muḩāfaz̧at al ‘Aqabah
+JO,마다바주,Muḩāfaz̧at Mādabā
+JO,이르비드주,Irbid
+JO,Muḩāfaz̧at az Zarqā’,Muḩāfaz̧at az Zarqā’
+JO,타필라주,Muḩāfaz̧at aţ Ţafīlah
+JO,암만주,Amman Governorate
+JO,Al Karak,Al Karak
+JO,발카주,Muḩāfaz̧at al Balqā’
+MR,티리스젬무르주,Tiris Zemmour
+MR,호드에슈샤르기주,Hodh ech Chargui
+MR,아드라르 주,Adrar
+MR,트라르자주,Wilaya du Trarza
+MR,타간트주,Tagant
+MR,인시리주,Inchiri
+MR,호드엘가르비주,Hodh El Gharbi
+MR,다클레트누아디부주,Dakhlet Nouadhibou
+MR,브라크나주,Brakna
+MR,아사바주,Assaba
+MR,기디마카주,Guidimaka
+MR,고르골주,Gorgol
+MR,Nouakchott Ouest,Nouakchott Ouest
+MR,Nouakchott Nord,Nouakchott Nord
+MR,Nouakchott Sud,Nouakchott Sud
+LT,알리투스주,Alytus County
+LT,카우나스주,Kaunas County
+LT,클라이페다주,Klaipėda County
+LT,마리얌폴레주,Marijampolė County
+LT,파네베지스주,Panevėžys
+LT,샤울랴이주,Šiauliai County
+LT,타우라게주,Tauragė County
+LT,텔샤이주,Telšių apskritis
+LT,우테나주,Utena County
+LT,빌뉴스주,Vilnius County
+UM,웨이크 섬,Wake Atoll
+UM,베이커 섬,Baker Island
+UM,Howland Island,Howland Island
+UM,Jarvis Island,Jarvis Island
+UM,Johnston Atoll,Johnston Atoll
+UM,Kingman Reef,Kingman Reef
+UM,미드웨이,Midway Atoll
+UM,Palmyra Atoll,Palmyra Atoll
+UM,나바사 섬,Navassa Island
+SK,코시체주,Kosice
+SK,반스카비스트리차주,Banska Bystrica
+SK,니트라주,Nitra
+SK,Trencin,Trencin
+SK,트르나바주,Trnava
+SK,프레쇼우주,Presov
+SK,브라티슬라바주,Bratislava
+SK,질리나주,Zilina
+AO,모시쿠주,Moxico
+AO,Cuando Cubango,Cuando Cubango
+AO,룬다노르트주,Lunda Norte Province
+AO,말란즈주,Malanje Province
+AO,룬다술주,Lunda-Sul
+AO,자이르주,Zaire
+AO,우이즈주,Província do Uíge
+AO,벵구주,Bengo Province
+AO,나미브주,Namibe Province
+AO,우일라주,Huila Province
+AO,우암부주,Huambo
+AO,쿠네느주,Cunene Province
+AO,쿠안자술주,Cuanza-Sul
+AO,Província do Bié,Província do Bié
+AO,벵겔라주,Benguela
+AO,루안다주,Luanda Province
+AO,쿠안자노르트주,Cuanza Norte Province
+AO,카빈다 주,Cabinda
+KZ,카라간다주,Qaraghandy Oblysy
+KZ,Zhambyl Oblysy,Zhambyl Oblysy
+KZ,Turkistan,Turkistan
+KZ,East Kazakhstan,East Kazakhstan
+KZ,Aqmola Oblysy,Aqmola Oblysy
+KZ,North Kazakhstan,North Kazakhstan
+KZ,파블로다르주,Pavlodar Region
+KZ,Qyzylorda Oblysy,Qyzylorda Oblysy
+KZ,Qostanay Oblysy,Qostanay Oblysy
+KZ,Almaty Oblysy,Almaty Oblysy
+KZ,West Kazakhstan,West Kazakhstan
+KZ,Mangistauskaya Oblast’,Mangistauskaya Oblast’
+KZ,Aktyubinskaya Oblast’,Aktyubinskaya Oblast’
+KZ,Abai Region,Abai Region
+KZ,Almaty,Almaty
+KZ,Baikonur,Baikonur
+KZ,Astana,Astana
+KZ,Shymkent,Shymkent
+KZ,Atyrau Region,Atyrau Region
+KZ,Jetisu Region,Jetisu Region
+KZ,Ulytau Region,Ulytau Region
+MD,Raionul Edineţ,Raionul Edineţ
+MD,운게니 구,Raionul Ungheni
+MD,텔레네슈티구,Teleneşti
+MD,타라클리아구,Taraclia
+MD,Raionul Ștefan Vodă,Raionul Ștefan Vodă
+MD,스트러셰니구,Raionul Străşeni
+MD,소로카구,Raionul Soroca
+MD,르슈카니구,Rîşcani
+MD,레지나구,Rezina
+MD,오르헤이 구,Orhei
+MD,Raionul Ocniţa,Raionul Ocniţa
+MD,아네니노이구,Anenii Noi
+MD,니스포레니구,Nisporeni
+MD,레오바구,Leova
+MD,슨제레이구,Sîngerei
+MD,크리울레니구,Criuleni
+MD,이알로베니구,Ialoveni
+MD,Municipiul Chişinău,Municipiul Chişinău
+MD,Raionul Căuşeni,Raionul Căuşeni
+MD,칸테미르구,Cantemir
+MD,Raionul Călăraşi,Raionul Călăraşi
+MD,카훌구,Raionul Cahul
+MD,글로데니구,Glodeni
+MD,플로레슈티구,Floreşti
+MD,펄레슈티구,Făleşti
+MD,Raionul Drochia,Raionul Drochia
+MD,돈두셰니구,Donduşeni
+MD,치미슐리아구,Cimişlia
+MD,Municipiul Bălţi,Municipiul Bălţi
+MD,흔체슈티구,Hînceşti
+MD,숄더네슈티구,Şoldăneşti
+MD,Municipiul Bender,Municipiul Bender
+MD,브리체니구,Briceni
+MD,바사라베아스카구,Basarabeasca
+MD,두버사리구,Raionul Dubăsari
+MD,트란스니스트리아 자치 영토 단위,Administrative-Territorial Units of the Left Bank of the Dniester
+MD,가가우지아,Gagauzia
+ML,키달주,Kidal Region
+ML,몹티주,Mopti Region
+ML,케스주,Kayes Region
+ML,가오주,Gao Region
+ML,Tombouctou Region,Tombouctou Region
+ML,시카소주,Sikasso Region
+ML,Taoudénit Region,Taoudénit Region
+ML,쿨리코로주,Koulikoro Region
+ML,세구주,Ségou Region
+ML,Ménaka Region,Ménaka Region
+ML,바마코,Bamako Region
+AM,아라가초튼주,Aragatsotn
+AM,아르마비르주,Armavir
+AM,게가르쿠니크주,Gegharkunik
+AM,코타이크주,Kotayk
+AM,Lori,Lori
+AM,시라크주,Shirak
+AM,타부시주,Tavush
+AM,예레반,Yerevan
+AM,아라라트주,Ararat
+AM,슈니크주,Syunik
+AM,Vayots Dzor,Vayots Dzor
+WS,바이시가노구,Vaisigano
+WS,바아오포노티 구,Va‘a-o-Fonoti
+WS,투아마사가구,Tuamasaga
+WS,사투파이테아구,Satupa‘itea
+WS,팔라울리구,Palauli
+WS,가가이포마우가구,Gagaifomauga
+WS,가가에마우가구,Gaga‘emauga
+WS,파아살렐레아가 구,Fa‘asaleleaga
+WS,아투아구,Atua
+WS,아이가이레타이구,Aiga-i-le-Tai
+WS,아아나 구,A'ana
+JE,Saint Clement,Saint Clement
+JE,Saint Saviour,Saint Saviour
+JE,Saint Brelade,Saint Brelade
+JE,Grouville,Grouville
+JE,Saint Mary,Saint Mary
+JE,Saint Lawrence,Saint Lawrence
+JE,Saint Peter,Saint Peter
+JE,Saint Ouen,Saint Ouen
+JE,Saint John,Saint John
+JE,Trinity,Trinity
+JE,Saint Martin,Saint Martin
+JE,Saint Helier,Saint Helier
+JP,나가사키 현,Nagasaki Prefecture
+JP,가고시마 현,Kagoshima-ken
+JP,아이치 현,Aichi-ken
+JP,나라 현,Nara-ken
+JP,나가노 현,Nagano-ken
+JP,미야자키 현,Miyazaki
+JP,미에 현,Mie-ken
+JP,교토 부,Kyoto Prefecture
+JP,구마모토 현,Kumamoto
+JP,야마나시 현,Yamanashi
+JP,야마구치 현,Yamaguchi
+JP,와카야마 현,Wakayama
+JP,도야마 현,Toyama-ken
+JP,돗토리 현,Tottori
+JP,도쿠시마 현,Tokushima-ken
+JP,도치기 현,Tochigi
+JP,시즈오카 현,Shizuoka
+JP,시마네현,Shimane-ken
+JP,시가 현,Shiga
+JP,사이타마 현,Saitama-ken
+JP,사가 현,Saga-ken
+JP,오사카 부,Ōsaka-fu
+JP,오카야마 현,Okayama-ken
+JP,오이타 현,Oita Prefecture
+JP,고치 현,Kochi Prefecture
+JP,가나가와 현,Kanagawa
+JP,가가와 현,Kagawa-ken
+JP,이시카와 현,Ishikawa-ken
+JP,효고 현,Hyōgo
+JP,히로시마 현,Hiroshima-ken
+JP,군마현,Gunma-ken
+JP,기후 현,Gifu
+JP,후쿠오카 현,Fukuoka Prefecture
+JP,후쿠이 현,Fukui
+JP,에히메 현,Ehime
+JP,후쿠시마 현,Fukushima-ken
+JP,지바 현,Chiba-ken
+JP,아키타 현,Akita
+JP,야마가타 현,Yamagata-ken
+JP,미야기 현,Miyagi-ken
+JP,이화테 현,Iwate
+JP,이바라키 현,Ibaraki
+JP,아오모리현,Aomori-ken
+JP,도쿄 도,Tokyo Prefecture
+JP,오키나와 현,Okinawa
+JP,니가타 현,Niigata-ken
+JP,홋카이도,Hokkaido
+BO,산타크루스주,Departamento de Santa Cruz
+BO,포토시주,Departamento de Potosí
+BO,라파스주,Departamento de La Paz
+BO,베니주,El Beni
+BO,Departamento de Cochabamba,Departamento de Cochabamba
+BO,추키사카주,Departamento de Chuquisaca
+BO,Departamento de Pando,Departamento de Pando
+BO,오루로주,Departamento de Oruro
+BO,타리하주,Departamento de Tarija
+CL,Región de Antofagasta,Región de Antofagasta
+CL,Región Aysén,Región Aysén
+CL,Región de Valparaíso,Región de Valparaíso
+CL,Región de Magallanes y Antártica Chilena,Región de Magallanes y Antártica Chilena
+CL,Región del Maule,Región del Maule
+CL,로스라고스주,Región de los Lagos
+CL,Región del Biobío,Región del Biobío
+CL,Región de Atacama,Región de Atacama
+CL,Región de la Araucanía,Región de la Araucanía
+CL,타라파카주,Región de Tarapacá
+CL,코킴보주,Región de Coquimbo
+CL,리베르타도르헤네랄베르나르도오이긴스주,Región del Libertador General Bernardo O’Higgins
+CL,산티아고 수도주,Región Metropolitana
+CL,아리카이파리나코타주,Región de Arica y Parinacota
+CL,로스리오스주,Región de los Ríos
+CL,Región de Ñuble,Región de Ñuble
+US,조지아,Georgia
+US,아칸소주,Arkansas
+US,캔자스주,Kansas
+US,오클라호마주,Oklahoma
+US,노스캐롤라이나주,North Carolina
+US,오리건주,Oregon
+US,버지니아주,Virginia
+US,사우스다코타주,South Dakota
+US,워싱턴주,Washington
+US,와이오밍주,Wyoming
+US,하와이주,Hawaii
+US,알래스카주,Alaska
+US,몬태나주,Montana
+US,뉴멕시코주,New Mexico
+US,콜로라도주,Colorado
+US,노스다코타주,North Dakota
+US,아이다호주,Idaho
+US,유타주,Utah
+US,애리조나주,Arizona
+US,네바다주,Nevada
+US,메인주,Maine
+US,네브래스카주,Nebraska
+US,뉴욕주,New York
+US,루이지애나주,Louisiana
+US,아이오와주,Iowa
+US,일리노이주,Illinois
+US,미주리주,Missouri
+US,웨스트버지니아주,West Virginia
+US,앨라배마주,Alabama
+US,사우스캐롤라이나주,South Carolina
+US,테네시주,Tennessee
+US,매사추세츠주,Massachusetts
+US,펜실베이니아주,Pennsylvania
+US,버몬트주,Vermont
+US,메릴랜드주,Maryland
+US,인디애나 주,Indiana
+US,컬럼비아 특별구,District of Columbia
+US,델라웨어주,Delaware
+US,로드아일랜드주,Rhode Island
+US,뉴저지주,New Jersey
+US,코네티컷주,Connecticut
+US,플로리다주,Florida
+US,미시시피주,Mississippi
+US,켄터키주,Kentucky
+US,캘리포니아주,California
+US,오하이오주,Ohio
+US,위스콘신주,Wisconsin
+US,뉴햄프셔주,New Hampshire
+US,미시간주,Michigan
+US,미네소타주,Minnesota
+US,텍사스주,Texas
+UM,웨이크 섬,Wake Atoll
+UM,베이커 섬,Baker Island
+UM,Howland Island,Howland Island
+UM,Jarvis Island,Jarvis Island
+UM,Johnston Atoll,Johnston Atoll
+UM,Kingman Reef,Kingman Reef
+UM,미드웨이,Midway Atoll
+UM,Palmyra Atoll,Palmyra Atoll
+UM,나바사 섬,Navassa Island
+VC,세인트패트릭구,Parish of Saint Patrick
+VC,세인트조지구,Parish of Saint George
+VC,세인트데이비드구,Parish of Saint David
+VC,세인트앤드루구,Parish of Saint Andrew
+VC,그레나딘구,Grenadines
+VC,샬럿구,Parish of Charlotte
+BM,Warwick Parish,Warwick Parish
+BM,Southampton Parish,Southampton Parish
+BM,Smith’s Parish,Smith’s Parish
+BM,Sandys Parish,Sandys Parish
+BM,Saint George’s Parish,Saint George’s Parish
+BM,Saint George,Saint George
+BM,Pembroke Parish,Pembroke Parish
+BM,Paget Parish,Paget Parish
+BM,Hamilton,Hamilton
+BM,Hamilton City,Hamilton City
+BM,Devonshire Parish,Devonshire Parish
+SC,레마멜구,Les Mamelles
+SC,로슈카이망구,Roche Caiman
+SC,오카프구,Au Cap
+SC,타카마카구,Takamaka
+SC,생루이구,Saint Louis
+SC,포르글로드구,Port Glaud
+SC,푸앵트라루구,Pointe Larue
+SC,플레장스구,Plaisance
+SC,몽플뢰리구,Mont Fleuri
+SC,몽뷕스통구,Mont Buxton
+SC,라리비에르앙글레즈구,English River
+SC,라디그 및 내부 도서 구,La Digue
+SC,Grand Anse Mahe,Grand Anse Mahe
+SC,Grand Anse Praslin,Grand Anse Praslin
+SC,글라시구,Glacis
+SC,카스카드구,Cascade
+SC,Bel Ombre,Bel Ombre
+SC,벨에르구,Bel Air
+SC,Beau Vallon,Beau Vallon
+SC,베생트안구,Baie Sainte Anne
+SC,베라자르구,Baie Lazare
+SC,Anse Royale,Anse Royale
+SC,앙스에투알구,Anse Etoile
+SC,Anse Boileau,Anse Boileau
+SC,앙스오팽구,Anse aux Pins
+SC,Ile Perseverance I,Ile Perseverance I
+SC,Ile Perseverance II,Ile Perseverance II
+SC,Outer Islands,Outer Islands
+GT,페텐주,Departamento del Petén
+GT,사카파주,Departamento de Zacapa
+GT,Departamento de Jutiapa,Departamento de Jutiapa
+GT,Departamento de Jalapa,Departamento de Jalapa
+GT,이사발주,Departamento de Izabal
+GT,Departamento de Huehuetenango,Departamento de Huehuetenango
+GT,과테말라주,Departamento de Guatemala
+GT,Departamento de Escuintla,Departamento de Escuintla
+GT,엘프로그레소주,Departamento de El Progreso
+GT,Departamento de Totonicapán,Departamento de Totonicapán
+GT,Departamento de Suchitepéquez,Departamento de Suchitepéquez
+GT,솔롤라주,Departamento de Sololá
+GT,산타로사주,Departamento de Santa Rosa
+GT,산마르코스주,Departamento de San Marcos
+GT,사카테페케스주,Departamento de Sacatepéquez
+GT,Departamento de Retalhuleu,Departamento de Retalhuleu
+GT,키체주,Departamento del Quiché
+GT,케트살테낭고주,Departamento de Quetzaltenango
+GT,치키물라주,Departamento de Chiquimula
+GT,치말테낭고주,Departamento de Chimaltenango
+GT,바하베라파스주,Departamento de Baja Verapaz
+GT,알타베라파스주,Departamento de Alta Verapaz
+EC,Provincia de Sucumbíos,Provincia de Sucumbíos
+EC,오레야나주,Orellana
+EC,과야스주,Provincia del Guayas
+EC,갈라파고스 제도,Provincia de Galápagos
+EC,파스타사주,Pastaza
+EC,모로나산티아고주,Morona Santiago
+EC,Provincia de Manabí,Provincia de Manabí
+EC,산토도밍고데로스차칠라스주,Provincia de Santo Domingo de los Tsáchilas
+EC,산타엘레나주,Provincia de Santa Elena
+EC,에스메랄다스주,Provincia de Esmeraldas
+EC,엘오로주,Provincia de El Oro
+EC,Provincia de Cotopaxi,Provincia de Cotopaxi
+EC,침보라소주,Chimborazo
+EC,카르치주,Provincia del Carchi
+EC,Cañar,Cañar
+EC,Provincia de Bolívar,Provincia de Bolívar
+EC,아수아이주,Provincia del Azuay
+EC,퉁구라우아주,Tungurahua
+EC,피친차주,Provincia de Pichincha
+EC,나포주,Provincia de Napo
+EC,Provincia de Los Ríos,Provincia de Los Ríos
+EC,로하주,Provincia de Loja
+EC,임바부라주,Provincia de Imbabura
+EC,사모라친치페주,Zamora Chinchipe
+MQ,마르티니크,Martinique
+TJ,하틀론주,Viloyati Khatlon
+TJ,Viloyati Sughd,Viloyati Sughd
+TJ,Gorno-Badakhshan,Gorno-Badakhshan
+TJ,Districts of Republican Subordination,Districts of Republican Subordination
+TJ,Dushanbe,Dushanbe
+MT,Attard,Attard
+MT,발찬,Balzan
+MT,Il-Birgu,Il-Birgu
+MT,Birkirkara,Birkirkara
+MT,Birżebbuġa,Birżebbuġa
+MT,Bormla,Bormla
+MT,Dingli,Dingli
+MT,Il-Fgura,Il-Fgura
+MT,Il-Furjana,Il-Furjana
+MT,Il-Fontana,Il-Fontana
+MT,아인실렘,Għajnsielem
+MT,L-Għarb,L-Għarb
+MT,Ħal Għargħur,Ħal Għargħur
+MT,L-Għasri,L-Għasri
+MT,Ħal Għaxaq,Ħal Għaxaq
+MT,Il-Gudja,Il-Gudja
+MT,Il-Gżira,Il-Gżira
+MT,Il-Ħamrun,Il-Ħamrun
+MT,L-Iklin,L-Iklin
+MT,L-Imdina,L-Imdina
+MT,L-Imġarr,L-Imġarr
+MT,L-Imqabba,L-Imqabba
+MT,L-Imsida,L-Imsida
+MT,L-Imtarfa,L-Imtarfa
+MT,L-Isla,L-Isla
+MT,Il-Kalkara,Il-Kalkara
+MT,Ta’ Kerċem,Ta’ Kerċem
+MT,Kirkop,Kirkop
+MT,Lija,Lija
+MT,Luqa,Luqa
+MT,Il-Marsa,Il-Marsa
+MT,Marsaskala,Marsaskala
+MT,Marsaxlokk,Marsaxlokk
+MT,Il-Mellieħa,Il-Mellieħa
+MT,Il-Mosta,Il-Mosta
+MT,Il-Munxar,Il-Munxar
+MT,In-Nadur,In-Nadur
+MT,In-Naxxar,In-Naxxar
+MT,Paola,Paola
+MT,Pembroke,Pembroke
+MT,Tal-Pietà,Tal-Pietà
+MT,Il-Qala,Il-Qala
+MT,Qormi,Qormi
+MT,Il-Qrendi,Il-Qrendi
+MT,Ir-Rabat,Ir-Rabat
+MT,Victoria,Victoria
+MT,Safi,Safi
+MT,Saint John,Saint John
+MT,Saint Julian's,Saint Julian's
+MT,Saint Lawrence,Saint Lawrence
+MT,Saint Lucia,Saint Lucia
+MT,Saint Paul’s Bay,Saint Paul’s Bay
+MT,Saint Venera,Saint Venera
+MT,Sannat,Sannat
+MT,Is-Siġġiewi,Is-Siġġiewi
+MT,Tas-Sliema,Tas-Sliema
+MT,Is-Swieqi,Is-Swieqi
+MT,Tarxien,Tarxien
+MT,Ta’ Xbiex,Ta’ Xbiex
+MT,Ix-Xagħra,Ix-Xagħra
+MT,Ix-Xewkija,Ix-Xewkija
+MT,Ix-Xgħajra,Ix-Xgħajra
+MT,Ħaż-Żabbar,Ħaż-Żabbar
+MT,Ħaż-Żebbuġ,Ħaż-Żebbuġ
+MT,Iż-Żebbuġ,Iż-Żebbuġ
+MT,Iż-Żejtun,Iż-Żejtun
+MT,Iż-Żurrieq,Iż-Żurrieq
+MT,Valletta,Valletta
+GM,West Coast,West Coast
+GM,어퍼리버구,Upper River
+GM,노스뱅크구,North Bank
+GM,센트럴리버구,Central River
+GM,로어리버구,Lower River Division
+GM,Banjul,Banjul
+NG,요베주,Yobe State
+NG,아다마와주,Adamawa State
+NG,지가와주,Jigawa State
+NG,나사라와주,Nasarawa State
+NG,잠파라주,Zamfara State
+NG,케비주,Kebbi State
+NG,코기주,Kogi State
+NG,타라바주,Taraba State
+NG,Sokoto State,Sokoto State
+NG,플래토주,Plateau State
+NG,오요주,Oyo State
+NG,나이저주,Niger State
+NG,콰라주,Kwara State
+NG,카치나주,Katsina State
+NG,카노주,Kano State
+NG,카두나주,Kaduna State
+NG,크로스리버주,Cross River State
+NG,보르노주,Borno State
+NG,베누에주,Benue State
+NG,바우치주,Bauchi State
+NG,아비아주,Abia State
+NG,델타주,Delta State
+NG,에도주,Edo
+NG,에누구주,Enugu State
+NG,바이엘사주,Bayelsa State
+NG,에보니주,Ebonyi State
+NG,에키티주,Ekiti State
+NG,곰베주,Gombe State
+NG,오순주,Osun State
+NG,리버스주,Rivers State
+NG,온도주,Ondo State
+NG,오군주,Ogun State
+NG,라고스주,Lagos State
+NG,아남브라주,Anambra State
+NG,아콰이봄주,Akwa Ibom State
+NG,연방 수도 지구,Federal Capital Territory
+NG,이모주,Imo State
+BS,비미니,Bimini District
+BS,San Salvador District,San Salvador District
+BS,래기드섬,Ragged Island District
+BS,베리 제도,Berry Islands District
+BS,New Providence District,New Providence District
+BS,Mayaguana District,Mayaguana District
+BS,Long Island,Long Island
+BS,이나과섬,Inagua
+BS,하버섬,Harbour Island District
+BS,프리포트,City of Freeport District
+BS,엑수마,Exuma District
+BS,캣섬,Cat Island
+BS,Acklins Island District,Acklins Island District
+BS,블랙포인트,Black Point District
+BS,센트럴아바코,Central Abaco District
+BS,센트럴안드로스,Central Andros District
+BS,센트럴일루서라,Central Eleuthera District
+BS,Crooked Island and Long Cay District,Crooked Island and Long Cay District
+BS,이스트그랜드바하마,East Grand Bahama District
+BS,그랜드케이,Grand Cay District
+BS,호프타운,Hope Town District
+BS,맹그로브케이,Mangrove Cay
+BS,Moore’s Island District,Moore’s Island District
+BS,노스아바코,North Abaco District
+BS,노스안드로스,North Andros District
+BS,노스일루서라,North Eleuthera District
+BS,Rum Cay,Rum Cay
+BS,사우스아바코,South Abaco District
+BS,사우스안드로스,South Andros
+BS,사우스일루서라,South Eleuthera
+BS,스패니시웰스,Spanish Wells District
+BS,웨스트그랜드바하마,West Grand Bahama District
+XK,Ferizaj District,Ferizaj District
+XK,Gjakova District,Gjakova District
+XK,Gjilan District,Gjilan District
+XK,Mitrovica District,Mitrovica District
+XK,Pec District,Pec District
+XK,Pristina District,Pristina District
+XK,Prizren District,Prizren District
+KW,Muḩāfaz̧at Mubārak al Kabīr,Muḩāfaz̧at Mubārak al Kabīr
+KW,Muḩāfaz̧at Ḩawallī,Muḩāfaz̧at Ḩawallī
+KW,Al Asimah Governorate,Al Asimah Governorate
+KW,알자라주,Muḩāfaz̧at al Jahrā’
+KW,알파르와니야주,Muḩāfaz̧at al Farwānīyah
+KW,알아마디주,Muḩāfaz̧at al Aḩmadī
+MV,Maale,Maale
+MV,Vaavu Atholhu,Vaavu Atholhu
+MV,Thaa Atholhu,Thaa Atholhu
+MV,Shaviyani Atholhu,Shaviyani Atholhu
+MV,Addu Atoll,Addu Atoll
+MV,Raa Atholhu,Raa Atholhu
+MV,Noonu Atoll,Noonu Atoll
+MV,Gnaviyani Atoll,Gnaviyani Atoll
+MV,Meemu Atholhu,Meemu Atholhu
+MV,Lhaviyani Atholhu,Lhaviyani Atholhu
+MV,Laamu Atholhu,Laamu Atholhu
+MV,Kaafu Atoll,Kaafu Atoll
+MV,Haa Dhaalu Atholhu,Haa Dhaalu Atholhu
+MV,Haa Alifu Atholhu,Haa Alifu Atholhu
+MV,Gaafu Dhaalu Atholhu,Gaafu Dhaalu Atholhu
+MV,Gaafu Alifu Atholhu,Gaafu Alifu Atholhu
+MV,Faafu Atholhu,Faafu Atholhu
+MV,Dhaalu Atholhu,Dhaalu Atholhu
+MV,Baa Atholhu,Baa Atholhu
+MV,Alifu Atholhu,Alifu Atholhu
+MV,Southern Ari Atoll,Southern Ari Atoll
+SS,서바르알가잘주,Western Bahr el Ghazal State
+SS,상나일주,Upper Nile
+SS,레이크스주,Lakes
+SS,유니티주,Unity
+SS,중앙에콰토리아주,Central Equatoria State
+SS,서에콰토리아주,Western Equatoria
+SS,북바르알가잘주,Northern Bahr el Ghazal
+SS,동에콰토리아주,Eastern Equatoria
+SS,와랍주,Warrap State
+SS,종글레이주,Jonglei
+IR,시스탄오발루체스탄주,Sistan and Baluchestan Province
+IR,이스파한주,Isfahan Province
+IR,호르모즈간주,Hormozgan Province
+IR,케르만주,Kerman Province
+IR,파르스주,Fars Province
+IR,호라산에조누비 주,South Khorasan Province
+IR,호라산에라자비주,Razavi Khorasan Province
+IR,아르다빌주,Ardabil Province
+IR,셈난주,Semnan Province
+IR,일람주,Ilam Province
+IR,마잔다란주,Mazandaran Province
+IR,마르카지주,Markazi Province
+IR,로레스탄주,Lorestan Province
+IR,코르데스탄주,Kurdistan Province
+IR,Khuzestan Province,Khuzestan Province
+IR,케르만샤주,Kermanshah Province
+IR,테헤란주,Tehran Province
+IR,야즈드주,Yazd Province
+IR,부셰르주,Bushehr Province
+IR,동아제르바이잔주,East Azerbaijan Province
+IR,서아제르바이잔주,West Azerbaijan Province
+IR,호라산에쇼말리 주,North Khorasan Province
+IR,골레스탄주,Golestan Province
+IR,카즈빈주,Qazvin Province
+IR,쿰주,Qom Province
+IR,알보르즈주,Alborz Province
+IR,하마단주,Hamadan Province
+IR,코길루예부예르아마드주,Kohgiluyeh and Boyer-Ahmad Province
+IR,잔잔주,Zanjan Province
+IR,차하르마할에바흐티아리주,Chaharmahal and Bakhtiari Province
+IR,길란주,Gilan Province
+AL,Qarku i Beratit,Qarku i Beratit
+AL,Qarku i Dibrës,Qarku i Dibrës
+AL,Qarku i Elbasanit,Qarku i Elbasanit
+AL,Qarku i Gjirokastrës,Qarku i Gjirokastrës
+AL,Qarku i Korçës,Qarku i Korçës
+AL,Qarku i Kukësit,Qarku i Kukësit
+AL,Qarku i Durrësit,Qarku i Durrësit
+AL,Qarku i Fierit,Qarku i Fierit
+AL,Qarku i Lezhës,Qarku i Lezhës
+AL,Qarku i Shkodrës,Qarku i Shkodrës
+AL,Tirana,Tirana
+AL,Qarku i Vlorës,Qarku i Vlorës
+BR,Ceará,Ceará
+BR,피아우이주,Piauí
+BR,페르남부쿠주,Pernambuco
+BR,호라이마주,Roraima
+BR,Acre,Acre
+BR,산타카타리나주,Santa Catarina
+BR,Rio Grande do Sul,Rio Grande do Sul
+BR,Bahia,Bahia
+BR,토칸칭스주,Tocantins
+BR,파라나주,Paraná
+BR,미나스제라이스주,Minas Gerais
+BR,마투그로수두술 주,Mato Grosso do Sul
+BR,마투그로수주,Mato Grosso
+BR,이스피리투산투주,Espírito Santo
+BR,Amapá,Amapá
+BR,상파울루주,São Paulo
+BR,혼도니아주,Rondônia
+BR,히우그란지두노르치주,Rio Grande do Norte
+BR,리우데자네이루주,Rio de Janeiro
+BR,알라고아스주,Alagoas
+BR,세르지피주,Sergipe
+BR,연방구,Federal District
+BR,Paraíba,Paraíba
+BR,파라 주,Pará
+BR,마라냥주,Maranhão
+BR,아마조나스 주,Amazonas
+BR,고이아스주,Goiás
+RS,Central Serbia,Central Serbia
+RS,보이보디나,Autonomna Pokrajina Vojvodina
+BZ,코로살구,Corozal District
+BZ,카요구,Cayo District
+BZ,벨리즈구,Belize District
+BZ,털리도구,Toledo District
+BZ,스탠크리크구,Stann Creek District
+BZ,오렌지워크구,Orange Walk District
+MM,카친 주,Kachin State
+MM,샨주,Shan State
+MM,사가잉 구,Sagaing Region
+MM,만달레이 구,Mandalay Region
+MM,Magway Region,Magway Region
+MM,Mon State,Mon State
+MM,타닌타리 구,Tanintharyi Region
+MM,Rakhine State,Rakhine State
+MM,바고 구,Bago Region
+MM,카인 주,Kayin State
+MM,Ayeyarwady Region,Ayeyarwady Region
+MM,양곤 구,Yangon Region
+MM,친주,Chin State
+MM,카야 주,Kayah State
+MM,Nay Pyi Taw,Nay Pyi Taw
+BT,Bumthang Dzongkhag,Bumthang Dzongkhag
+BT,Chhukha Dzongkhag,Chhukha Dzongkhag
+BT,Dagana Dzongkhag,Dagana Dzongkhag
+BT,Tsirang Dzongkhag,Tsirang Dzongkhag
+BT,Sarpang Dzongkhag,Sarpang Dzongkhag
+BT,Haa Dzongkhag,Haa Dzongkhag
+BT,Lhuentse Dzongkhag,Lhuentse Dzongkhag
+BT,Mongar Dzongkhag,Mongar Dzongkhag
+BT,Paro Dzongkhag,Paro Dzongkhag
+BT,Pemagatshel Dzongkhag,Pemagatshel Dzongkhag
+BT,Punakha Dzongkhag,Punakha Dzongkhag
+BT,Samtse Dzongkhag,Samtse Dzongkhag
+BT,Samdrup Jongkhar Dzongkhag,Samdrup Jongkhar Dzongkhag
+BT,Zhemgang Dzongkhag,Zhemgang Dzongkhag
+BT,Trashigang Dzongkhag,Trashigang Dzongkhag
+BT,Thimphu Dzongkhag,Thimphu Dzongkhag
+BT,Trongsa Dzongkhag,Trongsa Dzongkhag
+BT,Wangdue Phodrang Dzongkhag,Wangdue Phodrang Dzongkhag
+BT,Gasa,Gasa
+BT,Trashi Yangste,Trashi Yangste
+VE,Dependencias Federales,Dependencias Federales
+VE,Estado Amazonas,Estado Amazonas
+VE,Estado Guárico,Estado Guárico
+VE,Estado Falcón,Estado Falcón
+VE,Estado Monagas,Estado Monagas
+VE,Estado Zulia,Estado Zulia
+VE,델타아마쿠로 주,Delta Amacuro
+VE,Estado Barinas,Estado Barinas
+VE,Estado Apure,Estado Apure
+VE,Estado Anzoátegui,Estado Anzoátegui
+VE,수도 지구,Distrito Capital
+VE,Estado La Guaira,Estado La Guaira
+VE,Estado Nueva Esparta,Estado Nueva Esparta
+VE,Miranda,Miranda
+VE,Estado Mérida,Estado Mérida
+VE,Estado Lara,Estado Lara
+VE,Estado Yaracuy,Estado Yaracuy
+VE,Estado Trujillo,Estado Trujillo
+VE,Estado Táchira,Estado Táchira
+VE,Estado Sucre,Estado Sucre
+VE,Estado Portuguesa,Estado Portuguesa
+VE,Estado Cojedes,Estado Cojedes
+VE,Estado Carabobo,Estado Carabobo
+VE,Estado Aragua,Estado Aragua
+VE,Estado Bolívar,Estado Bolívar
+LR,바르폴루주,Gbarpolu County
+LR,리버지주,River Gee County
+LR,그랜드크루주,Grand Kru County
+LR,마르지비주,Margibi County
+LR,리버세스주,River Cess County
+LR,시노에주,Sinoe County
+LR,님바주,Nimba County
+LR,몽세라도주,Montserrado County
+LR,메릴랜드주,Maryland County
+LR,로파주,Lofa County
+LR,그랜드게데주,Grand Gedeh County
+LR,그랜드케이프마운트주,Grand Cape Mount County
+LR,그랜드바사주,Grand Bassa County
+LR,봉주,Bong County
+LR,보미주,Bomi County
+JM,웨스트모얼랜드구,Westmoreland
+JM,트렐로니구,Trelawny
+JM,세인트토머스구,Saint Thomas
+JM,세인트메리구,Saint Mary
+JM,세인트제임스구,Saint James
+JM,세인트엘리자베스구,Saint Elizabeth
+JM,세인트캐서린구,Saint Catherine
+JM,세인트앤구,Parish of Saint Ann
+JM,세인트앤드루구,Saint Andrew
+JM,포틀랜드구,Portland
+JM,맨체스터구,Manchester
+JM,킹스턴구,Kingston
+JM,해노버구,Parish of Hanover
+JM,클래런던구,Clarendon
+PL,Masovian Voivodeship,Masovian Voivodeship
+PL,비엘코폴스카주,Greater Poland Voivodeship
+PL,서포모제주,West Pomeranian Voivodeship
+PL,루블린주,Lublin Voivodeship
+PL,마워폴스카주,Lesser Poland Voivodeship
+PL,포드카르파츠키에주,Podkarpackie Voivodeship
+PL,Podlaskie Voivodeship,Podlaskie Voivodeship
+PL,바르미아마주리주,Warmian-Masurian Voivodeship
+PL,돌니실롱스크주,Lower Silesian Voivodeship
+PL,루부시주,Lubusz Voivodeship
+PL,Opole Voivodeship,Opole Voivodeship
+PL,Pomeranian Voivodeship,Pomeranian Voivodeship
+PL,Silesian Voivodeship,Silesian Voivodeship
+PL,Kuyavian-Pomeranian Voivodeship,Kuyavian-Pomeranian Voivodeship
+PL,Świętokrzyskie Voivodeship,Świętokrzyskie Voivodeship
+PL,우치주,Łódź Voivodeship
+KY,West Bay,West Bay
+KY,Bodden Town,Bodden Town
+KY,North Side,North Side
+KY,East End,East End
+KY,Sister Island,Sister Island
+KY,George Town,George Town
+BN,Tutong,Tutong
+BN,Temburong,Temburong
+BN,브루네이무아라구,Daerah Brunei dan Muara
+BN,Belait,Belait
+KM,모엘리섬,Mohéli
+KM,그랑드코모르 섬,Grande Comore
+KM,Ndzuwani,Ndzuwani
+GU,Piti Municipality,Piti Municipality
+GU,Santa Rita Municipality,Santa Rita Municipality
+GU,Sinajana Municipality,Sinajana Municipality
+GU,Talofofo Municipality,Talofofo Municipality
+GU,Tamuning-Tumon-Harmon Municipality,Tamuning-Tumon-Harmon Municipality
+GU,Umatac Municipality,Umatac Municipality
+GU,Yigo Municipality,Yigo Municipality
+GU,Yona Municipality,Yona Municipality
+GU,Merizo Municipality,Merizo Municipality
+GU,Mangilao Municipality,Mangilao Municipality
+GU,Agana Heights Municipality,Agana Heights Municipality
+GU,Chalan Pago-Ordot Municipality,Chalan Pago-Ordot Municipality
+GU,Asan-Maina Municipality,Asan-Maina Municipality
+GU,Agat Municipality,Agat Municipality
+GU,Dededo Municipality,Dededo Municipality
+GU,Barrigada Municipality,Barrigada Municipality
+GU,Hagåtña Municipality,Hagåtña Municipality
+GU,Inarajan Municipality,Inarajan Municipality
+GU,Mongmong-Toto-Maite Municipality,Mongmong-Toto-Maite Municipality
+TO,에우아 섬,Eua
+TO,니우아 제도,Niuas
+TO,Vava‘u,Vava‘u
+TO,Tongatapu,Tongatapu
+TO,Ha‘apai,Ha‘apai
+KI,Line Islands,Line Islands
+KI,Gilbert Islands,Gilbert Islands
+KI,피닉스 제도,Phoenix Islands
+GH,아샨티 주,Ashanti Region
+GH,북부 주,Northern Region
+GH,Bono East,Bono East
+GH,Savannah,Savannah
+GH,중앙 주,Central Region
+GH,서부 주,Western Region
+GH,볼타 주,Volta Region
+GH,북서부 주,Upper West Region
+GH,북동부 주,Upper East Region
+GH,그레이터아크라 주,Greater Accra Region
+GH,동부 주,Eastern Region
+GH,Bono,Bono
+GH,Oti,Oti
+GH,North East,North East
+GH,Ahafo,Ahafo
+GH,Western North,Western North
+TD,보르쿠주,Borkou Region
+TD,티베스티주,Tibesti Region
+TD,바타주,Batha Region
+TD,Ennedi-Ouest,Ennedi-Ouest
+TD,하제르라미주,Hadjer-Lamis
+TD,Province du Barh-El-Gazel,Province du Barh-El-Gazel
+TD,실라주,Sila
+TD,살라마트주,Salamat Region
+TD,와다이주,Ouaddai Region
+TD,와디피라주,Wadi Fira Region
+TD,무아얭샤리주,Moyen-Chari Region
+TD,로곤오리앙탈주,Logone Oriental Region
+TD,라크주,Lac Region
+TD,카넴주,Kanem Region
+TD,게라주,Guera Region
+TD,샤리바기르미주,Chari-Baguirmi Region
+TD,Ennedi-Est,Ennedi-Est
+TD,망둘주,Mandoul
+TD,마요케비우에스트주,Mayo-Kebbi West Region
+TD,Ville de N'Djamena,Ville de N'Djamena
+TD,탕질레주,Tandjile Region
+TD,마요케비에스트주,Mayo-Kebbi East Region
+TD,로곤옥시당탈주,Logone Occidental Region
+ZW,북마타벨랜드주,Matabeleland North Province
+ZW,마니칼랜드주,Manicaland Province
+ZW,미들랜즈주,Midlands Province
+ZW,남마타벨랜드주,Matabeleland South Province
+ZW,마스빙고주,Masvingo Province
+ZW,서마쇼날랜드주,Mashonaland West Province
+ZW,동마쇼날랜드주,Mashonaland East Province
+ZW,중앙마쇼날랜드주,Mashonaland Central Province
+ZW,Bulawayo Province,Bulawayo Province
+ZW,하라레주,Harare Province
+MN,고비알타이주,Govĭ-Altay Aymag
+MN,Dzavhan Aymag,Dzavhan Aymag
+MN,Bayanhongor Aymag,Bayanhongor Aymag
+MN,으므느고비 주,Ömnögovi Province
+MN,Hövsgöl Aymag,Hövsgöl Aymag
+MN,더르너고비주,East Gobi Aymag
+MN,더르너드주,Dornod Aymag
+MN,Central Aymag,Central Aymag
+MN,오브스주,Uvs Aymag
+MN,Hovd,Hovd
+MN,Bayan-Ölgiy Aymag,Bayan-Ölgiy Aymag
+MN,Sühbaatar Aymag,Sühbaatar Aymag
+MN,셀렝게주,Selenge Aymag
+MN,South Khangay,South Khangay
+MN,Hentiy Aymag,Hentiy Aymag
+MN,Dundgovĭ Aymag,Dundgovĭ Aymag
+MN,볼간주,Bulgan
+MN,아르항가이주,Arhangay Aymag
+MN,Ulaanbaatar Hot,Ulaanbaatar Hot
+MN,Darhan-Uul Aymag,Darhan-Uul Aymag
+MN,Orhon Aymag,Orhon Aymag
+MN,Govĭ-Sumber,Govĭ-Sumber
+PT,아조레스,Azores
+PT,비제우현,Distrito de Viseu
+PT,빌라헤알현,Distrito de Vila Real
+PT,비아나두카스텔루현,Distrito de Viana do Castelo
+PT,마데이라 제도,Madeira
+PT,포르투현,Distrito do Porto
+PT,구아르다현,Distrito da Guarda
+PT,코임브라현,Distrito de Coimbra
+PT,브라간사현,Distrito de Bragança
+PT,브라가현,Distrito de Braga
+PT,Distrito de Aveiro,Distrito de Aveiro
+PT,세투발현,Distrito de Setúbal
+PT,산타렝현,Distrito de Santarém
+PT,포르탈레그르현,Distrito de Portalegre
+PT,리스보아현,Distrito de Lisboa
+PT,레이리아현,Distrito de Leiria
+PT,파루현,Distrito de Faro
+PT,에보라현,Distrito de Évora
+PT,카스텔루브랑쿠현,Distrito de Castelo Branco
+PT,베자현,Distrito de Beja
+AS,Rose Atoll,Rose Atoll
+AS,Western District,Western District
+AS,Swains Island,Swains Island
+AS,Eastern District,Eastern District
+AS,Manu'a District,Manu'a District
+CG,퀴베트우에스트주,Cuvette-Ouest
+CG,상가주,Sangha
+CG,풀주,Pool
+CG,플라토주,Plateaux
+CG,니아리주,Région du Niari
+CG,리쿠알라주,Likouala
+CG,레쿠무주,Lékoumou
+CG,퀴베트주,Cuvette
+CG,Pointe-Noire,Pointe-Noire
+CG,쿠일루주,Région du Kouilou
+CG,부엔자주,Région de la Bouenza
+CG,Brazzaville department,Brazzaville department
+BE,브뤼셀,Bruxelles-Capitale
+BE,왈롱,Wallonia
+BE,플라망 지역,Flanders
+IL,예루살렘구,Jerusalem
+IL,텔아비브구,Tel Aviv District
+IL,하이파구,Haifa
+IL,북부구,Northern District
+IL,중부구,Central District
+IL,남부구,Southern District
+SY,쿠네이트라주,Quneitra Governorate
+IL,Judea and Samaria Area,Judea and Samaria Area
+PS,가자 지구,Gaza Strip
+NZ,노스랜드 지방,Northland
+NZ,Manawatu-Wanganui,Manawatu-Wanganui
+NZ,와이카토 지방,Waikato
+NZ,사우스랜드 지방,Southland
+NZ,캔터베리 지방,Canterbury
+NZ,오타고 지방,Otago
+NZ,웨스트코스트 지방,West Coast
+NZ,Chatham Islands,Chatham Islands
+NZ,말버러 지방,Marlborough
+NZ,호크스베이 지방,Hawke's Bay
+NZ,기즈번 지방,Gisborne
+NZ,웰링턴 지방,Wellington
+NZ,태즈먼 지방,Tasman
+NZ,타라나키 지방,Taranaki
+NZ,베이오브플렌티 지방,Bay of Plenty
+NZ,오클랜드 지방,Auckland
+NZ,넬슨 지방,Nelson
+TK,Fakaofo,Fakaofo
+NI,북아틀란티코 자치구,Costa Caribe Norte
+NI,남아틀란티코 자치구,Costa Caribe Sur
+NI,리바스주,Departamento de Rivas
+NI,리오산후안주,Departamento de Río San Juan
+NI,누에바세고비아주,Departamento de Nueva Segovia
+NI,마타갈파주,Departamento de Matagalpa
+NI,마사야주,Departamento de Masaya
+NI,Departamento de Managua,Departamento de Managua
+NI,마드리스주,Departamento de Madriz
+NI,레온주,Departamento de León
+NI,히노테가주,Departamento de Jinotega
+NI,그라나다주,Departamento de Granada
+NI,에스텔리주,Departamento de Estelí
+NI,촌탈레스주,Departamento de Chontales
+NI,치난데가주,Departamento de Chinandega
+NI,카라소주,Departamento de Carazo
+NI,보아코주,Departamento de Boaco
+AI,Blowing Point,Blowing Point
+AI,Sandy Ground,Sandy Ground
+AI,Sandy Hill,Sandy Hill
+AI,The Valley,The Valley
+AI,East End,East End
+AI,North Hill,North Hill
+AI,West End,West End
+AI,South Hill,South Hill
+AI,The Quarter,The Quarter
+AI,North Side,North Side
+AI,Island Harbour,Island Harbour
+AI,George Hill,George Hill
+AI,Stoney Ground,Stoney Ground
+AI,The Farrington,The Farrington
