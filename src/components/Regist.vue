@@ -125,6 +125,10 @@ export default {
         this.isIdValid = response.data.result;
         this.message_id = response.data.message;
       } catch (error) {
+        // 오류 처리
+        console.log("🔥 ERROR_STATUS : ", error.response?.status);
+        console.log("🔥 ERROR_DATA : ", error.response?.data);
+        console.log("🔥 ERROR_MESSAGE : ", error.message);
         this.errorMessage = error.response.data.message;
       }
     },
@@ -162,7 +166,9 @@ export default {
         this.$router.push("/login");
       } catch (error) {
         // 오류 처리
-        console.log("ERROR_STATUS : " + error.status);
+        console.log("🔥 ERROR_STATUS : ", error.response?.status);
+        console.log("🔥 ERROR_DATA : ", error.response?.data);
+        console.log("🔥 ERROR_MESSAGE : ", error.message);
         this.errorMessage = error.response.data.message;
       }
     }

@@ -15,19 +15,49 @@
           </InputGroupAddon>
       </InputGroup>
       <div id="map" ref="mapContainer"></div>
+      <div id="map-detail" v-if="hasMapDetail" class="w-full h-full">
+        <Panel :header="mapDetail.koreanName + '(' + mapDetail.englishName + ')'" :headerStyle="{ fontSize: '2rem' }">
+            <div class="row-container">
+              <div class="col-container">
+                <span class="material-symbols-outlined">
+                  public
+                </span>
+                <p class="font-bold">국가코드</p>
+                <p>{{ mapDetail.isoAlpha2 }} / {{ mapDetail.isoAlpha3 }}</p>
+              </div>
+              <div class="col-container">
+                <span class="material-symbols-outlined">
+                  airplane_ticket
+                </span>
+                <p class="font-bold">비자</p>
+                <p>{{ mapDetail.visaRequirement }}</p>
+              </div>
+              <div class="col-container">
+                <span class="material-symbols-outlined">
+                  offline_bolt
+                </span>
+                <p class="font-bold">전압</p>
+                <p>{{ mapDetail.voltage }}V</p>
+              </div>
+            </div>
+        </Panel>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup>
+import axios from "axios";
 import { ref, onMounted, onBeforeUnmount, computed } from 'vue';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
 const loginToken = ref(localStorage.getItem("authToken"));
+const map = ref(null);
 const mapContainer = ref(null);
-const map = ref(null); // map 객체를 ref로 선언
+const mapDetail = ref(null);
 const searchKeyword = ref('');
+
 
 // ✅ 로그인 여부 확인
 const syncLoginState = () => {
@@ -44,6 +74,10 @@ onBeforeUnmount(() => {
 
 const hasLoginToken = computed(() => {
   return loginToken.value && Object.keys(loginToken.value).length > 0;
+});
+
+const hasMapDetail = computed(() => {
+  return mapDetail.value && Object.keys(mapDetail.value).length > 0;
 });
 
 // ✅ 지도 출력
@@ -88,7 +122,7 @@ const searchLocation = async () => {
       if (!map.value) return; // map이 초기화되지 않았다면 실행하지 않음
       
       map.value.setView([lat, lon], 13);
-      L.marker([lat, lon]).addTo(map.value).bindPopup(location.display_name).openPopup();
+      L.marker([lat, lon], { draggable: false }).addTo(map.value).bindPopup(location.display_name).openPopup();
 
       getCountryCode(lat, lon);
     } else {
@@ -116,9 +150,29 @@ const getCountryCode = async (lat, lon) => {
     );
     const data = await response.json();
 
-    console.log('상세 정보:', data.address.country_code); // 🔥 가져온 데이터 확인
+    getCountryInfo(data.address.country_code.toUpperCase());
+
+    console.log('상세 정보:', data.address.country_code.toUpperCase()); // 🔥 가져온 데이터 확인
   } catch (error) {
     console.error('Error fetching place details:', error);
+  }
+};
+
+const getCountryInfo = async (code) => {
+  try {
+    // 국가 상세 정보보 API 요청
+    const response = await axios.get(`http://localhost:8081/api/map/searchCountry`, {
+      params: { isoAlpha2: code },
+    });
+
+    mapDetail.value = response.data;
+
+    console.log('상세 정보:', response); // 🔥 가져온 데이터 확인
+  } catch (error) {
+    // 오류 처리
+    console.log("🔥 ERROR_STATUS : ", error.response?.status);
+    console.log("🔥 ERROR_DATA : ", error.response?.data);
+    console.log("🔥 ERROR_MESSAGE : ", error.message);
   }
 };
 </script>

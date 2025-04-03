@@ -72,7 +72,9 @@ export default {
         this.$router.push("/");
       } catch (error) {
         // 오류 처리
-        console.log("ERROR_STATUS : " + error.status);
+        console.log("🔥 ERROR_STATUS : ", error.response?.status);
+        console.log("🔥 ERROR_DATA : ", error.response?.data);
+        console.log("🔥 ERROR_MESSAGE : ", error.message);
         this.errorMessage = error.response.data.message;
       }
     }
