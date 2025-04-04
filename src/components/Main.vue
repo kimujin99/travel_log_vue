@@ -14,7 +14,7 @@
               <Button icon="pi pi-search" severity="secondary" variant="text" @click="searchLocation"/>
           </InputGroupAddon>
       </InputGroup>
-      <div id="map" ref="mapContainer"></div>
+      <div id="map" ref="mapContainer" class="map600"></div>
       <div id="map-detail" v-if="hasMapDetail || hasCityDetail" class="w-full h-full">
         <Panel>
             <div class="row-container" style="align-items: stretch;">
@@ -141,7 +141,7 @@ const searchLocation = async () => {
       map.value.setView([lat, lon], 13);
       L.marker([lat, lon], { draggable: false })
         .addTo(map.value)
-        .bindPopup(location.display_name)
+        .bindPopup("📍" + location.display_name)
         .openPopup();
 
       getCountryCode(lat, lon);
