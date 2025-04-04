@@ -15,29 +15,40 @@
           </InputGroupAddon>
       </InputGroup>
       <div id="map" ref="mapContainer"></div>
-      <div id="map-detail" v-if="hasMapDetail" class="w-full h-full">
-        <Panel :header="mapDetail.koreanName + '(' + mapDetail.englishName + ')'" :headerStyle="{ fontSize: '2rem' }">
-            <div class="row-container">
+      <div id="map-detail" v-if="hasMapDetail || hasCityDetail" class="w-full h-full">
+        <Panel>
+            <div class="row-container" style="align-items: stretch;">
               <div class="col-container">
-                <span class="material-symbols-outlined">
-                  public
-                </span>
-                <p class="font-bold">국가코드</p>
-                <p>{{ mapDetail.isoAlpha2 }} / {{ mapDetail.isoAlpha3 }}</p>
+                <h2 class="text-xl font-bold mb-4">{{ mapDetail.koreanName + '(' + mapDetail.englishName + ')' }}</h2>
+                <Image v-if="cityDetail?.thumbnail?.source" :src="cityDetail.thumbnail.source" alt="cityImage" preview/>
+                <Image v-else src="https://www.protean.co.jp/wp-content/themes/protean/images/no-image.gif" alt="noImage" style="width: 340px; height:220px;"/>
               </div>
               <div class="col-container">
-                <span class="material-symbols-outlined">
-                  airplane_ticket
-                </span>
-                <p class="font-bold">비자</p>
-                <p>{{ mapDetail.visaRequirement }}</p>
-              </div>
-              <div class="col-container">
-                <span class="material-symbols-outlined">
-                  offline_bolt
-                </span>
-                <p class="font-bold">전압</p>
-                <p>{{ mapDetail.voltage }}V</p>
+                <div class="row-container">
+                  <div class="col-container">
+                    <span class="material-symbols-outlined">
+                      public
+                    </span>
+                    <p class="font-bold">국가코드</p>
+                    <p>{{ mapDetail.isoAlpha2 }} / {{ mapDetail.isoAlpha3 }}</p>
+                  </div>
+                  <div class="col-container">
+                    <span class="material-symbols-outlined">
+                      airplane_ticket
+                    </span>
+                    <p class="font-bold">비자</p>
+                    <p>{{ mapDetail.visaRequirement }}</p>
+                  </div>
+                  <div class="col-container">
+                    <span class="material-symbols-outlined">
+                      offline_bolt
+                    </span>
+                    <p class="font-bold">전압</p>
+                    <p>{{ mapDetail.voltage }}V</p>
+                  </div>
+                </div>
+                <Divider v-if="cityDetail?.extract" />
+                <p v-if="cityDetail?.extract">{{ cityDetail.extract }}</p>
               </div>
             </div>
         </Panel>
@@ -56,6 +67,7 @@ const loginToken = ref(localStorage.getItem("authToken"));
 const map = ref(null);
 const mapContainer = ref(null);
 const mapDetail = ref(null);
+const cityDetail = ref(null);
 const searchKeyword = ref('');
 
 
@@ -78,6 +90,10 @@ const hasLoginToken = computed(() => {
 
 const hasMapDetail = computed(() => {
   return mapDetail.value && Object.keys(mapDetail.value).length > 0;
+});
+
+const hasCityDetail = computed(() => {
+  return cityDetail.value && Object.keys(cityDetail.value).length > 0;
 });
 
 // ✅ 지도 출력
@@ -111,18 +127,22 @@ const searchLocation = async () => {
 
     removeAllMarkers(); // 마커 초기화
 
-    console.log(data);
-
     // 검색 결과에서 첫 번째 위치를 사용 (기본적으로 첫 번째 결과를 선택)
     const location = data[0];
     if (location) {
       const lat = location.lat;
       const lon = location.lon;
 
-      if (!map.value) return; // map이 초기화되지 않았다면 실행하지 않음
+      if (!map.value) {
+        console.warn("🚨 map이 아직 초기화되지 않았습니다!");
+        return; // map이 초기화되지 않았다면 실행하지 않음
+      }
       
       map.value.setView([lat, lon], 13);
-      L.marker([lat, lon], { draggable: false }).addTo(map.value).bindPopup(location.display_name).openPopup();
+      L.marker([lat, lon], { draggable: false })
+        .addTo(map.value)
+        .bindPopup(location.display_name)
+        .openPopup();
 
       getCountryCode(lat, lon);
     } else {
@@ -149,30 +169,37 @@ const getCountryCode = async (lat, lon) => {
       `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json`
     );
     const data = await response.json();
+    const countryCode = data.address.country_code.toUpperCase();
+    const cityName = data.address.tourism? data.address.tourism : data.address.country;
 
-    getCountryInfo(data.address.country_code.toUpperCase());
+    // ✅ 상세 정보 초기화
+    mapDetail.value = null;
+    cityDetail.value = null;
 
-    console.log('상세 정보:', data.address.country_code.toUpperCase()); // 🔥 가져온 데이터 확인
+    let countryInfoResponse = null;
+    let wikiSummaryResponse = null;
+
+    try {
+      countryInfoResponse = await axios.get(`http://localhost:8081/api/map/searchCountry`, { params: { isoAlpha2: countryCode } });
+    } catch (error) {
+      console.error("🚨 국가 상세 정보 요청 오류:", error);
+    }
+
+    try {
+      wikiSummaryResponse = await axios.get(`https://ko.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(cityName)}`);
+    } catch (error) {
+      console.error("🚨 위키 요약 정보 요청 오류:", error);
+    }
+
+    // ✅ 모든 데이터가 다 왔을 때만 mapDetail 업데이트
+    mapDetail.value = countryInfoResponse.data;
+    cityDetail.value = wikiSummaryResponse.data;
+
+    console.log('📘 국가 정보:', data);
+    console.log('📘 국가 상세 정보:', countryInfoResponse.data);
+    console.log('📘 위키 요약 정보:', wikiSummaryResponse.data);
   } catch (error) {
     console.error('Error fetching place details:', error);
-  }
-};
-
-const getCountryInfo = async (code) => {
-  try {
-    // 국가 상세 정보보 API 요청
-    const response = await axios.get(`http://localhost:8081/api/map/searchCountry`, {
-      params: { isoAlpha2: code },
-    });
-
-    mapDetail.value = response.data;
-
-    console.log('상세 정보:', response); // 🔥 가져온 데이터 확인
-  } catch (error) {
-    // 오류 처리
-    console.log("🔥 ERROR_STATUS : ", error.response?.status);
-    console.log("🔥 ERROR_DATA : ", error.response?.data);
-    console.log("🔥 ERROR_MESSAGE : ", error.message);
   }
 };
 </script>
