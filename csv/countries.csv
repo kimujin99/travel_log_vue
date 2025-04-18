@@ -1,251 +1,243 @@
-isoAlpha2,isoAlpha3,englishName,koreanName
-GS,SGS,South Georgia,조지아
-GD,GRD,Grenada,그레나다
-CH,CHE,Switzerland,스위스
-SL,SLE,Sierra Leone,시에라리온
-HU,HUN,Hungary,헝가리
-TW,TWN,Taiwan,대만
-WF,WLF,Wallis and Futuna,왈리스 퓌튀나
-BB,BRB,Barbados,바베이도스
-PN,PCN,Pitcairn Islands,핏케언 제도
-CI,CIV,Ivory Coast,코트디부아르
-TN,TUN,Tunisia,튀니지
-IT,ITA,Italy,이탈리아
-BJ,BEN,Benin,베냉
-ID,IDN,Indonesia,인도네시아
-CV,CPV,Cape Verde,카보베르데
-KN,KNA,Saint Kitts and Nevis,세인트키츠 네비스
-LA,LAO,Laos,라오스
-BQ,BES,Caribbean Netherlands,카리브 네덜란드
-UG,UGA,Uganda,우간다
-AD,AND,Andorra,안도라
-BI,BDI,Burundi,부룬디
-ZA,ZAF,South Africa,남아프리카
-FR,FRA,France,프랑스
-LY,LBY,Libya,리비아
-MX,MEX,Mexico,멕시코
-GA,GAB,Gabon,가봉
-MP,MNP,Northern Mariana Islands,북마리아나 제도
-MK,MKD,North Macedonia,북마케도니아
-CN,CHN,China,중국
-YE,YEM,Yemen,예멘
-BL,BLM,Saint Barthélemy,생바르텔레미
-GG,GGY,Guernsey,건지 섬
-SB,SLB,Solomon Islands,솔로몬 제도
-SJ,SJM,Svalbard and Jan Mayen,스발바르 얀마옌 제도
-FO,FRO,Faroe Islands,페로 제도
-UZ,UZB,Uzbekistan,우즈베키스탄
-EG,EGY,Egypt,이집트
-SN,SEN,Senegal,세네갈
-LK,LKA,Sri Lanka,스리랑카
-PS,PSE,Palestine,팔레스타인
-BD,BGD,Bangladesh,방글라데시
-PE,PER,Peru,페루
-SG,SGP,Singapore,싱가포르
-TR,TUR,Turkey,터키
-AF,AFG,Afghanistan,아프가니스탄
-AW,ABW,Aruba,아루바
-CK,COK,Cook Islands,쿡 제도
-GB,GBR,United Kingdom,영국
-ZM,ZMB,Zambia,잠비아
-FI,FIN,Finland,핀란드
-NE,NER,Niger,니제르
-CX,CXR,Christmas Island,크리스마스 섬
-TK,TKL,Tokelau,토켈라우
-GW,GNB,Guinea-Bissau,기니비사우
-AZ,AZE,Azerbaijan,아제르바이잔
-RE,REU,Réunion,레위니옹
-DJ,DJI,Djibouti,지부티
-KP,PRK,North Korea,조선
-MU,MUS,Mauritius,모리셔스
-MS,MSR,Montserrat,몬트세랫
-VI,VIR,United States Virgin Islands,미국령 버진아일랜드
-CO,COL,Colombia,콜롬비아
-GR,GRC,Greece,그리스
-HR,HRV,Croatia,크로아티아
-MA,MAR,Morocco,모로코
-DZ,DZA,Algeria,알제리
-AQ,ATA,Antarctica,남극
-NL,NLD,Netherlands,네덜란드
-SD,SDN,Sudan,수단
-FJ,FJI,Fiji,피지
-LI,LIE,Liechtenstein,리히텐슈타인
-NP,NPL,Nepal,네팔
-PR,PRI,Puerto Rico,푸에르토리코
-GE,GEO,Georgia,조지아
-PK,PAK,Pakistan,파키스탄
-MC,MCO,Monaco,모나코
-BW,BWA,Botswana,보츠와나
-LB,LBN,Lebanon,레바논
-PG,PNG,Papua New Guinea,파푸아뉴기니
-YT,MYT,Mayotte,마요트
-DO,DOM,Dominican Republic,도미니카 공화국
-NF,NFK,Norfolk Island,노퍽 섬
-BV,BVT,Bouvet Island,부베 섬
-QA,QAT,Qatar,카타르
-MG,MDG,Madagascar,마다가스카르
-IN,IND,India,인도
-SY,SYR,Syria,시리아
-ME,MNE,Montenegro,몬테네그로
-SZ,SWZ,Eswatini,에스와티니
-PY,PRY,Paraguay,파라과이
-SV,SLV,El Salvador,엘살바도르
-UA,UKR,Ukraine,우크라이나
-IM,IMN,Isle of Man,맨섬
-NA,NAM,Namibia,나미비아
-AE,ARE,United Arab Emirates,아랍에미리트
-BG,BGR,Bulgaria,불가리아
-GL,GRL,Greenland,그린란드
-DE,DEU,Germany,독일
-KH,KHM,Cambodia,캄보디아
-IQ,IRQ,Iraq,이라크
-TF,ATF,French Southern and Antarctic Lands,프랑스령 남부와 남극 지역
-SE,SWE,Sweden,스웨덴
-CU,CUB,Cuba,쿠바
-KG,KGZ,Kyrgyzstan,키르기스스탄
-RU,RUS,Russia,러시아
-MY,MYS,Malaysia,말레이시아
-ST,STP,São Tomé and Príncipe,상투메 프린시페
-CY,CYP,Cyprus,키프로스
-CA,CAN,Canada,캐나다
-MW,MWI,Malawi,말라위
-SA,SAU,Saudi Arabia,사우디아라비아
-BA,BIH,Bosnia and Herzegovina,보스니아 헤르체고비나
-ET,ETH,Ethiopia,에티오피아
-ES,ESP,Spain,스페인
-SI,SVN,Slovenia,슬로베니아
-OM,OMN,Oman,오만
-PM,SPM,Saint Pierre and Miquelon,생피에르 미클롱
-MO,MAC,Macau,마카오
-SM,SMR,San Marino,산마리노
-LS,LSO,Lesotho,레소토
-MH,MHL,Marshall Islands,마셜 제도
-SX,SXM,Sint Maarten,신트마르턴
-IS,ISL,Iceland,아이슬란드
-LU,LUX,Luxembourg,룩셈부르크
-AR,ARG,Argentina,아르헨티나
-TC,TCA,Turks and Caicos Islands,터크스 케이커스 제도
-NR,NRU,Nauru,나우루
-CC,CCK,Cocos (Keeling) Islands,코코스 제도
-EH,ESH,Western Sahara,서사하라
-DM,DMA,Dominica,도미니카 공화국
-CR,CRI,Costa Rica,코스타리카
-AU,AUS,Australia,호주
-TH,THA,Thailand,태국
-HT,HTI,Haiti,아이티
-TV,TUV,Tuvalu,투발루
-HN,HND,Honduras,온두라스
-GQ,GNQ,Equatorial Guinea,적도 기니
-LC,LCA,Saint Lucia,세인트루시아
-PF,PYF,French Polynesia,프랑스령 폴리네시아
-BY,BLR,Belarus,벨라루스
-LV,LVA,Latvia,라트비아
-PW,PLW,Palau,팔라우
-GP,GLP,Guadeloupe,과들루프
-PH,PHL,Philippines,필리핀
-GI,GIB,Gibraltar,지브롤터
-DK,DNK,Denmark,덴마크
-CM,CMR,Cameroon,카메룬
-GN,GIN,Guinea,기니
-BH,BHR,Bahrain,바레인
-SR,SUR,Suriname,수리남
-CD,COD,DR Congo,콩고 민주 공화국
-SO,SOM,Somalia,소말리아
-CZ,CZE,Czechia,체코
-NC,NCL,New Caledonia,누벨칼레도니
-VU,VUT,Vanuatu,바누아투
-SH,SHN,"Saint Helena, Ascension and Tristan da Cunha",세인트헬레나
-TG,TGO,Togo,토고
-VG,VGB,British Virgin Islands,영국령 버진아일랜드
-KE,KEN,Kenya,케냐
-NU,NIU,Niue,니우에
-HM,HMD,Heard Island and McDonald Islands,허드 맥도널드 제도
-RW,RWA,Rwanda,르완다
-EE,EST,Estonia,에스토니아
-RO,ROU,Romania,루마니아
-TT,TTO,Trinidad and Tobago,트리니다드 토바고
-GY,GUY,Guyana,가이아나
-TL,TLS,Timor-Leste,동티모르
-VN,VNM,Vietnam,베트남
-UY,URY,Uruguay,우루과이
-VA,VAT,Vatican City,바티칸
-HK,HKG,Hong Kong,홍콩
-AT,AUT,Austria,오스트리아
-AG,ATG,Antigua and Barbuda,앤티가 바부다
-TM,TKM,Turkmenistan,투르크메니스탄
-MZ,MOZ,Mozambique,모잠비크
-PA,PAN,Panama,파나마
-FM,FSM,Micronesia,미크로네시아
-IE,IRL,Ireland,아일랜드
-CW,CUW,Curaçao,퀴라소
-GF,GUF,French Guiana,프랑스령 기아나
-NO,NOR,Norway,노르웨이
-AX,ALA,Åland Islands,올란드 제도
-CF,CAF,Central African Republic,중앙아프리카 공화국
-BF,BFA,Burkina Faso,부르키나파소
-ER,ERI,Eritrea,에리트레아
-TZ,TZA,Tanzania,탄자니아
-KR,KOR,South Korea,한국
-JO,JOR,Jordan,요르단
-MR,MRT,Mauritania,모리타니
-LT,LTU,Lithuania,리투아니아
-UM,UMI,United States Minor Outlying Islands,미국령 군소 제도
-SK,SVK,Slovakia,슬로바키아
-AO,AGO,Angola,앙골라
-KZ,KAZ,Kazakhstan,카자흐스탄
-MD,MDA,Moldova,몰도바
-ML,MLI,Mali,말리
-FK,FLK,Falkland Islands,포클랜드 제도
-AM,ARM,Armenia,아르메니아
-WS,WSM,Samoa,사모아
-JE,JEY,Jersey,저지 섬
-JP,JPN,Japan,일본
-BO,BOL,Bolivia,볼리비아
-CL,CHL,Chile,칠레
-US,USA,United States,미국
-VC,VCT,Saint Vincent and the Grenadines,세인트빈센트 그레나딘
-BM,BMU,Bermuda,버뮤다
-SC,SYC,Seychelles,세이셸
-IO,IOT,British Indian Ocean Territory,인도
-GT,GTM,Guatemala,과테말라
-EC,ECU,Ecuador,에콰도르
-MQ,MTQ,Martinique,마르티니크
-TJ,TJK,Tajikistan,타지키스탄
-MT,MLT,Malta,몰타
-GM,GMB,Gambia,감비아
-NG,NGA,Nigeria,나이지리아
-BS,BHS,Bahamas,바하마
-XK,UNK,Kosovo,코소보
-KW,KWT,Kuwait,쿠웨이트
-MV,MDV,Maldives,몰디브
-SS,SSD,South Sudan,남수단
-IR,IRN,Iran,이란
-AL,ALB,Albania,알바니아
-BR,BRA,Brazil,브라질
-RS,SRB,Serbia,세르비아
-BZ,BLZ,Belize,벨리즈
-MM,MMR,Myanmar,미얀마
-BT,BTN,Bhutan,부탄
-VE,VEN,Venezuela,베네수엘라
-LR,LBR,Liberia,라이베리아
-JM,JAM,Jamaica,자메이카
-PL,POL,Poland,폴란드
-KY,CYM,Cayman Islands,케이맨 제도
-BN,BRN,Brunei,브루나이
-KM,COM,Comoros,코모로
-GU,GUM,Guam,괌
-TO,TON,Tonga,통가
-KI,KIR,Kiribati,키리바시
-GH,GHA,Ghana,가나
-TD,TCD,Chad,차드
-ZW,ZWE,Zimbabwe,짐바브웨
-MF,MAF,Saint Martin,생마르탱
-MN,MNG,Mongolia,몽골국
-PT,PRT,Portugal,포르투갈
-AS,ASM,American Samoa,아메리칸사모아
-CG,COG,Republic of the Congo,콩고
-BE,BEL,Belgium,벨기에
-IL,ISR,Israel,이스라엘
-NZ,NZL,New Zealand,뉴질랜드
-NI,NIC,Nicaragua,니카라과
-AI,AIA,Anguilla,앵귈라
+ISO_ALPHA2,ISO_ALPHA3,ISO,CONTINENT_EN_NAME,CONTINENT_KR_NAME,COUNTRY_EN_NAME,COUNTRY_KR_NAME
+GH,GHA,288,Africa,아프리카,Ghana,가나
+GA,GAB,266,Africa,아프리카,Gabon,가봉
+GY,GUY,328,America,남아메리카,Guyana,가이아나
+GM,GMB,270,Africa,아프리카,Gambia,감비아
+GG,GGY,831,Europe,유럽,Bailiwick of Guernsey,건지
+GP,GLP,312,America,북아메리카,Guadeloupe,과들루프
+GT,GTM,320,America,북아메리카,Guatemala,과테말라
+GU,GUM,316,Asia,호주(오세아니아),Guam,괌
+VA,VAT,336,Europe,유럽,Vatican,교황청
+GD,GRD,308,America,북아메리카,Grenada,그레나다
+GR,GRC,300,Europe,유럽,Greece,그리스
+GL,GRL,304,America,북아메리카,Greenland,그린란드
+GN,GIN,324,Africa,아프리카,Guinea,기니
+GW,GNB,624,Africa,아프리카,Guinea-Bissau,기니비사우
+NA,NAM,516,Africa,아프리카,Namibia,나미비아
+NR,NRU,520,Asia,호주(오세아니아),Nauru,나우루
+NG,NGA,566,Africa,아프리카,Nigeria,나이지리아
+SS,SSD,728,Africa,아프리카,South Sudan,남수단
+ZA,ZAF,710,Africa,아프리카,South Africa,남아프리카공화국
+NL,NLD,528,Europe,유럽,Netherlands,네덜란드
+AN,ANT,530,America,북아메리카,Netherlands Antilles,네덜란드령 안틸레스
+NP,NPL,524,Asia,아시아,Nepal,네팔연방
+NO,NOR,578,Europe,유럽,Norway,노르웨이
+NF,NFK,574,Australia(Oceania),호주(오세아니아),Norfolk Island,노퍽섬
+NC,NCL,540,Asia,호주(오세아니아),New Caledonia,뉴 칼레도니아
+NZ,NZL,554,Asia,호주(오세아니아),New Zealand,뉴질랜드
+NU,NIU,570,America,호주(오세아니아),Niue,니우에
+NE,NER,562,Africa,아프리카,Niger,니제르
+NI,NIC,558,America,북아메리카,Nicaragua,니카라과
+TW,TWN,158,Asia,아시아,Taiwan,대만
+KR,KOR,410,Asia,아시아,Korea,대한민국
+DK,DNK,208,Europe,유럽,Denmark,덴마크
+DO,DOM,214,America,북아메리카,Dominican Republic,도미니카공화국
+DM,DMA,212,America,북아메리카,Dominica,도미니카연방
+DE,DEU,276,Europe,유럽,Germany,독일
+TL,TLS,626,Asia,아시아,Timor-Leste,동티모르
+LA,LAO,418,Asia,아시아,Laos,라오스
+LR,LBR,430,Africa,아프리카,Liberia,라이베리아
+LV,LVA,428,Europe,유럽,Latvia,라트비아
+RU,RUS,643,Europe,유럽,Russia,러시아
+LB,LBN,422,Middle East,아시아,Lebanon,레바논
+LS,LSO,426,Africa,아프리카,Lesotho,레소토
+RE,REU,638,Africa,아프리카,Reunion,레위니옹
+RO,ROU,642,Europe,유럽,Romania,루마니아
+LU,LUX,442,Europe,유럽,Luxembourg,룩셈부르크
+RW,RWA,646,Africa,아프리카,Rwanda,르완다
+LY,LBY,434,Middle East,아프리카,Libya,리비아
+LT,LTU,440,Europe,유럽,Lithuania,리투아니아
+LI,LIE,438,Europe,유럽,Liechtenstein,리히텐슈타인
+MG,MDG,450,Africa,아프리카,Madagascar,마다가스카르
+MQ,MTQ,474,America,북아메리카,Martinique,마르티니크
+MH,MHL,584,Asia,호주(오세아니아),Marshall Islands,마셜제도
+YT,MYT,175,Africa,아프리카,Mayotte,마요트
+FM,FSM,583,Asia,호주(오세아니아),Federated States of Micronesia,마이크로네시아연방
+MO,MAC,446,Asia,아시아,Macao,마카오
+MW,MWI,454,Africa,아프리카,Malawi,말라위
+MY,MYS,458,Asia,아시아,Malaysia,말레이시아
+ML,MLI,466,Africa,아프리카,Mali,말리
+IM,IMN,833,Europe,유럽,Isle of Man,맨 섬
+MX,MEX,484,America,북아메리카,Mexico,멕시코
+MC,MCO,492,Europe,유럽,Monaco,모나코
+MA,MAR,504,Middle East,아프리카,Morocco,모로코
+MU,MUS,480,Africa,아프리카,Mauritius,모리셔스
+MR,MRT,478,Middle East,아프리카,Mauritania,모리타니아
+MZ,MOZ,508,Africa,아프리카,Mazambique,모잠비크
+ME,MNE,499,Europe,유럽,Montenegro,몬테네그로
+MS,MSR,500,America,북아메리카,Montserrat,몬트세랫
+MD,MDA,498,Europe,유럽,Moldova,몰도바
+MV,MDV,462,Asia,아시아,Maldives,몰디브
+MT,MLT,470,Europe,유럽,Malta,몰타
+MN,MNG,496,Asia,아시아,Mongolia,몽골
+UM,UMI,581,America,미주,United States Minor Outlying Islands,미국령 군소 제도
+VI,VIR,850,America,미주,Virgin Islands (US),미국령 버진아일랜드
+MM,MMR,104,Asia,아시아,Myanmar,미얀마
+US,USA,840,America,북아메리카,United States of America,미합중국
+VU,VUT,548,Asia,호주(오세아니아),Vanuatu,바누아투
+BH,BHR,48,Middle East,아시아,Bahrain,바레인
+BB,BRB,52,America,북아메리카,Barbados,바베이도스
+BS,BHS,44,America,북아메리카,Bahamas,바하마
+BD,BGD,50,Asia,아시아,Bangladesh,방글라데시
+BM,BMU,60,America,북아메리카,Bermuda,버뮤다
+BJ,BEN,204,Africa,아프리카,Benin,베냉
+VE,VEN,862,America,남아메리카,Venezuela,베네수엘라볼리바르
+VN,VNM,704,Asia,아시아,Vietnam,베트남
+BE,BEL,56,Europe,유럽,Belgium,벨기에
+BY,BLR,112,Europe,유럽,Belarus,벨라루스
+BZ,BLZ,84,America,북아메리카,Belize,벨리즈
+BQ,BES,535,Europe,유럽,Bonaire,보네르섬
+BA,BIH,70,Europe,유럽,Bosnia-Herzegovina,보스니아헤르체고비나
+BW,BWA,72,Africa,아프리카,Botswana,보츠와나
+BO,BOL,68,America,남아메리카,Bolivia,볼리비아
+BI,BDI,108,Africa,아프리카,Burundi,부룬디
+BF,BFA,854,Africa,아프리카,Burkina Faso,부르키나파소
+BT,BTN,64,Asia,아시아,Bhutan,부탄
+MP,MNP,580,America,호주(오세아니아),Northern Mariana Islands,북마리아나 군도
+MK,MKD,807,Europe,유럽,North Macedonia,북마케도니아
+BG,BGR,100,Europe,유럽,Bulgaria,불가리아
+BR,BRA,76,America,남아메리카,Brazil,브라질
+BN,BRN,96,Asia,아시아,Brunei,브루나이
+WS,WSM,882,Asia,호주(오세아니아),Samoa,사모아
+SA,SAU,682,Middle East,아시아,Saudi Arabia,사우디아라비아
+CY,CYP,196,Europe,유럽,Cyprus,사이프러스
+EH,ESH,732,Africa,아프리카,Sahara Arab Democratic Republic,사하라 아랍민주공화국(서부사하라)
+SM,SMR,674,Europe,유럽,San Marino,산마리노
+ST,STP,678,Africa,아프리카,Sao Tome & Principe,상투메프린시페
+BL,BLM,652,Europe,유럽,Saint Barthelemy,생바르텔레미
+PM,SPM,666,America,북아메리카,St. Pierre and Miquelon,생피에르·미클롱
+SN,SEN,686,Africa,아프리카,Senegal,세네갈
+RS,SRB,688,Europe,유럽,Serbia,세르비아
+SC,SYC,690,Africa,아프리카,Seychelles,세이셸
+SH,SHN,654,Africa,아프리카,St Helena,세인트 헬레나 섬
+LC,LCA,662,America,북아메리카,St. Lucia,세인트루시아
+VC,VCT,670,America,북아메리카,St. Vincent & the Grenadines,세인트빈센트그레나딘
+KN,KNA,659,America,북아메리카,St. Kitts-Nevis,세인트키츠네비스
+SO,SOM,706,Africa,아프리카,Somalia,소말리아
+SB,SLB,90,Asia,호주(오세아니아),Solomon Islands,솔로몬제도
+SD,SDN,736,Africa,아프리카,Sudan,수단
+SR,SUR,740,America,남아메리카,Suriname,수리남
+LK,LKA,144,Asia,아시아,Sri Lanka,스리랑카
+SE,SWE,752,Europe,유럽,Sweden,스웨덴
+CH,CHE,756,Europe,유럽,Swiss,스위스
+ES,ESP,724,Europe,유럽,Spain,스페인
+SK,SVK,703,Europe,유럽,Slovakia,슬로바키아
+SI,SVN,705,Europe,유럽,Slovenia,슬로베니아
+SY,SYR,760,Middle East,아시아,Syria,시리아
+SL,SLE,694,Africa,아프리카,Sierra Leone,시에라리온
+SX,SXM,534,America,미주,Sint Maarten,신트마르턴
+SG,SGP,702,Asia,아시아,Singapore,싱가포르
+AE,ARE,784,Middle East,아시아,United Arab Emirates : UAE,아랍에미리트
+AW,ABW,533,America,북아메리카,Aruba,아루바
+AM,ARM,51,Europe,유럽,Armenia,아르메니아
+AR,ARG,32,America,남아메리카,Argentina,아르헨티나
+IS,ISL,352,Europe,유럽,Iceland,아이슬란드
+HT,HTI,332,America,북아메리카,Haiti,아이티
+IE,IRL,372,Europe,유럽,Ireland,아일랜드
+AZ,AZE,31,Europe,아시아,Azerbaijan,아제르바이잔
+AF,AFG,4,Asia,아시아,Afghanistan,아프가니스탄
+AD,AND,20,Europe,유럽,Andorra,안도라
+AL,ALB,8,Europe,유럽,Albania,알바니아
+DZ,DZA,12,Middle East,아프리카,Algeria,알제리
+AO,AGO,24,Africa,아프리카,Angola,앙골라
+AG,ATG,28,America,북아메리카,Antigua and Barbuda,앤티가바부다
+AI,AIA,660,America,북아메리카,Anguilla,앵귈라
+ER,ERI,232,Africa,아프리카,Eritrea,에리트레아
+SZ,SWZ,748,Africa,아프리카,Eswatini,에스와티니
+EE,EST,233,Europe,유럽,Estonia,에스토니아
+EC,ECU,218,America,남아메리카,Ecuador,에콰도르
+ET,ETH,231,Africa,아프리카,ETC,에티오피아
+SV,SLV,222,America,북아메리카,El Salvador,엘살바도르
+GB,GBR,826,Europe,유럽,United Kingdom,영국
+AQ,ATA,10,America,남극,British Antarctic Territory,영국령 남극지역
+VG,VGB,92,America,북아메리카,British Virgin Islands,영국령 버진 아일랜드
+IO,IOT,86,Asia,아시아,British Indian Ocean Territory,영국령 인도양 제도
+YE,YEM,887,Middle East,아시아,Yemen,예멘
+OM,OMN,512,Middle East,아시아,Oman,오만
+AT,AUT,40,Europe,유럽,Austria,오스트리아
+HN,HND,340,America,북아메리카,Honduras,온두라스
+WF,WLF,876,Asia,호주(오세아니아),Wallis and Futuna,왈리스·퓌튀나
+JO,JOR,400,Middle East,아시아,Jordan,요르단
+UG,UGA,800,Africa,아프리카,Uganda,우간다
+UY,URY,858,America,남아메리카,Uruguay,우루과이
+UZ,UZB,860,Europe,아시아,Uzbekistan,우즈베키스탄
+UA,UKR,804,Europe,유럽,Ukraine,우크라이나
+IQ,IRQ,368,Middle East,아시아,Iraq,이라크
+IR,IRN,364,Middle East,아시아,Iran,이란
+IL,ISR,376,Middle East,아시아,Israel,이스라엘
+EG,EGY,818,Middle East,아프리카,Egypt,이집트
+IT,ITA,380,Europe,유럽,Italia,이탈리아
+IN,IND,356,Asia,아시아,India,인도
+ID,IDN,360,Asia,아시아,Indonesia,인도네시아
+JP,JPN,392,Asia,아시아,Japan,일본
+JM,JAM,388,America,북아메리카,Jamaica,자메이카
+ZM,ZMB,894,Africa,아프리카,Zambia,잠비아
+JE,JEY,832,Europe,유럽,Bailiwick of Jersey,저지
+GQ,GNQ,226,Africa,아프리카,Equatorial Guinea,적도기니
+KP,PRK,408,Asia,아시아,North Korea,조선민주주의인민공화국
+GE,GEO,268,Europe,아시아,Georgia,조지아
+CN,CHN,156,Asia,아시아,China,중국
+CF,CAF,140,Africa,아프리카,Central African Republic,중앙아프리카
+DJ,DJI,262,Africa,아프리카,Djibouti,지부티
+GI,GIB,292,Europe,유럽,Gibraltar,지브롤터
+ZW,ZWE,716,Africa,아프리카,Zimbabwe,짐바브웨
+TD,TCD,148,Africa,아프리카,Chad,차드
+CZ,CZE,203,Europe,유럽,Czech,체코
+CL,CHL,152,America,남아메리카,Chile,칠레
+CM,CMR,120,Africa,아프리카,Cameroon,카메룬
+CV,CPV,132,Africa,아프리카,Cape Verde,카보베르데
+KZ,KAZ,398,Europe,아시아,Kazakhstan,카자흐스탄
+QA,QAT,634,Middle East,아시아,Qatar,카타르
+KH,KHM,116,Asia,아시아,Cambodia,캄보디아
+CA,CAN,124,America,북아메리카,Canada,캐나다
+KE,KEN,404,Africa,아프리카,Kenya,케냐
+KY,CYM,136,America,북아메리카,Cayman Islands,케이맨제도
+KM,COM,174,Africa,아프리카,Comoros,코모로
+XK,XKX,383,Europe,유럽,Kosovo,코소보
+CR,CRI,188,America,북아메리카,Costa Rica,코스타리카
+CC,CCK,116,Asia,아시아,Cocos (Keeling) Islands,코코스제도
+CI,CIV,384,Africa,아프리카,Cote D'Ivoire,코트디부아르
+CO,COL,170,America,남아메리카,Colombia,콜롬비아
+CG,COG,178,Africa,아프리카,Congo,콩고
+CD,COD,180,Africa,아프리카,Democratic Republic of Congo,콩고민주공화국
+CU,CUB,192,America,북아메리카,Cuba,쿠바
+KW,KWT,414,Middle East,아시아,Kuwait,쿠웨이트
+CK,COK,184,Asia,호주(오세아니아),Cook Islands,쿡제도
+CW,CUW,531,America,미주,Curacao,퀴라소
+HR,HRV,191,Europe,유럽,Croatia,크로아티아
+CX,CXR,162,Asia,호주(오세아니아),Christmas Island,크리스마스섬
+KG,KGZ,417,Europe,아시아,Kyrgyz Republic,키르기즈공화국
+KI,KIR,296,Asia,호주(오세아니아),Kiribati,키리바시
+TJ,TJK,762,Europe,아시아,Tajikistan,타지키스탄
+TZ,TZA,834,Africa,아프리카,Tanzania,탄자니아
+TH,THA,764,Asia,아시아,Thailand,태국
+TC,TCA,796,America,북아메리카,Turks and Caicos Islands,터크스·케이커스 제도
+TG,TGO,768,Africa,아프리카,Togo,토고
+TO,TON,776,Asia,호주(오세아니아),Tonga,통가
+TM,TKM,795,Europe,아시아,Turkmenistan,투르크메니스탄
+TV,TUV,798,Asia,호주(오세아니아),Tuvalu,투발루
+TN,TUN,788,Middle East,아프리카,Tunisia,튀니지
+TR,TUR,792,Europe,유럽,Republic of Turkiye,튀르키예공화국
+TT,TTO,780,America,북아메리카,Trinidad & Tobago,트리니다드토바고
+PA,PAN,591,America,북아메리카,Panama,파나마
+PY,PRY,600,America,남아메리카,Paraguay,파라과이
+PK,PAK,586,Asia,아시아,Pakistan,파키스탄
+PG,PNG,598,Asia,호주(오세아니아),Papua New Guinea : PNG,파푸아뉴기니
+PW,PLW,585,Asia,호주(오세아니아),Palau,팔라우
+PS,PSE,275,Middle East,아시아,Palestine,팔레스타인
+FO,FRO,234,Europe,유럽,Faroe Islands,페로제도
+PE,PER,604,America,남아메리카,Peru,페루
+PT,PRT,620,Europe,유럽,Portugal,포르투갈
+FK,FLK,238,South America,남아메리카,Falkland Islands,포클랜드 제도
+PL,POL,616,Europe,유럽,Poland,폴란드
+PR,PRI,630,North America,북아메리카,Puerto Rico,푸에르토리코
+FR,FRA,250,Europe,유럽,France,프랑스
+GF,GUF,254,America,남아메리카,French Guiana,프랑스령 기아나
+PF,PYF,258,America,호주(오세아니아),French Polynesia,프랑스령 폴리네시아
+FJ,FJI,242,Asia,호주(오세아니아),Fiji,피지
+FI,FIN,246,Europe,유럽,Finland,핀란드
+PH,PHL,608,Asia,아시아,Philippines,필리핀
+PN,PCN,612,America,호주(오세아니아),Pitcairn Islands,핏케언 섬
+HU,HUN,348,Europe,유럽,Hungary,헝가리
+AU,AUS,36,Asia,호주(오세아니아),Australia,호주
+HK,HKG,344,Asia,아시아,Hongkong,홍콩

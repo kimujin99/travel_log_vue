@@ -6,15 +6,15 @@ country_codes = []
 with open("countries.csv", mode="r", encoding="utf-8") as file:
     reader = csv.DictReader(file)
     for row in reader:
-        country_codes.append(row["isoAlpha2"])
+        country_codes.append(row["ISO_ALPHA2"])
 
 # 🔹 2. CSV 파일 준비
 output_filename = "all_cities.csv"
 
 # CSV 파일 헤더 정의
-header = ["countryCode", "name", "toponymName"]
+header = ["ISO_ALPHA2", "CITY_EN_NAME", "CITY_KR_NAME"]
 
-with open(output_filename, mode="w", newline="", encoding="utf-8") as file:
+with open(output_filename, mode="w", newline="", encoding="cp949") as file:
     writer = csv.writer(file)
     writer.writerow(header)  # 헤더 추가
 
@@ -34,7 +34,7 @@ def fetch_and_save_cities(country_code):
     # 🔹 4. 필요한 데이터 추출
     rows = []
     for city in data["geonames"]:
-        rows.append([city["countryCode"], city["name"], city["toponymName"]])
+        rows.append([city["countryCode"], city["toponymName"], city["name"]])
 
     return rows
 

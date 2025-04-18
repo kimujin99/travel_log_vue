@@ -18,17 +18,18 @@ for section in soup.find_all("section"):
     if table:
         for row in table.find("tbody").find_all("tr"):
             tds = row.find_all("td")
-            if len(tds) >= 2:  # 최소한 두 개의 td가 있는지 확인
-                korean_name = tds[0].get_text(strip=True)  # 첫 번째 td (국가명)
-                voltage = tds[1].get_text(strip=True)  # 두 번째 td (전압)
-                data.append([korean_name, voltage])
+            if len(tds) >= 4:  # 최소한 두 개의 td가 있는지 확인
+                COUNTRY_KR_NAME = tds[0].get_text(strip=True)  # 첫 번째 td (국가명)
+                VOLTAGE = tds[1].get_text(strip=True)  # 두 번째 td (전압)
+                PLUG_TYPE = tds[3].get_text(strip=True)  # 네 번째 td (콘센트타입)
+                data.append([COUNTRY_KR_NAME, VOLTAGE, PLUG_TYPE])
 
 # 4. CSV 파일로 저장
 csv_filename = "voltage_data.csv"
 
 with open(csv_filename, mode="w", newline="", encoding="utf-8") as file:
     writer = csv.writer(file)
-    writer.writerow(["korean_name", "voltage"])  # 헤더 추가
+    writer.writerow(["COUNTRY_KR_NAME", "VOLTAGE", "PLUG_TYPE"])  # 헤더 추가
     writer.writerows(data)  # 데이터 저장
 
 print(f"데이터가 {csv_filename} 파일로 저장되었습니다.")

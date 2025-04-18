@@ -1,11 +1,70 @@
 <template>
   <div class="col-container gap-8">
-    <div v-if="hasLoginToken" class="row-container" style="height: 150px;">
-      <router-link to="/travle/regist">
-        <Button size="large" label="나의 여행 일정 등록하기"/>
-      </router-link>
+    <div v-if="hasLoginToken" class="flex flex-col items-center w-full gap-4">
+      <div class="flex w-full">
+        <div class="flex w-full items-center justify-between gap-2">
+            <span class="text-xl font-bold">🗺️ 나의 여행 일정</span>
+            <router-link to="/travel/regist">
+              <Button size="large" label="등록하기"/>
+            </router-link>
+        </div>
+      </div>
+      <table class="w-full border-table">
+        <thead>
+          <tr>
+            <th class="al" style="width: 10%;">카테고리</th>
+            <th class="al" style="width: 15%;">여행지</th>
+            <th class="al" style="width: auto;">일정명</th>
+            <th class="al" style="width: 250px;">기간</th>
+            <th class="al" style="width: 8%;">인원수</th>
+          </tr>
+        </thead>
+        <tbody class="hoverable">
+            <tr>
+              <td class="al">
+                  <p>해외</p>
+              </td>
+              <td class="al">
+                  <p>포르투갈, 암스테르담</p>
+              </td>
+              <td>
+                  <p>나의 첫 유럽여행</p>
+              </td>
+              <td>
+                  <p>2025-10-04 ~ 2025-10-14</p>
+              </td>
+              <td class="al">
+                  <p>2명</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="al">
+                  <p>국내</p>
+              </td>
+              <td class="al">
+                  <p>대한민국 > 통영</p>
+              </td>
+              <td>
+                  <p>통영국제음악제</p>
+              </td>
+              <td>
+                  <p>2025-03-29 ~ 2025-03-31</p>
+              </td>
+              <td class="al">
+                  <p>2명</p>
+              </td>
+            </tr>
+        </tbody>
+      </table>
+      <div class="flex w-full gap-2">
+        <span>총</span><span class="font-bold" style="color: green;">2 건</span><span>의 데이터가 검색되었습니다.</span>
+      </div>
+      <Paginator :rows="10" :totalRecords="2"></Paginator>
     </div>
-    <div class="col-container gap-5">
+
+
+    <!-- old -->
+    <div class="col-container gap-5" style="display: none;">
       <h1 class="text-xl">🗺️ 여행지를 검색해보세요!</h1>
       <h2 class="text-l">검색한 국가의 여행 정보를 확인해보세요. :)</h2>
       <InputGroup style="width: 25rem;">
@@ -15,43 +74,40 @@
           </InputGroupAddon>
       </InputGroup>
       <div id="map" ref="mapContainer" class="map600"></div>
-      <div id="map-detail" v-if="hasMapDetail || hasCityDetail" class="w-full h-full">
-        <Panel>
-            <div class="row-container" style="align-items: stretch;">
-              <div class="col-container">
-                <h2 class="text-xl font-bold mb-4">{{ mapDetail.koreanName + '(' + mapDetail.englishName + ')' }}</h2>
-                <Image v-if="cityDetail?.thumbnail?.source" :src="cityDetail.thumbnail.source" alt="cityImage" preview/>
-                <Image v-else src="https://www.protean.co.jp/wp-content/themes/protean/images/no-image.gif" alt="noImage" style="width: 340px; height:220px;"/>
+      <div id="map-detail" class="w-full h-full">
+        <Tabs value="0" v-if="mapDetail">
+          <TabList>
+            <Tab value="0">기본 정보</Tab>
+            <Tab value="1">상세 정보</Tab>
+          </TabList>
+          <TabPanels>
+            <TabPanel value="0">
+              <div v-if="mapDetail?.data?.basic">
+                <DataTable :value="[mapDetail.data.basic]" showGridlines>
+                  <Column v-for="col of mapDetail.data.basic" :key="col.field" :field="col.field" :header="col.header"></Column>
+                </DataTable>
               </div>
-              <div class="col-container">
-                <div class="row-container">
-                  <div class="col-container">
-                    <span class="material-symbols-outlined">
-                      public
-                    </span>
-                    <p class="font-bold">국가코드</p>
-                    <p>{{ mapDetail.isoAlpha2 }} / {{ mapDetail.isoAlpha3 }}</p>
-                  </div>
-                  <div class="col-container">
-                    <span class="material-symbols-outlined">
-                      airplane_ticket
-                    </span>
-                    <p class="font-bold">비자</p>
-                    <p>{{ mapDetail.visaRequirement }}</p>
-                  </div>
-                  <div class="col-container">
-                    <span class="material-symbols-outlined">
-                      offline_bolt
-                    </span>
-                    <p class="font-bold">전압</p>
-                    <p>{{ mapDetail.voltage }}V</p>
-                  </div>
+              <div v-else>
+                <p>데이터가 존재하지 않습니다.</p>
+              </div>
+            </TabPanel>
+            <TabPanel value="1">
+                <div v-if="mapDetail?.data?.details" class="flex flex-col ">
+                  <Image src="https://blog.kakaocdn.net/dn/c6NGp8/btqFvuIRBXC/FdFwC4UMOZ49aNsDcJnvV1/img.jpg" alt="플러그 타입" class="col-container" style="width: 500px; height: auto;" />
+                  <DataTable :value="[mapDetail.data.details]" showGridlines style="width: 500px; height: auto;">
+                    <Column field="visaExemption" header="비자면제 여부"></Column>
+                    <Column field="visaExemptionInfo" header="비자면제 정보"></Column>
+                    <Column field="voltage" header="전압(V)"></Column>
+                    <Column field="plugType" header="플러그"></Column>
+                  </DataTable>
+                  <p>* 위 데이터는 25.03.27 업데이트된 대한민국 공식 전자정부 누리집에서 가져왔습니다. (https://www.data.go.kr/data/15099235/fileData.do)</p>
                 </div>
-                <Divider v-if="cityDetail?.extract" />
-                <p v-if="cityDetail?.extract">{{ cityDetail.extract }}</p>
-              </div>
-            </div>
-        </Panel>
+                <div v-else>
+                  <p>데이터가 존재하지 않습니다.</p>
+                </div>
+            </TabPanel>
+          </TabPanels>
+        </Tabs>
       </div>
     </div>
   </div>
@@ -67,7 +123,6 @@ const loginToken = ref(localStorage.getItem("authToken"));
 const map = ref(null);
 const mapContainer = ref(null);
 const mapDetail = ref(null);
-const cityDetail = ref(null);
 const searchKeyword = ref('');
 
 
@@ -86,14 +141,6 @@ onBeforeUnmount(() => {
 
 const hasLoginToken = computed(() => {
   return loginToken.value && Object.keys(loginToken.value).length > 0;
-});
-
-const hasMapDetail = computed(() => {
-  return mapDetail.value && Object.keys(mapDetail.value).length > 0;
-});
-
-const hasCityDetail = computed(() => {
-  return cityDetail.value && Object.keys(cityDetail.value).length > 0;
 });
 
 // ✅ 지도 출력
@@ -170,14 +217,11 @@ const getCountryCode = async (lat, lon) => {
     );
     const data = await response.json();
     const countryCode = data.address.country_code.toUpperCase();
-    const cityName = data.address.tourism? data.address.tourism : data.address.country;
 
     // ✅ 상세 정보 초기화
     mapDetail.value = null;
-    cityDetail.value = null;
 
     let countryInfoResponse = null;
-    let wikiSummaryResponse = null;
 
     try {
       countryInfoResponse = await axios.get(`http://localhost:8081/api/map/searchCountry`, { params: { isoAlpha2: countryCode } });
@@ -185,19 +229,11 @@ const getCountryCode = async (lat, lon) => {
       console.error("🚨 국가 상세 정보 요청 오류:", error);
     }
 
-    try {
-      wikiSummaryResponse = await axios.get(`https://ko.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(cityName)}`);
-    } catch (error) {
-      console.error("🚨 위키 요약 정보 요청 오류:", error);
-    }
-
     // ✅ 모든 데이터가 다 왔을 때만 mapDetail 업데이트
     mapDetail.value = countryInfoResponse.data;
-    cityDetail.value = wikiSummaryResponse.data;
 
     console.log('📘 국가 정보:', data);
     console.log('📘 국가 상세 정보:', countryInfoResponse.data);
-    console.log('📘 위키 요약 정보:', wikiSummaryResponse.data);
   } catch (error) {
     console.error('Error fetching place details:', error);
   }

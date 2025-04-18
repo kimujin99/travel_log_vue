@@ -162,7 +162,6 @@ export default {
 
         alert("회원가입 완료되었습니다.");
 
-        // 로그인 성공 후 원하는 페이지로 이동
         this.$router.push("/login");
       } catch (error) {
         // 오류 처리

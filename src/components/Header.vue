@@ -7,7 +7,7 @@
             flight_takeoff
           </span>
           <h2>
-            Travle Log
+            Travel Log
           </h2>
         </div>
       </router-link>
